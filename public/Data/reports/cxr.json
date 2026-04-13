@@ -1,0 +1,3339 @@
+[
+  {
+    "image_id": "PK_CXR_001",
+    "true_label": "covid-19",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.393398,
+          "edema": 0.005303,
+          "pneumonia": 0.00741,
+          "consolidation": 0.199624,
+          "normal": 0.122466,
+          "lung_cancer": 0.24781,
+          "pneumothorax": 0.013305,
+          "tuberculosis": 0.010683
+        },
+        "predicted_label": "covid-19"
+      },
+      "chexagent": {
+        "findings": "There are dense, confluent airspace opacities localized primarily in the mid-to-lower lung zones. Air bronchograms are visible within these regions. The heart size is normal and there is no pleural effusion.",
+        "impression": "Dense airspace opacities consistent with lobar consolidation. Differential includes multifocal pneumonia.",
+        "predicted_label": "consolidation"
+      },
+      "llava_med": {
+        "response": "The frontal chest radiograph demonstrates a dense, confluent area of increased radiodensity in the lower lung zones. There is a clear silhouette sign with the hemidiaphragm. These findings are highly characteristic of lobar consolidation. No significant ground-glass opacities are noted.",
+        "predicted_label": "consolidation"
+      },
+      "medgemma": {
+        "findings": "Diffuse perihilar opacities with increased vascular markings. Cardiac silhouette appears slightly enlarged. Evidence of interstitial thickening in the lower zones.",
+        "impression": "Findings consistent with acute pulmonary edema/fluid overload.",
+        "predicted_label": "edema"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.624332,
+          "edema": 0.004808,
+          "pneumonia": 0.006342,
+          "consolidation": 0.00873,
+          "normal": 0.016203,
+          "lung_cancer": 0.254316,
+          "pneumothorax": 0.081415,
+          "tuberculosis": 0.003854
+        },
+        "predicted_label": "covid-19"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_002",
+    "true_label": "covid-19",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.470223,
+          "edema": 0.000925,
+          "pneumonia": 0.005813,
+          "consolidation": 0.007265,
+          "normal": 0.128669,
+          "lung_cancer": 0.381413,
+          "pneumothorax": 0.004985,
+          "tuberculosis": 0.000708
+        },
+        "predicted_label": "covid-19"
+      },
+      "chexagent": {
+        "findings": "Confluent airspace consolidation is noted in the peripheral lung fields bilaterally. The cardiomediastinal silhouette is unremarkable. No evidence of pneumothorax or fluid in the pleural space.",
+        "impression": "Findings suggest bilateral consolidation, likely representing infectious pneumonia.",
+        "predicted_label": "consolidation"
+      },
+      "llava_med": {
+        "response": "Findings reveal a focal, dense opacity in the right mid-lung field. The margins are well-defined, suggesting an airspace process consistent with consolidation. The pulmonary vasculature in the surrounding fields appears unremarkable.",
+        "predicted_label": "consolidation"
+      },
+      "medgemma": {
+        "findings": "Dense patchy consolidation noted in the right lower lobe with visible air bronchograms. Left lung shows minor infiltrates. No significant pleural effusion.",
+        "impression": "Right-sided lobar pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.661246,
+          "edema": 0.002959,
+          "pneumonia": 0.01056,
+          "consolidation": 0.233724,
+          "normal": 0.014892,
+          "lung_cancer": 0.019118,
+          "pneumothorax": 0.00242,
+          "tuberculosis": 0.055082
+        },
+        "predicted_label": "covid-19"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_003",
+    "true_label": "covid-19",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.445861,
+          "edema": 0.001449,
+          "pneumonia": 0.079971,
+          "consolidation": 0.062016,
+          "normal": 0.30593,
+          "lung_cancer": 0.004914,
+          "pneumothorax": 0.098019,
+          "tuberculosis": 0.001839
+        },
+        "predicted_label": "covid-19"
+      },
+      "chexagent": {
+        "findings": "Dense, patchy opacities are distributed throughout both lung fields. The pattern shows significant confluence in the lower lobes. Hilar contours are normal and costophrenic angles remain sharp.",
+        "impression": "Extensive bilateral consolidation consistent with multi-lobar pneumonia.",
+        "predicted_label": "consolidation"
+      },
+      "llava_med": {
+        "response": "There is an area of significant lung opacification with visible air bronchograms, primarily involving the right lower lobe. The appearance is indicative of a consolidative process. There is no evidence of the peripheral ground-glass shadowing typically seen in viral infections.",
+        "predicted_label": "consolidation"
+      },
+      "medgemma": {
+        "findings": "Confluent heterogeneous opacities are present in mid and lower lungs bilateral, most pronounced in lower zones. Small bilateral pleural effusions cannot be ruled out. Heart size is within normal limits.",
+        "impression": "Multifocal lung infection, clinical appearance favors COVID-19 pneumonia.",
+        "predicted_label": "covid-19"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.50162,
+          "edema": 0.042915,
+          "pneumonia": 0.02087,
+          "consolidation": 0.07654,
+          "normal": 0.186549,
+          "lung_cancer": 0.017506,
+          "pneumothorax": 0.093677,
+          "tuberculosis": 0.060321
+        },
+        "predicted_label": "covid-19"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_004",
+    "true_label": "edema",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.005655,
+          "edema": 0.542806,
+          "pneumonia": 0.007007,
+          "consolidation": 0.015389,
+          "normal": 0.338817,
+          "lung_cancer": 0.087666,
+          "pneumothorax": 0.001416,
+          "tuberculosis": 0.001244
+        },
+        "predicted_label": "edema"
+      },
+      "chexagent": {
+        "findings": "Bilateral, peripheral-predominant ground-glass opacities are present. Lung volumes appear slightly reduced. The heart size is at the upper limit of normal, but vascular pedicle width is unremarkable. No large effusions.",
+        "impression": "Multifocal ground-glass opacities. The distribution is highly suggestive of viral pneumonia, such as COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "llava_med": {
+        "response": "The radiograph shows bilateral, patchy ground-glass opacities and ill-defined consolidations with a predominantly peripheral distribution. The heart size is within normal limits. The pattern is highly suggestive of viral pneumonia, such as COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "A large, irregular opacity is noted in the perihilar region, appearing mass-like with ill-defined margins. Mediastinal widening is present. No obvious pleural fluid.",
+        "impression": "Suspicious for central bronchogenic carcinoma.",
+        "predicted_label": "lung_cancer"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.001829,
+          "edema": 0.39563,
+          "pneumonia": 0.004471,
+          "consolidation": 0.002773,
+          "normal": 0.025994,
+          "lung_cancer": 0.043124,
+          "pneumothorax": 0.245363,
+          "tuberculosis": 0.280816
+        },
+        "predicted_label": "edema"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_005",
+    "true_label": "pneumonia",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.005493,
+          "edema": 0.00389,
+          "pneumonia": 0.495264,
+          "consolidation": 0.010542,
+          "normal": 0.082121,
+          "lung_cancer": 0.360615,
+          "pneumothorax": 0.022465,
+          "tuberculosis": 0.01961
+        },
+        "predicted_label": "pneumonia"
+      },
+      "chexagent": {
+        "findings": "The lungs are clear and well-expanded. No focal opacities, nodules, or masses are identified. The cardiomediastinal silhouette is within normal limits. Pleural spaces are clear.",
+        "impression": "No acute cardiopulmonary abnormality.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "The chest radiograph is unremarkable. Lung fields are clear with no focal consolidations, masses, or pleural effusions. The heart size and mediastinal contours are normal. Both hemidiaphragms are well-defined. Conclusion: No acute cardiopulmonary abnormality.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Heterogeneous airspace opacities localized to the right upper lobe. Associated volume loss and apical pleural thickening identified. Trachea is slightly deviated to the right.",
+        "impression": "Findings suggestive of active pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.010653,
+          "edema": 0.038203,
+          "pneumonia": 0.404098,
+          "consolidation": 0.142012,
+          "normal": 0.021916,
+          "lung_cancer": 0.068122,
+          "pneumothorax": 0.015215,
+          "tuberculosis": 0.299781
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_006",
+    "true_label": "consolidation",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.015314,
+          "edema": 0.257366,
+          "pneumonia": 0.042879,
+          "consolidation": 0.578926,
+          "normal": 0.018225,
+          "lung_cancer": 0.073156,
+          "pneumothorax": 0.012966,
+          "tuberculosis": 0.001168
+        },
+        "predicted_label": "consolidation"
+      },
+      "chexagent": {
+        "findings": "Bilateral ground-glass opacities are noted, predominantly in the peripheral zones. There are patchy areas of airspace increased density. Heart size is normal. No pleural effusion.",
+        "impression": "Findings are highly typical for viral pneumonia, such as COVID-19. Clinical correlation advised.",
+        "predicted_label": "covid-19"
+      },
+      "llava_med": {
+        "response": "Bilateral, predominantly basal ground-glass opacities are observed. The lung volumes appear slightly reduced. There is no cardiomegaly. The peripheral distribution of these pulmonary infiltrates is a frequent finding in patients with COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "Focal airspace opacification involving the right lower lobe, obscuring the right heart border. Lungs are otherwise clear. No pneumothorax. No acute skeletal abnormality.",
+        "impression": "Right lower lobe consolidation.",
+        "predicted_label": "consolidation"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.000649,
+          "edema": 0.000553,
+          "pneumonia": 0.023402,
+          "consolidation": 0.45732,
+          "normal": 0.358333,
+          "lung_cancer": 0.001615,
+          "pneumothorax": 0.148137,
+          "tuberculosis": 0.009991
+        },
+        "predicted_label": "consolidation"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_007",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.001889,
+          "edema": 0.006355,
+          "pneumonia": 0.004483,
+          "consolidation": 0.039682,
+          "normal": 0.617075,
+          "lung_cancer": 0.24132,
+          "pneumothorax": 0.078495,
+          "tuberculosis": 0.010702
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "A suspicious nodular opacity is visualized in the right upper lobe measuring approximately 1.8 cm. The margins appear irregular. No hilar adenopathy. Heart size is normal.",
+        "impression": "Solitary pulmonary nodule in the right upper lobe. Malignancy cannot be excluded. Recommend CT chest for further evaluation.",
+        "predicted_label": "lung_cancer"
+      },
+      "llava_med": {
+        "response": "There is a dense, focal consolidation noted in the right upper lobe with visible air bronchograms. Patchy opacities are also seen in the contralateral lung. The appearance is indicative of acute bacterial pneumonia with lobar involvement.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "Prominent bronchovascular markings throughout both lung fields. Cardiac silhouette is at the upper limit of normal. Diaphragmatic contours appear slightly obscured.",
+        "impression": "Mild interstitial pulmonary edema.",
+        "predicted_label": "edema"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.005925,
+          "edema": 0.001144,
+          "pneumonia": 0.000725,
+          "consolidation": 0.000698,
+          "normal": 0.590705,
+          "lung_cancer": 0.078175,
+          "pneumothorax": 0.001825,
+          "tuberculosis": 0.320802
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_008",
+    "true_label": "lung_cancer",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.064654,
+          "edema": 0.015169,
+          "pneumonia": 0.008714,
+          "consolidation": 0.216962,
+          "normal": 0.007151,
+          "lung_cancer": 0.657654,
+          "pneumothorax": 0.018624,
+          "tuberculosis": 0.011071
+        },
+        "predicted_label": "lung_cancer"
+      },
+      "chexagent": {
+        "findings": "There is diffuse haziness throughout both lung fields with prominent pulmonary vasculature. Trace bilateral pleural effusions are suspected. The cardiac silhouette is at the upper limit of normal.",
+        "impression": "Findings suggest mild pulmonary edema. Clinical correlation for fluid overload is recommended.",
+        "predicted_label": "edema"
+      },
+      "llava_med": {
+        "response": "The radiograph shows diffuse, central, and perihilar 'bat-wing' opacities. There is evidence of increased vascular markings and Kerley B lines, indicating interstitial thickening. The cardiac silhouette appears mildly enlarged. These features are characteristic of pulmonary edema.",
+        "predicted_label": "edema"
+      },
+      "medgemma": {
+        "findings": "Cavitary lesion identified within a dense opacity in the right upper lobe. Associated fibrotic scarring and hilar retraction noted. Lungs otherwise clear.",
+        "impression": "Cavitary pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.194106,
+          "edema": 0.056699,
+          "pneumonia": 0.0024,
+          "consolidation": 0.090181,
+          "normal": 0.015951,
+          "lung_cancer": 0.61783,
+          "pneumothorax": 0.001044,
+          "tuberculosis": 0.021789
+        },
+        "predicted_label": "lung_cancer"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_009",
+    "true_label": "covid-19",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.367505,
+          "edema": 0.003452,
+          "pneumonia": 0.228643,
+          "consolidation": 0.034258,
+          "normal": 0.046409,
+          "lung_cancer": 0.300511,
+          "pneumothorax": 0.014634,
+          "tuberculosis": 0.004589
+        },
+        "predicted_label": "covid-19"
+      },
+      "chexagent": {
+        "findings": "Bilateral, multifocal peripheral ground-glass opacities are present throughout both lung fields. There is a lower zone predominance. The heart and mediastinum are normal. No evidence of pleural effusion or pneumothorax.",
+        "impression": "Findings are typical for viral pneumonia, such as COVID-19. PCR testing is recommended for confirmation.",
+        "predicted_label": "covid-19"
+      },
+      "llava_med": {
+        "response": "Findings reveal bilateral perihilar haziness and cephalization of the pulmonary vessels. Small bilateral pleural effusions are suspected based on the blunting of the costophrenic angles. These findings represent pulmonary venous congestion and interstitial edema.",
+        "predicted_label": "edema"
+      },
+      "medgemma": {
+        "findings": "Heterogeneous patchy opacities are present in the lower lungs bilaterally. Heart size and mediastinal structures are within normal limits. No acute skeletal abnormality is apparent.",
+        "impression": "Bilateral lung infiltrates consistent with viral pneumonia (COVID-19).",
+        "predicted_label": "covid-19"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.415074,
+          "edema": 0.022964,
+          "pneumonia": 0.006166,
+          "consolidation": 0.008691,
+          "normal": 0.015074,
+          "lung_cancer": 0.313457,
+          "pneumothorax": 0.02915,
+          "tuberculosis": 0.189425
+        },
+        "predicted_label": "covid-19"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_010",
+    "true_label": "covid-19",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.022071,
+          "edema": 0.00077,
+          "pneumonia": 0.000872,
+          "consolidation": 0.265269,
+          "normal": 0.034215,
+          "lung_cancer": 0.529499,
+          "pneumothorax": 0.000789,
+          "tuberculosis": 0.146515
+        },
+        "predicted_label": "lung_cancer"
+      },
+      "chexagent": {
+        "findings": "Patchy peripheral opacities are noted bilaterally. No focal mass or consolidation is identified. The cardiothoracic ratio is normal. Pleural spaces are clear. Bony thorax is intact.",
+        "impression": "Bilateral peripheral lung opacities suggestive of COVID-19 infection. Clinical correlation advised.",
+        "predicted_label": "covid-19"
+      },
+      "llava_med": {
+        "response": "Multiple patchy, subpleural opacities are scattered throughout both lungs. The pulmonary vasculature is within normal limits. The skeletal structures and soft tissues are unremarkable. The radiographic presentation is highly compatible with the inflammatory phase of COVID-19 pneumonia.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "Bilateral peripheral ground-glass opacities are present. No pleural effusion. Normal heart size. Mediastinal shadow within normal limits. No aggressive destructive skeletal focus.",
+        "impression": "Bilateral pulmonary opacities, suspicious for COVID-19 infection.",
+        "predicted_label": "covid-19"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.002124,
+          "edema": 0.024489,
+          "pneumonia": 0.00265,
+          "consolidation": 0.444961,
+          "normal": 0.106612,
+          "lung_cancer": 0.030972,
+          "pneumothorax": 0.34507,
+          "tuberculosis": 0.043122
+        },
+        "predicted_label": "consolidation"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_011",
+    "true_label": "covid-19",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.073411,
+          "edema": 0.008844,
+          "pneumonia": 0.003938,
+          "consolidation": 0.02873,
+          "normal": 0.052076,
+          "lung_cancer": 0.245178,
+          "pneumothorax": 0.002639,
+          "tuberculosis": 0.585182
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "chexagent": {
+        "findings": "Bilateral ground-glass opacities are noted, predominantly in the peripheral and lower lung zones. There is no evidence of focal consolidation. The heart size and mediastinal contours are normal. No pleural effusion or pneumothorax is seen.",
+        "impression": "Peripheral bilateral lung opacities, consistent with viral pneumonia such as COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "llava_med": {
+        "response": "The frontal radiograph shows bilateral, patchy ground-glass opacities with a predominantly peripheral and lower zone distribution. No significant pleural effusions are identified. The cardiac silhouette is normal in size. These features are consistent with the typical radiographic pattern of COVID-19 pneumonia.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "Bilateral upper lobe predominant patchy opacities with focal areas of increased density. No pleural effusion. Normal heart size. Mediastinal shadow stable.",
+        "impression": "Bilateral apical infiltrates, suspicious for pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.19236,
+          "edema": 0.046103,
+          "pneumonia": 0.001795,
+          "consolidation": 0.013897,
+          "normal": 0.083692,
+          "lung_cancer": 0.002161,
+          "pneumothorax": 0.004896,
+          "tuberculosis": 0.655097
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_012",
+    "true_label": "pneumonia",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.015798,
+          "edema": 0.071259,
+          "pneumonia": 0.514288,
+          "consolidation": 0.268449,
+          "normal": 0.04438,
+          "lung_cancer": 0.035751,
+          "pneumothorax": 0.022266,
+          "tuberculosis": 0.027811
+        },
+        "predicted_label": "pneumonia"
+      },
+      "chexagent": {
+        "findings": "The lungs are clear and well-expanded. No focal consolidation, pleural effusion, or pneumothorax is identified. Cardiomediastinal silhouette is unremarkable.",
+        "impression": "No acute cardiopulmonary abnormality.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "The lungs are clear and well-expanded. No focal consolidations, nodules, or pleural abnormalities are detected. The cardiomediastinal contour is normal. The study is unremarkable. Impression: Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "No pneumothorax. Patchy alveolar infiltrates are present in both lung fields with a predominantly peripheral and subpleural distribution. Mediastinal contours appear normal. No acute skeletal abnormality.",
+        "impression": "Bilateral pulmonary opacities consistent with a viral pneumonia pattern (COVID-19).",
+        "predicted_label": "covid-19"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.097888,
+          "edema": 0.074512,
+          "pneumonia": 0.555404,
+          "consolidation": 0.001273,
+          "normal": 0.007433,
+          "lung_cancer": 0.261269,
+          "pneumothorax": 0.001151,
+          "tuberculosis": 0.001071
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_013",
+    "true_label": "covid-19",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.286892,
+          "edema": 0.001397,
+          "pneumonia": 0.003598,
+          "consolidation": 0.171429,
+          "normal": 0.042846,
+          "lung_cancer": 0.000823,
+          "pneumothorax": 0.000687,
+          "tuberculosis": 0.492327
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "chexagent": {
+        "findings": "Multifocal, patchy opacities are distributed bilaterally in a peripheral pattern. Lung volumes are preserved. The cardiomediastinal silhouette is normal. No pneumothorax or pleural effusion.",
+        "impression": "Bilateral peripheral opacities highly typical of COVID-19 pneumonia.",
+        "predicted_label": "covid-19"
+      },
+      "llava_med": {
+        "response": "Diffuse, multifocal interstitial infiltrates are seen throughout both lungs. There is a notable 'crazy-paving' pattern with septal thickening overlying ground-glass areas. Hilar structures are unremarkable. The radiographic appearance strongly correlates with the mid-stage progression of COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "Confluent heterogeneous opacities are present in mid and lower lungs bilateral, most pronounced in the right lung. Small bilateral pleural effusions are noted. Heart size is within normal limits.",
+        "impression": "Multifocal lung infection/pneumonia. Findings may overlap with viral and atypical bacterial etiologies.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.067893,
+          "edema": 0.592513,
+          "pneumonia": 0.005381,
+          "consolidation": 0.001263,
+          "normal": 0.001021,
+          "lung_cancer": 0.0561,
+          "pneumothorax": 0.272967,
+          "tuberculosis": 0.002862
+        },
+        "predicted_label": "edema"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_014",
+    "true_label": "pneumothorax",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.003216,
+          "edema": 0.004327,
+          "pneumonia": 0.042313,
+          "consolidation": 0.006895,
+          "normal": 0.018769,
+          "lung_cancer": 0.348296,
+          "pneumothorax": 0.405509,
+          "tuberculosis": 0.170676
+        },
+        "predicted_label": "pneumothorax"
+      },
+      "chexagent": {
+        "findings": "There is an ill-defined opacity in the right mid-lung zone. Pleural markings appear increased. No large effusion. Heart size is within normal limits.",
+        "impression": "Findings suggest right-sided pneumonia. Recommend clinical correlation for fever.",
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "There is a dense, focal consolidation noted in the right lung field with visible air bronchograms. The tracheal air column is midline. The appearance is indicative of acute bacterial pneumonia with lobar involvement.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "Diffuse perihilar and peripheral opacities with mixed interstitial opacities are present throughout both lung fields. Normal heart size. Mediastinal shadow is within normal limits. No pneumothorax.",
+        "impression": "Bilateral heterogeneous lung opacities, most likely COVID-19 pneumonia.",
+        "predicted_label": "covid-19"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.000998,
+          "edema": 0.069569,
+          "pneumonia": 0.217607,
+          "consolidation": 0.112075,
+          "normal": 0.013069,
+          "lung_cancer": 0.026846,
+          "pneumothorax": 0.558205,
+          "tuberculosis": 0.001632
+        },
+        "predicted_label": "pneumothorax"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_015",
+    "true_label": "pneumothorax",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.000747,
+          "edema": 0.008239,
+          "pneumonia": 0.191052,
+          "consolidation": 0.002173,
+          "normal": 0.00958,
+          "lung_cancer": 0.276951,
+          "pneumothorax": 0.510585,
+          "tuberculosis": 0.000672
+        },
+        "predicted_label": "pneumothorax"
+      },
+      "chexagent": {
+        "findings": "Patchy airspace opacities are noted in the left apex. No visceral pleural line is clearly visualized on this view. Heart and mediastinum are normal.",
+        "impression": "Left apical pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "Findings reveal a hyperlucent area in the left upper zone with thick, irregular walls suggestive of a large cavitary lesion. Associated fibrotic changes are noted. The presentation is suspicious for post-primary pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "medgemma": {
+        "findings": "A large right-sided pneumothorax is present with complete collapse of the right lung. There is a slight shift of the mediastinal structures to the left. No substantial left pleural effusion.",
+        "impression": "Large right tension pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.078679,
+          "edema": 0.376257,
+          "pneumonia": 0.001093,
+          "consolidation": 0.003997,
+          "normal": 0.000953,
+          "lung_cancer": 0.025006,
+          "pneumothorax": 0.512274,
+          "tuberculosis": 0.001741
+        },
+        "predicted_label": "pneumothorax"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_016",
+    "true_label": "edema",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.002472,
+          "edema": 0.58188,
+          "pneumonia": 0.018202,
+          "consolidation": 0.003652,
+          "normal": 0.107976,
+          "lung_cancer": 0.080833,
+          "pneumothorax": 0.011635,
+          "tuberculosis": 0.19335
+        },
+        "predicted_label": "edema"
+      },
+      "chexagent": {
+        "findings": "A large, poorly defined mass-like opacity is noted in the perihilar region. There is associated thickening of the interstitial markings. No significant pleural effusion.",
+        "impression": "Perihilar mass-like opacity suspicious for primary malignancy. Recommend further imaging.",
+        "predicted_label": "lung_cancer"
+      },
+      "llava_med": {
+        "response": "A large, irregular mass is identified in the perihilar region, suspicious for a primary malignancy. There is associated widening of the mediastinum. Further evaluation with CT is recommended. Impression: Suspected lung cancer.",
+        "predicted_label": "lung_cancer"
+      },
+      "medgemma": {
+        "findings": "Increased interstitial markings and perihilar haziness noted bilaterally. Visibility of the visceral pleural line is obscured by overlying opacities. Cardiac shadow is enlarged.",
+        "impression": "Acute pulmonary edema.",
+        "predicted_label": "edema"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.000687,
+          "edema": 0.532178,
+          "pneumonia": 0.000801,
+          "consolidation": 0.000756,
+          "normal": 0.403138,
+          "lung_cancer": 0.000726,
+          "pneumothorax": 0.000622,
+          "tuberculosis": 0.061092
+        },
+        "predicted_label": "edema"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_017",
+    "true_label": "lung_cancer",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.015496,
+          "edema": 0.011711,
+          "pneumonia": 0.270401,
+          "consolidation": 0.08084,
+          "normal": 0.001592,
+          "lung_cancer": 0.47732,
+          "pneumothorax": 0.020071,
+          "tuberculosis": 0.122568
+        },
+        "predicted_label": "lung_cancer"
+      },
+      "chexagent": {
+        "findings": "Diffuse interstitial thickening is present with blurring of the hilar vessels. Patchy opacities are seen bilaterally. Heart size is moderately enlarged.",
+        "impression": "Findings are consistent with pulmonary edema.",
+        "predicted_label": "edema"
+      },
+      "llava_med": {
+        "response": "The radiograph shows diffuse, central perihilar haziness and cephalization of the pulmonary vessels. Small bilateral pleural effusions are suspected based on costophrenic angle blunting. These findings represent pulmonary edema.",
+        "predicted_label": "edema"
+      },
+      "medgemma": {
+        "findings": "Lung fields appear clear bilaterally. No focal consolidations or pleural effusions. Cardiac silhouette and mediastinal contours are within normal limits.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.253389,
+          "edema": 0.001939,
+          "pneumonia": 0.028709,
+          "consolidation": 0.017519,
+          "normal": 0.005112,
+          "lung_cancer": 0.538703,
+          "pneumothorax": 0.008706,
+          "tuberculosis": 0.145922
+        },
+        "predicted_label": "lung_cancer"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_018",
+    "true_label": "lung_cancer",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.000979,
+          "edema": 0.001774,
+          "pneumonia": 0.001344,
+          "consolidation": 0.012864,
+          "normal": 0.323471,
+          "lung_cancer": 0.608055,
+          "pneumothorax": 0.005185,
+          "tuberculosis": 0.046329
+        },
+        "predicted_label": "lung_cancer"
+      },
+      "chexagent": {
+        "findings": "A small, dense nodular opacity is noted in the left upper lobe measuring approximately 1.5 cm. The margins appear irregular. No hilar or mediastinal lymphadenopathy is identified. Heart size is normal.",
+        "impression": "Suspicious pulmonary nodule in the left upper lobe. Malignancy cannot be excluded. Recommend further evaluation with serial imaging or CT.",
+        "predicted_label": "lung_cancer"
+      },
+      "llava_med": {
+        "response": "Frontal view of the chest demonstrates clear lung fields. No focal opacities, masses, or pleural effusions are identified. The heart size and mediastinal contours are within normal limits. Impression: Normal study.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Bilateral peripheral ground-glass opacities are present, primarily in the lower zones. No discrete mass lesion identified. Normal heart size. No pleural effusion.",
+        "impression": "Findings are highly suggestive of viral pneumonia, consistent with COVID-19 patterns.",
+        "predicted_label": "covid-19"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.052092,
+          "edema": 0.010037,
+          "pneumonia": 0.365715,
+          "consolidation": 0.009001,
+          "normal": 0.001485,
+          "lung_cancer": 0.477445,
+          "pneumothorax": 0.062476,
+          "tuberculosis": 0.021749
+        },
+        "predicted_label": "lung_cancer"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_019",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.00088,
+          "edema": 0.161507,
+          "pneumonia": 0.00097,
+          "consolidation": 0.25723,
+          "normal": 0.55739,
+          "lung_cancer": 0.001022,
+          "pneumothorax": 0.019265,
+          "tuberculosis": 0.001735
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "There is a subtle focal increase in density in the left lower lobe. The right lung is clear. Cardiomediastinal silhouette is normal.",
+        "impression": "Findings suspicious for early left lower lobe pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "Patchy, ill-defined opacities are scattered throughout the lower lung fields. There is no evidence of a large pleural effusion. The findings are consistent with an acute infectious process/pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "A large, irregular mass lesion with spiculated margins is present in the right upper lobe. Associated right hilar prominence. Heart size is within normal limits. No acute skeletal abnormality.",
+        "impression": "Findings highly suspicious for bronchogenic carcinoma.",
+        "predicted_label": "lung_cancer"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.003949,
+          "edema": 0.278077,
+          "pneumonia": 0.001224,
+          "consolidation": 0.027791,
+          "normal": 0.311872,
+          "lung_cancer": 0.165292,
+          "pneumothorax": 0.002901,
+          "tuberculosis": 0.208894
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_020",
+    "true_label": "lung_cancer",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.436044,
+          "edema": 0.281223,
+          "pneumonia": 0.020109,
+          "consolidation": 0.003704,
+          "normal": 0.002949,
+          "lung_cancer": 0.205335,
+          "pneumothorax": 0.042161,
+          "tuberculosis": 0.008475
+        },
+        "predicted_label": "covid-19"
+      },
+      "chexagent": {
+        "findings": "There is a large, cavitation-containing mass in the right lower lobe. The walls of the cavity appear thickened and irregular. There is no evidence of pleural effusion. The left lung is clear. Heart size is normal.",
+        "impression": "Cavitary mass in the right lower lobe, highly suspicious for primary lung malignancy. Differential includes necrotizing infection.",
+        "predicted_label": "lung_cancer"
+      },
+      "llava_med": {
+        "response": "A large, cavitary mass is identified in the right mid-lung zone. The walls of the cavity appear thick and irregular. There is no evidence of a fluid level. These findings are highly concerning for a necrotic neoplastic process or primary lung cancer.",
+        "predicted_label": "lung_cancer"
+      },
+      "medgemma": {
+        "findings": "A solid, well-circumscribed 28 mm opacity is identified in the right mid-lung zone, appearing as a focal mass lesion. Mediastinal structures remain midline. No aggressive skeletal focus.",
+        "impression": "Right-sided lung mass, suspicious for primary malignancy (Lung Cancer).",
+        "predicted_label": "lung_cancer"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.014493,
+          "edema": 0.00224,
+          "pneumonia": 0.01801,
+          "consolidation": 0.049726,
+          "normal": 0.394396,
+          "lung_cancer": 0.00813,
+          "pneumothorax": 0.217536,
+          "tuberculosis": 0.295468
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_021",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.078317,
+          "edema": 0.010889,
+          "pneumonia": 0.001141,
+          "consolidation": 0.146803,
+          "normal": 0.483271,
+          "lung_cancer": 0.056851,
+          "pneumothorax": 0.220756,
+          "tuberculosis": 0.001972
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "The lungs appear clear and well-expanded. No focal opacities, pleural effusions, or pneumothoraces are identified. Cardiomediastinal contours are unremarkable. Bony thorax is intact.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "There is a dense area of increased radiodensity in the right lower lobe, consistent with lung consolidation. The hemidiaphragm is partially obscured. The findings represent an airspace process indicative of pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "A solid, irregular lung mass is identified in the right lower lobe, partially obscuring the diaphragmatic contour. Hilar prominence noted. No pneumothorax. No aggressive destructive skeletal focus.",
+        "impression": "Right lower lobe lung mass, highly suspicious for primary malignancy (Lung Cancer).",
+        "predicted_label": "lung_cancer"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.001904,
+          "edema": 0.001334,
+          "pneumonia": 0.052904,
+          "consolidation": 0.034807,
+          "normal": 0.651037,
+          "lung_cancer": 0.023263,
+          "pneumothorax": 0.012602,
+          "tuberculosis": 0.222149
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_022",
+    "true_label": "covid-19",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.040404,
+          "edema": 0.027973,
+          "pneumonia": 0.007777,
+          "consolidation": 0.343548,
+          "normal": 0.001799,
+          "lung_cancer": 0.020804,
+          "pneumothorax": 0.546613,
+          "tuberculosis": 0.011083
+        },
+        "predicted_label": "pneumothorax"
+      },
+      "chexagent": {
+        "findings": "Bilateral, multifocal ground-glass opacities are present with a predominantly peripheral and subpleural distribution. No focal lobar consolidation is seen. Heart size and mediastinal contours are normal.",
+        "impression": "Findings are highly typical for viral pneumonia, most likely COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "llava_med": {
+        "response": "Bilateral, peripheral ground-glass opacities are noted, predominantly in the lower lung zones. There is no significant pleural effusion. The cardiac silhouette is normal. The distribution of pulmonary infiltrates is highly suggestive of viral pneumonia, such as COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "Lungs are clear bilaterally. No focal consolidations, nodules, or masses identified. Normal heart size. Mediastinal shadow within normal limits. Both costophrenic angles remain sharp.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.01504,
+          "edema": 0.23938,
+          "pneumonia": 0.052618,
+          "consolidation": 0.001489,
+          "normal": 0.615195,
+          "lung_cancer": 0.001339,
+          "pneumothorax": 0.005421,
+          "tuberculosis": 0.069518
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_023",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.114329,
+          "edema": 0.004123,
+          "pneumonia": 0.056131,
+          "consolidation": 0.021262,
+          "normal": 0.382082,
+          "lung_cancer": 0.192778,
+          "pneumothorax": 0.227533,
+          "tuberculosis": 0.001762
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "Clear lungs bilaterally. No suspicious pulmonary nodules or focal opacities. Cardiomediastinal silhouette is normal. Pleural spaces are clear and costophrenic angles are sharp.",
+        "impression": "No acute pulmonary process identified.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "The lungs are well-expanded and clear. The hilar and mediastinal contours are unremarkable. No focal opacities or masses are seen. The diaphragm and costophrenic angles are sharp. Impression: Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Lungs are clear bilaterally. No focal consolidations, nodules, or masses identified. Normal heart size. Both costophrenic angles remain sharp. Normal hilar vascularity.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.202615,
+          "edema": 0.110277,
+          "pneumonia": 0.055525,
+          "consolidation": 0.013599,
+          "normal": 0.320465,
+          "lung_cancer": 0.027851,
+          "pneumothorax": 0.03653,
+          "tuberculosis": 0.233138
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_024",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.347334,
+          "edema": 0.119395,
+          "pneumonia": 0.076055,
+          "consolidation": 0.028946,
+          "normal": 0.406329,
+          "lung_cancer": 0.013018,
+          "pneumothorax": 0.00599,
+          "tuberculosis": 0.002933
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "Normal expansion of both lungs. No focal consolidation or pleural effusion. Heart and mediastinum are within normal limits. Visualized osseous structures are unremarkable.",
+        "impression": "Unremarkable chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "Standard frontal view of the chest demonstrates no acute pulmonary infiltrates. The heart size is normal. Pleural spaces are clear. There is no evidence of pneumothorax. The study is unremarkable.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Clear lung fields bilaterally with no evidence of focal airspace disease. Heart size and mediastinal contours are within normal limits. Diaphragm is well-defined.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.001333,
+          "edema": 0.00175,
+          "pneumonia": 0.188965,
+          "consolidation": 0.09929,
+          "normal": 0.700704,
+          "lung_cancer": 0.003825,
+          "pneumothorax": 0.00321,
+          "tuberculosis": 0.000924
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_025",
+    "true_label": "pneumonia",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.255607,
+          "edema": 0.010661,
+          "pneumonia": 0.294253,
+          "consolidation": 0.203188,
+          "normal": 0.038943,
+          "lung_cancer": 0.013741,
+          "pneumothorax": 0.004246,
+          "tuberculosis": 0.179363
+        },
+        "predicted_label": "pneumonia"
+      },
+      "chexagent": {
+        "findings": "The lungs are clear and well-expanded. No focal consolidation, pleural effusion, or suspicious nodules are identified. The cardiomediastinal silhouette is normal.",
+        "impression": "No acute cardiopulmonary abnormality.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "A hyperlucent hemithorax is visualized with a distinct visceral pleural line and an absence of lung markings peripherally. This is a medical emergency. Impression: Pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "medgemma": {
+        "findings": "Lungs appear well-aerated with no focal infiltrates or consolidations identified. Mediastinal and hilar structures are unremarkable. No acute skeletal abnormality.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.071884,
+          "edema": 0.012046,
+          "pneumonia": 0.603414,
+          "consolidation": 0.001445,
+          "normal": 0.010189,
+          "lung_cancer": 0.043327,
+          "pneumothorax": 0.004377,
+          "tuberculosis": 0.253318
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_026",
+    "true_label": "pneumonia",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.335788,
+          "edema": 0.143334,
+          "pneumonia": 0.499628,
+          "consolidation": 0.011246,
+          "normal": 0.001553,
+          "lung_cancer": 0.002724,
+          "pneumothorax": 0.003971,
+          "tuberculosis": 0.001757
+        },
+        "predicted_label": "pneumonia"
+      },
+      "chexagent": {
+        "findings": "There is a prominent, patchy opacity in the right lower lung field. Heart size appears slightly enlarged, though this may be positional. EKG leads are noted on the chest wall. No pleural effusion or pneumothorax is identified.",
+        "impression": "Right lower lobe pneumonia. Recommend clinical correlation for fever and respiratory distress.",
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "Findings reveal a visible pleural edge in the apical region with a lack of distal pulmonary vasculature. The lung appears partially collapsed. The appearance is characteristic of a pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "medgemma": {
+        "findings": "Dense consolidation is present in the right lower lobe. Air bronchograms are visible within the consolidated area. No substantial left pleural effusion. Mediastinal shadow is stable.",
+        "impression": "Right-sided lobar consolidation, highly suggestive of bacterial pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.041765,
+          "edema": 0.029486,
+          "pneumonia": 0.44058,
+          "consolidation": 0.02625,
+          "normal": 0.151736,
+          "lung_cancer": 0.003733,
+          "pneumothorax": 0.303565,
+          "tuberculosis": 0.002885
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_027",
+    "true_label": "pneumonia",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.000903,
+          "edema": 0.032375,
+          "pneumonia": 0.463195,
+          "consolidation": 0.002969,
+          "normal": 0.00242,
+          "lung_cancer": 0.207692,
+          "pneumothorax": 0.001626,
+          "tuberculosis": 0.28882
+        },
+        "predicted_label": "pneumonia"
+      },
+      "chexagent": {
+        "findings": "Bilateral perihilar opacities are present. An endotracheal tube is in place with the tip at an appropriate level above the carina. Heart size is normal. No evidence of pneumothorax.",
+        "impression": "Findings are suggestive of bilateral pneumonia. Technical devices are noted in standard position.",
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "There is multi-lobar consolidation, more prominent on the right side. An endotracheal tube is in place, with the tip at an appropriate level above the carina. These findings are suggestive of severe pneumonia or aspiration.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "Patchy opacities with mixed interstitial infiltrates are present in the right mid-to-lower lung zones. Small right-sided pleural effusion noted. Normal heart size.",
+        "impression": "Right-sided pneumonia with associated small parapneumonic effusion.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.052098,
+          "edema": 0.24257,
+          "pneumonia": 0.673507,
+          "consolidation": 0.00313,
+          "normal": 0.004318,
+          "lung_cancer": 0.003553,
+          "pneumothorax": 0.009794,
+          "tuberculosis": 0.01103
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_028",
+    "true_label": "pneumonia",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.000964,
+          "edema": 0.370685,
+          "pneumonia": 0.516055,
+          "consolidation": 0.00107,
+          "normal": 0.00089,
+          "lung_cancer": 0.015122,
+          "pneumothorax": 0.040808,
+          "tuberculosis": 0.054406
+        },
+        "predicted_label": "pneumonia"
+      },
+      "chexagent": {
+        "findings": "A dense consolidation is noted in the right mid-to-lower lung zone. The left lung is clear. Mediastinal contours are normal for age. Pleural spaces are clear.",
+        "impression": "Right-sided consolidation consistent with pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "A large area of consolidation is seen involving the right upper and middle lobes. Air bronchograms are present. The left lung remains relatively clear. The radiographic pattern is typical for lobar pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "Confluent airspace opacification involving the right lower lobe. Obscuration of the right heart border is noted. Left lung remains clear. No pneumothorax.",
+        "impression": "Right-sided pulmonary consolidation (Pneumonia).",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.046036,
+          "edema": 0.124231,
+          "pneumonia": 0.537538,
+          "consolidation": 0.015909,
+          "normal": 0.088202,
+          "lung_cancer": 0.007539,
+          "pneumothorax": 0.168381,
+          "tuberculosis": 0.012163
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_029",
+    "true_label": "pneumonia",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.096129,
+          "edema": 0.012248,
+          "pneumonia": 0.374071,
+          "consolidation": 0.006378,
+          "normal": 0.499809,
+          "lung_cancer": 0.005603,
+          "pneumothorax": 0.002644,
+          "tuberculosis": 0.003117
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "Patchy infiltrates are seen in the right lung base. Hilar shadows are unremarkable. The heart size is within normal limits. There is no pleural effusion.",
+        "impression": "Right lower lobe pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "Patchy, ill-defined opacities are scattered throughout the right lung. There is no evidence of a large pleural effusion. The mediastinal shadow is stable. The findings are consistent with bronchopneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "Clear lung fields bilaterally with no evidence of focal airspace disease or consolidation. Mediastinal and hilar contours are within normal limits. Diaphragm is well-defined.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.009019,
+          "edema": 0.011464,
+          "pneumonia": 0.074442,
+          "consolidation": 0.114156,
+          "normal": 0.193381,
+          "lung_cancer": 0.496319,
+          "pneumothorax": 0.003086,
+          "tuberculosis": 0.098134
+        },
+        "predicted_label": "lung_cancer"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_030",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.027219,
+          "edema": 0.005465,
+          "pneumonia": 0.001487,
+          "consolidation": 0.052782,
+          "normal": 0.563149,
+          "lung_cancer": 0.261228,
+          "pneumothorax": 0.066142,
+          "tuberculosis": 0.022528
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "The lungs are clear and well-expanded. No focal opacities, nodules, or masses are seen. The cardiomediastinal silhouette is normal. Pleural spaces are clear.",
+        "impression": "No acute cardiopulmonary abnormality.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "The lung parenchyma is clear. The cardiac silhouette and mediastinal contours are normal. No pleural effusions or pneumothorax are identified. The visualized skeletal structures are normal. Impression: No acute findings.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Bilateral lower lobe patchy infiltrates are observed. No evidence of pneumothorax. Mediastinal contours are normal. No aggressive destructive skeletal focus.",
+        "impression": "Bilateral bronchopneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.027424,
+          "edema": 0.005833,
+          "pneumonia": 0.011992,
+          "consolidation": 0.071293,
+          "normal": 0.42067,
+          "lung_cancer": 0.038053,
+          "pneumothorax": 0.282717,
+          "tuberculosis": 0.142019
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_031",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.007088,
+          "edema": 0.00288,
+          "pneumonia": 0.263569,
+          "consolidation": 0.001414,
+          "normal": 0.508463,
+          "lung_cancer": 0.001605,
+          "pneumothorax": 0.213775,
+          "tuberculosis": 0.001207
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "Lungs are clear bilaterally. No evidence of consolidation or effusion. Cardiomediastinal contours are unremarkable. Bony thorax is intact.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "The chest radiograph reveals clear lungs with no evidence of focal consolidation or pleural effusion. The cardiomediastinal contours are normal. Bony thorax is intact. Impression: No acute cardiopulmonary process.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Confluent patchy opacities are present in the right lower lobe, obscuring the diaphragmatic contour. Air bronchograms are suggested. Left lung is clear.",
+        "impression": "Right-sided lobar pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.000794,
+          "edema": 0.003657,
+          "pneumonia": 0.000843,
+          "consolidation": 0.000955,
+          "normal": 0.694497,
+          "lung_cancer": 0.000742,
+          "pneumothorax": 0.24458,
+          "tuberculosis": 0.053932
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_032",
+    "true_label": "pneumonia",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.001329,
+          "edema": 0.611479,
+          "pneumonia": 0.224709,
+          "consolidation": 0.157653,
+          "normal": 0.001085,
+          "lung_cancer": 0.001515,
+          "pneumothorax": 0.001103,
+          "tuberculosis": 0.001128
+        },
+        "predicted_label": "edema"
+      },
+      "chexagent": {
+        "findings": "There is an extensive airspace opacity involving the left lung, likely representing a large consolidation. The right lung appears clear. An endotracheal tube is visualized. Heart size is normal.",
+        "impression": "Left-sided pneumonia/consolidation. Clinical correlation for severe respiratory symptoms is advised.",
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "In this pediatric radiograph, there is dense opacification of the left hemithorax, consistent with extensive pneumonia or associated pleural effusion. An endotracheal tube is visualized with the tip in the mid-trachea. The right lung shows compensatory hyperinflation.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "Lungs appear well-aerated with no focal infiltrates identified. Mediastinal and hilar structures are unremarkable. No acute skeletal abnormality.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.011008,
+          "edema": 0.249378,
+          "pneumonia": 0.042905,
+          "consolidation": 0.298838,
+          "normal": 0.020209,
+          "lung_cancer": 0.003233,
+          "pneumothorax": 0.104359,
+          "tuberculosis": 0.27007
+        },
+        "predicted_label": "consolidation"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_033",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.003181,
+          "edema": 0.128203,
+          "pneumonia": 0.00112,
+          "consolidation": 0.111254,
+          "normal": 0.473679,
+          "lung_cancer": 0.006653,
+          "pneumothorax": 0.001508,
+          "tuberculosis": 0.274403
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "The heart and lungs are within normal limits. No focal lung lesions or pleural effusions are identified. The hilar and mediastinal contours are unremarkable.",
+        "impression": "Unremarkable chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "Frontal projection of the chest shows clear and well-expanded lungs. No nodules or masses are identified. The heart size is within normal limits. Costophrenic angles are sharp. Impression: Normal study.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Focal dense consolidation present in the right middle and lower lobes. Air bronchograms are visualized. No substantial left pleural effusion. Mediastinal shadow is stable.",
+        "impression": "Lobar consolidation, highly suggestive of bacterial pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.002706,
+          "edema": 0.037201,
+          "pneumonia": 0.047512,
+          "consolidation": 0.142342,
+          "normal": 0.377812,
+          "lung_cancer": 0.318269,
+          "pneumothorax": 0.069671,
+          "tuberculosis": 0.004488
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_034",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.001909,
+          "edema": 0.271629,
+          "pneumonia": 0.048618,
+          "consolidation": 0.005134,
+          "normal": 0.540623,
+          "lung_cancer": 0.002588,
+          "pneumothorax": 0.001316,
+          "tuberculosis": 0.128183
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "Normal appearance of the heart and lungs. No acute osseous abnormalities. Pleural spaces are clear.",
+        "impression": "Negative for acute cardiopulmonary process.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "The lungs appear clear with normal vascular markings. No signs of pulmonary edema or infectious infiltrates. The mediastinal silhouette is stable. Conclusion: Unremarkable chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Clear lung fields bilaterally. No focal consolidations or masses identified. Cardiac silhouette and mediastinal contours are normal. Bony thorax is intact.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.047193,
+          "edema": 0.058166,
+          "pneumonia": 0.000743,
+          "consolidation": 0.184885,
+          "normal": 0.445952,
+          "lung_cancer": 0.000869,
+          "pneumothorax": 0.251296,
+          "tuberculosis": 0.010896
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_035",
+    "true_label": "covid-19",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.010139,
+          "edema": 0.029818,
+          "pneumonia": 0.088211,
+          "consolidation": 0.314793,
+          "normal": 0.00159,
+          "lung_cancer": 0.005584,
+          "pneumothorax": 0.038874,
+          "tuberculosis": 0.510991
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "chexagent": {
+        "findings": "Bilateral, peripheral-predominant ground-glass opacities and patchy consolidations are present. No pleural effusion or pneumothorax. Heart size is normal.",
+        "impression": "Multifocal bilateral opacities highly typical of COVID-19 pneumonia.",
+        "predicted_label": "covid-19"
+      },
+      "llava_med": {
+        "response": "Bilateral, peripheral, and basal ground-glass opacities are present. There is no evidence of pneumothorax. The cardiac silhouette is normal. The radiographic pattern is highly suggestive of viral pneumonia, such as COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "Lungs are clear with no evidence of focal airspace disease. Heart size and mediastinal contours are within normal limits. Diaphragm is well-defined.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.001824,
+          "edema": 0.11653,
+          "pneumonia": 0.003462,
+          "consolidation": 0.306947,
+          "normal": 0.001078,
+          "lung_cancer": 0.102895,
+          "pneumothorax": 0.465679,
+          "tuberculosis": 0.001585
+        },
+        "predicted_label": "pneumothorax"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_036",
+    "true_label": "edema",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.511875,
+          "edema": 0.038232,
+          "pneumonia": 0.025116,
+          "consolidation": 0.112845,
+          "normal": 0.009533,
+          "lung_cancer": 0.001672,
+          "pneumothorax": 0.282938,
+          "tuberculosis": 0.01779
+        },
+        "predicted_label": "covid-19"
+      },
+      "chexagent": {
+        "findings": "A large, ill-defined mass-like opacity is identified in the right perihilar region. Associated interstitial thickening is noted. The left lung remains clear. No significant pleural effusion.",
+        "impression": "Perihilar mass-like opacity suspicious for primary malignancy. Recommend further evaluation with CT chest.",
+        "predicted_label": "lung_cancer"
+      },
+      "llava_med": {
+        "response": "A large, dense, and irregular mass is visualized in the hilar region, suspicious for a primary bronchogenic carcinoma. There is associated mediastinal widening. The findings are concerning for a neoplastic process rather than a vascular one. Impression: Suspected lung cancer.",
+        "predicted_label": "lung_cancer"
+      },
+      "medgemma": {
+        "findings": "No pneumothorax. Heterogeneous ground-glass opacities with mixed interstitial opacities are present in peripheral mid and lower lungs bilateral. Normal heart size.",
+        "impression": "Bilateral heterogeneous lung opacities, most likely viral infection (COVID-19).",
+        "predicted_label": "covid-19"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.058764,
+          "edema": 0.472106,
+          "pneumonia": 0.035539,
+          "consolidation": 0.002855,
+          "normal": 0.000754,
+          "lung_cancer": 0.428792,
+          "pneumothorax": 0.000578,
+          "tuberculosis": 0.000611
+        },
+        "predicted_label": "edema"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_037",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.001149,
+          "edema": 0.001115,
+          "pneumonia": 0.006388,
+          "consolidation": 0.260632,
+          "normal": 0.631985,
+          "lung_cancer": 0.001215,
+          "pneumothorax": 0.078569,
+          "tuberculosis": 0.018947
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "Lungs are clear without focal consolidation, effusion, or pneumothorax. Cardiomediastinal silhouette and hilar contours are within normal limits. Visualized osseous structures are intact.",
+        "impression": "No acute cardiopulmonary abnormality.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "Normal chest radiograph. Lung parenchyma is clear of any acute infiltrates. Heart size and pulmonary vasculature are within normal limits. No pleural abnormalities noted.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Diffuse perihilar opacities with mixed interstitial opacities are present. Enlargement of the heart silhouette is noted. Prominent vascular markings and Kerley B lines identified.",
+        "impression": "Findings consistent with acute pulmonary edema and fluid overload.",
+        "predicted_label": "edema"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.136741,
+          "edema": 0.000899,
+          "pneumonia": 0.003549,
+          "consolidation": 0.000676,
+          "normal": 0.37442,
+          "lung_cancer": 0.17339,
+          "pneumothorax": 0.309575,
+          "tuberculosis": 0.00075
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_038",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.001392,
+          "edema": 0.013815,
+          "pneumonia": 0.006906,
+          "consolidation": 0.002956,
+          "normal": 0.66856,
+          "lung_cancer": 0.025429,
+          "pneumothorax": 0.167656,
+          "tuberculosis": 0.113286
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "The heart and lungs appear normal. No suspicious pulmonary nodules or focal opacities identified. Pleural spaces are clear.",
+        "impression": "Unremarkable chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "The frontal view demonstrates clear lung fields. No focal consolidations or pleural effusions. The mediastinum is midline. Diaphragmatic contours are smooth. Impression: Negative for acute findings.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Clear lung fields bilaterally. No focal consolidations identified. Normal heart size and mediastinal contours. Both costophrenic angles are sharp.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.002282,
+          "edema": 0.085736,
+          "pneumonia": 0.161535,
+          "consolidation": 0.003112,
+          "normal": 0.721306,
+          "lung_cancer": 0.007487,
+          "pneumothorax": 0.015747,
+          "tuberculosis": 0.002794
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_039",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.160866,
+          "edema": 0.04054,
+          "pneumonia": 0.003612,
+          "consolidation": 0.052022,
+          "normal": 0.336326,
+          "lung_cancer": 0.291358,
+          "pneumothorax": 0.092182,
+          "tuberculosis": 0.023093
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "Lung volumes are normal. No focal opacities or pleural effusions. The cardiomediastinal silhouette is normal in size and contour.",
+        "impression": "Normal chest x-ray.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "Lungs are clear. No evidence of active tuberculosis or pneumonia. Cardiac and hilar shadows are normal. Osseous structures are unremarkable. Impression: Normal chest X-ray.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Lungs appear well-aerated. No focal infiltrates or consolidations identified. Mediastinal and hilar structures are unremarkable. No acute skeletal abnormality.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.360529,
+          "edema": 0.001496,
+          "pneumonia": 0.08995,
+          "consolidation": 0.004501,
+          "normal": 0.464144,
+          "lung_cancer": 0.045067,
+          "pneumothorax": 0.005049,
+          "tuberculosis": 0.029264
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_040",
+    "true_label": "tuberculosis",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.236064,
+          "edema": 0.002488,
+          "pneumonia": 0.001917,
+          "consolidation": 0.005689,
+          "normal": 0.001421,
+          "lung_cancer": 0.006891,
+          "pneumothorax": 0.063286,
+          "tuberculosis": 0.682245
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "chexagent": {
+        "findings": "A visible linear density is noted in the right apex with an apparent absence of distal lung markings. The underlying lung shows heterogeneous opacities. Tracheal position is central.",
+        "impression": "Findings suggest a small right apical pneumothorax. Clinical correlation is advised.",
+        "predicted_label": "pneumothorax"
+      },
+      "llava_med": {
+        "response": "Bilateral, patchy ground-glass opacities and ill-defined subpleural consolidations are observed scattered throughout the lung fields. The heart size is within normal limits. The distribution of these pulmonary infiltrates is highly suggestive of viral pneumonia, specifically COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "Lungs are clear bilaterally. No focal consolidations, nodules, or masses identified. Normal heart size and mediastinal contours. Both costophrenic angles are sharp.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.316224,
+          "edema": 0.068903,
+          "pneumonia": 0.001932,
+          "consolidation": 0.003097,
+          "normal": 0.012122,
+          "lung_cancer": 0.001312,
+          "pneumothorax": 0.001697,
+          "tuberculosis": 0.594713
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_041",
+    "true_label": "tuberculosis",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.331749,
+          "edema": 0.003427,
+          "pneumonia": 0.014516,
+          "consolidation": 0.00569,
+          "normal": 0.025962,
+          "lung_cancer": 0.022641,
+          "pneumothorax": 0.080525,
+          "tuberculosis": 0.51549
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "chexagent": {
+        "findings": "There is a visible pleural line in the left upper zone with a lack of peripheral lung markings. Patchy infiltrates are seen in the right apex. Heart size is within normal limits.",
+        "impression": "Left-sided pneumothorax identified. Recommend immediate clinical correlation.",
+        "predicted_label": "pneumothorax"
+      },
+      "llava_med": {
+        "response": "The frontal chest radiograph demonstrates multifocal, predominantly peripheral ground-glass opacities. There is no significant evidence of cavitary lesions or hilar retraction. The radiographic pattern is consistent with the imaging features of COVID-19 pneumonia.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "A visceral pleural line is identified in the right upper zone with an absence of peripheral lung markings in the apex. Significant volume loss and tracheal deviation to the right.",
+        "impression": "Right-sided apical pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.191938,
+          "edema": 0.044205,
+          "pneumonia": 0.001459,
+          "consolidation": 0.031695,
+          "normal": 0.005929,
+          "lung_cancer": 0.00115,
+          "pneumothorax": 0.060902,
+          "tuberculosis": 0.662723
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_042",
+    "true_label": "edema",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.019885,
+          "edema": 0.131729,
+          "pneumonia": 0.434136,
+          "consolidation": 0.041842,
+          "normal": 0.025121,
+          "lung_cancer": 0.087721,
+          "pneumothorax": 0.011281,
+          "tuberculosis": 0.248285
+        },
+        "predicted_label": "pneumonia"
+      },
+      "chexagent": {
+        "findings": "Prominence of the upper lobe pulmonary vasculature is noted, suggesting cephalization. Interstitial thickening and peribronchial cuffing are present bilaterally. The heart size is at the upper limit of normal.",
+        "impression": "Mild pulmonary edema.",
+        "predicted_label": "edema"
+      },
+      "llava_med": {
+        "response": "Findings include bilateral perihilar 'bat-wing' opacities, cephalization of the pulmonary vasculature, and thickening of the interlobular septa. The cardiac silhouette is enlarged. The radiographic appearance is consistent with acute congestive heart failure and pulmonary edema.",
+        "predicted_label": "edema"
+      },
+      "medgemma": {
+        "findings": "Upper lobe predominant fibronodular opacities with evidence of cavitation identified bilaterally. Mediastinal hilar lymphadenopathy suspected. Normal heart size.",
+        "impression": "Chronic inflammatory process, favoring pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.286887,
+          "edema": 0.262692,
+          "pneumonia": 0.079595,
+          "consolidation": 0.021221,
+          "normal": 0.03852,
+          "lung_cancer": 0.117471,
+          "pneumothorax": 0.05387,
+          "tuberculosis": 0.139743
+        },
+        "predicted_label": "covid-19"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_043",
+    "true_label": "pneumothorax",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.002257,
+          "edema": 0.100046,
+          "pneumonia": 0.073702,
+          "consolidation": 0.42608,
+          "normal": 0.115011,
+          "lung_cancer": 0.05331,
+          "pneumothorax": 0.007337,
+          "tuberculosis": 0.222258
+        },
+        "predicted_label": "consolidation"
+      },
+      "chexagent": {
+        "findings": "A moderate left-sided pneumothorax is identified with a visible visceral pleural line. There is no shift of the mediastinal structures to the right. The right lung is clear. Heart size is normal.",
+        "impression": "Left-sided pneumothorax without tension features.",
+        "predicted_label": "pneumothorax"
+      },
+      "llava_med": {
+        "response": "A right-sided pneumothorax is identified by a visible visceral pleural line and the absence of peripheral lung markings. There is partial collapse of the underlying lung. The mediastinal structures are midline. No evidence of tension is seen.",
+        "predicted_label": "pneumothorax"
+      },
+      "medgemma": {
+        "findings": "Diffuse bilateral perihilar 'bat-wing' opacities. Increased vascular markings and Kerley B lines identified. Cardiac silhouette appears enlarged.",
+        "impression": "Acute pulmonary edema, likely cardiogenic in origin.",
+        "predicted_label": "edema"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.167106,
+          "edema": 0.112513,
+          "pneumonia": 0.03712,
+          "consolidation": 0.008391,
+          "normal": 0.374618,
+          "lung_cancer": 0.250175,
+          "pneumothorax": 0.031755,
+          "tuberculosis": 0.018322
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_044",
+    "true_label": "edema",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.00109,
+          "edema": 0.136703,
+          "pneumonia": 0.354151,
+          "consolidation": 0.0017,
+          "normal": 0.00121,
+          "lung_cancer": 0.0189,
+          "pneumothorax": 0.484752,
+          "tuberculosis": 0.001494
+        },
+        "predicted_label": "pneumothorax"
+      },
+      "chexagent": {
+        "findings": "Bilateral 'bat-wing' perihilar opacities are present, consistent with alveolar edema. There is blunting of the costophrenic angles suggesting small bilateral effusions. The cardiac silhouette is enlarged.",
+        "impression": "Acute alveolar pulmonary edema.",
+        "predicted_label": "edema"
+      },
+      "llava_med": {
+        "response": "Diffuse interstitial opacities and increased bronchovascular markings are scattered throughout the lungs. Blunting of the costophrenic angles suggests small bilateral pleural effusions. Findings are representative of pulmonary venous hypertension.",
+        "predicted_label": "edema"
+      },
+      "medgemma": {
+        "findings": "A visceral pleural line is identified in the right upper zone with an absence of peripheral lung markings. Mediastinal structures remain midline. No aggressive skeletal focus.",
+        "impression": "Right-sided simple pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.004648,
+          "edema": 0.035649,
+          "pneumonia": 0.425428,
+          "consolidation": 0.093424,
+          "normal": 0.003632,
+          "lung_cancer": 0.367711,
+          "pneumothorax": 0.052526,
+          "tuberculosis": 0.016982
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_045",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.123134,
+          "edema": 0.000737,
+          "pneumonia": 0.505148,
+          "consolidation": 0.000794,
+          "normal": 0.000704,
+          "lung_cancer": 0.367796,
+          "pneumothorax": 0.000939,
+          "tuberculosis": 0.000747
+        },
+        "predicted_label": "pneumonia"
+      },
+      "chexagent": {
+        "findings": "The lungs are clear. No focal consolidation, masses, or nodules are identified. The heart size is normal. Hilar and mediastinal contours are unremarkable.",
+        "impression": "No acute pulmonary abnormality.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "The lungs are clear and well-expanded. No focal consolidations, masses, or pleural abnormalities are detected. The cardiomediastinal contour and pulmonary hila are unremarkable. Impression: Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Bilateral perihilar opacities with mixed interstitial thickening. Heart size is at the upper limit of normal. No significant pleural effusions identified.",
+        "impression": "Interstitial pulmonary edema.",
+        "predicted_label": "edema"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.422351,
+          "edema": 0.01239,
+          "pneumonia": 0.02304,
+          "consolidation": 0.123727,
+          "normal": 0.275058,
+          "lung_cancer": 0.006113,
+          "pneumothorax": 0.074263,
+          "tuberculosis": 0.063058
+        },
+        "predicted_label": "covid-19"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_046",
+    "true_label": "pneumonia",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.265388,
+          "edema": 0.001279,
+          "pneumonia": 0.001774,
+          "consolidation": 0.328834,
+          "normal": 0.011215,
+          "lung_cancer": 0.152631,
+          "pneumothorax": 0.065984,
+          "tuberculosis": 0.172896
+        },
+        "predicted_label": "consolidation"
+      },
+      "chexagent": {
+        "findings": "There is a patchy, ill-defined opacity in the right lower lobe. The left lung is clear. Heart size and mediastinal contours are within normal limits. No pleural effusion or pneumothorax identified.",
+        "impression": "Right lower lobe pneumonia. Clinical correlation is recommended.",
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "Dense, patchy opacification is noted in the right lower lung zone, partially obscuring the right hemidiaphragm. Air bronchograms are visible within the consolidated area. The findings indicate acute lobar pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "Lungs are clear bilaterally. No focal consolidations, nodules, or masses identified. Normal heart size. Both costophrenic angles remain sharp.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.032434,
+          "edema": 0.005464,
+          "pneumonia": 0.292614,
+          "consolidation": 0.011516,
+          "normal": 0.162009,
+          "lung_cancer": 0.007119,
+          "pneumothorax": 0.115245,
+          "tuberculosis": 0.373599
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_047",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.099983,
+          "edema": 0.033974,
+          "pneumonia": 0.002065,
+          "consolidation": 0.120143,
+          "normal": 0.241224,
+          "lung_cancer": 0.433262,
+          "pneumothorax": 0.046976,
+          "tuberculosis": 0.022373
+        },
+        "predicted_label": "lung_cancer"
+      },
+      "chexagent": {
+        "findings": "Lungs are clear bilaterally. No focal consolidation, suspicious nodules, or pleural effusions. The cardiomediastinal silhouette is normal. Osseous structures are intact.",
+        "impression": "No acute cardiopulmonary abnormality.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "Frontal projection of the chest demonstrates no acute pulmonary pathology. Lung fields are clear. Cardiac size and shape are within normal limits. The osseous structures of the thorax are intact. Impression: No acute findings.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Confluent airspace opacification involving the right lower lobe. Air bronchograms are visible. No substantial pleural effusion or pneumothorax.",
+        "impression": "Right-sided lobar pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.001388,
+          "edema": 0.002012,
+          "pneumonia": 0.004021,
+          "consolidation": 0.04481,
+          "normal": 0.097634,
+          "lung_cancer": 0.001089,
+          "pneumothorax": 0.311744,
+          "tuberculosis": 0.537302
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_048",
+    "true_label": "pneumothorax",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.724308,
+          "edema": 0.002981,
+          "pneumonia": 0.002004,
+          "consolidation": 0.012848,
+          "normal": 0.163053,
+          "lung_cancer": 0.037116,
+          "pneumothorax": 0.052668,
+          "tuberculosis": 0.005022
+        },
+        "predicted_label": "covid-19"
+      },
+      "chexagent": {
+        "findings": "A large left-sided pneumothorax is identified with a visible visceral pleural line and absence of lung markings peripherally. A pigtail catheter/chest tube is in place. No mediastinal shift.",
+        "impression": "Left-sided pneumothorax with chest tube in situ. No evidence of tension physiology.",
+        "predicted_label": "pneumothorax"
+      },
+      "llava_med": {
+        "response": "There is a small apical pneumothorax on the right side. The lung appears otherwise clear. A chest tube is visualized with the tip in the right hemithorax. The mediastinum remains stable. The finding is consistent with a recovering or managed pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "medgemma": {
+        "findings": "Clear lung fields bilaterally. Cardiac silhouette and mediastinal contours are within normal limits. No acute skeletal abnormality identified.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.001113,
+          "edema": 0.001889,
+          "pneumonia": 0.004695,
+          "consolidation": 0.498817,
+          "normal": 0.003229,
+          "lung_cancer": 0.001164,
+          "pneumothorax": 0.303482,
+          "tuberculosis": 0.18561
+        },
+        "predicted_label": "consolidation"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_049",
+    "true_label": "edema",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.073887,
+          "edema": 0.007578,
+          "pneumonia": 0.639558,
+          "consolidation": 0.012561,
+          "normal": 0.005775,
+          "lung_cancer": 0.247132,
+          "pneumothorax": 0.008439,
+          "tuberculosis": 0.005071
+        },
+        "predicted_label": "pneumonia"
+      },
+      "chexagent": {
+        "findings": "Diffuse, bilateral alveolar opacities are present in a 'bat-wing' distribution. There is prominent vascular congestion and interstitial thickening. The cardiac silhouette is moderately enlarged.",
+        "impression": "Findings are consistent with acute pulmonary edema.",
+        "predicted_label": "edema"
+      },
+      "llava_med": {
+        "response": "Extensive bilateral alveolar opacities are seen in a central distribution. There is evidence of pleural thickening. The heart size is at the upper limit of normal. These features are suggestive of severe alveolar pulmonary edema.",
+        "predicted_label": "edema"
+      },
+      "medgemma": {
+        "findings": "Large right-sided pneumothorax identified with near-complete collapse of the lung. Slight contralateral shift of the mediastinum noted.",
+        "impression": "Right-sided tension pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.187454,
+          "edema": 0.001386,
+          "pneumonia": 0.001056,
+          "consolidation": 0.001171,
+          "normal": 0.624903,
+          "lung_cancer": 0.002937,
+          "pneumothorax": 0.065987,
+          "tuberculosis": 0.115105
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_050",
+    "true_label": "consolidation",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.16194,
+          "edema": 0.003538,
+          "pneumonia": 0.002194,
+          "consolidation": 0.020895,
+          "normal": 0.047467,
+          "lung_cancer": 0.008229,
+          "pneumothorax": 0.07319,
+          "tuberculosis": 0.682547
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "chexagent": {
+        "findings": "Bilateral, multifocal peripheral ground-glass opacities are present throughout both lung fields. No focal lobar consolidation is identified. Heart and mediastinum are unremarkable.",
+        "impression": "Bilateral ground-glass opacities highly typical of viral pneumonia, such as COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "llava_med": {
+        "response": "Bilateral basal ground-glass opacities are observed with a slight subpleural sparing. The pulmonary vasculature is within normal limits. The peripheral distribution and morphology of these opacities are frequent findings in patients with COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "Dense patchy consolidation noted in both lower lobes. No significant cardiomegaly or cephalization of vessels. Costophrenic angles appear partially blunted.",
+        "impression": "Bilateral bronchopneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.046898,
+          "edema": 0.038356,
+          "pneumonia": 0.213475,
+          "consolidation": 0.325375,
+          "normal": 0.008604,
+          "lung_cancer": 0.098883,
+          "pneumothorax": 0.011472,
+          "tuberculosis": 0.256937
+        },
+        "predicted_label": "consolidation"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_051",
+    "true_label": "consolidation",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.003881,
+          "edema": 0.001698,
+          "pneumonia": 0.117553,
+          "consolidation": 0.35902,
+          "normal": 0.037067,
+          "lung_cancer": 0.411796,
+          "pneumothorax": 0.066442,
+          "tuberculosis": 0.002542
+        },
+        "predicted_label": "lung_cancer"
+      },
+      "chexagent": {
+        "findings": "A focal, dense consolidation is noted in the left lower lobe. No associated pleural effusion. Heart size is normal. Mediastinal contours are unremarkable.",
+        "impression": "Left lower lobe consolidation.",
+        "predicted_label": "consolidation"
+      },
+      "llava_med": {
+        "response": "There is a dense, confluent opacity in the right lower lung field, consistent with significant lung consolidation. The right hemidiaphragm is partially obscured. No evidence of pneumothorax is seen. The findings are characteristic of an acute airspace process.",
+        "predicted_label": "consolidation"
+      },
+      "medgemma": {
+        "findings": "Bilateral, peripheral ground-glass opacities are observed with subpleural distribution. No focal lobar consolidation. Normal heart size. No pneumothorax detected.",
+        "impression": "Bilateral pulmonary opacities highly suspicious for COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.002276,
+          "edema": 0.212735,
+          "pneumonia": 0.150991,
+          "consolidation": 0.552611,
+          "normal": 0.001801,
+          "lung_cancer": 0.001154,
+          "pneumothorax": 0.068221,
+          "tuberculosis": 0.010212
+        },
+        "predicted_label": "consolidation"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_052",
+    "true_label": "pneumonia",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.597598,
+          "edema": 0.226358,
+          "pneumonia": 0.005927,
+          "consolidation": 0.047714,
+          "normal": 0.107846,
+          "lung_cancer": 0.00208,
+          "pneumothorax": 0.002616,
+          "tuberculosis": 0.00986
+        },
+        "predicted_label": "covid-19"
+      },
+      "chexagent": {
+        "findings": "Multifocal patchy opacities are distributed throughout the mid and lower lung zones bilaterally. No evidence of cavitation. Heart size is within normal limits.",
+        "impression": "Bilateral pneumonia. Recommend clinical correlation.",
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "Diffuse, patchy infiltrates are observed throughout both lungs, with more concentrated consolidation in the right mid-to-upper zones. The cardiac silhouette appears stable. These features represent multifocal pneumonia, likely infectious in origin.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "Confluent airspace opacification noted in the left mid-to-lower zones. Obscuration of the left heart border is present. No significant pleural effusion.",
+        "impression": "Left-sided pulmonary consolidation.",
+        "predicted_label": "consolidation"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.004554,
+          "edema": 0.10185,
+          "pneumonia": 0.24099,
+          "consolidation": 0.009408,
+          "normal": 0.132211,
+          "lung_cancer": 0.002846,
+          "pneumothorax": 0.002028,
+          "tuberculosis": 0.506114
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_053",
+    "true_label": "pneumothorax",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.001228,
+          "edema": 0.008893,
+          "pneumonia": 0.001069,
+          "consolidation": 0.037347,
+          "normal": 0.658397,
+          "lung_cancer": 0.005109,
+          "pneumothorax": 0.089363,
+          "tuberculosis": 0.198595
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "A visible visceral pleural line in the right apex confirms a small apical pneumothorax. The left lung is clear. No pleural effusion or mediastinal shift.",
+        "impression": "Small right apical pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "llava_med": {
+        "response": "A small-to-moderate left-sided pneumothorax is identified by the presence of a visceral pleural line and a lack of lung markings in the apical region. No significant mediastinal shift is detected. The right lung appears clear.",
+        "predicted_label": "pneumothorax"
+      },
+      "medgemma": {
+        "findings": "Patchy peripheral opacities are present in the mid-to-lower lung fields bilaterally. Cardiac silhouette is normal size. No evidence of pleural fluid or masses.",
+        "impression": "Bilateral infiltrates consistent with viral pneumonia (COVID-19).",
+        "predicted_label": "covid-19"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.015145,
+          "edema": 0.333332,
+          "pneumonia": 0.008084,
+          "consolidation": 0.242625,
+          "normal": 0.001047,
+          "lung_cancer": 0.001354,
+          "pneumothorax": 0.001609,
+          "tuberculosis": 0.396804
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_054",
+    "true_label": "lung_cancer",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.066203,
+          "edema": 0.00305,
+          "pneumonia": 0.012406,
+          "consolidation": 0.306674,
+          "normal": 0.393503,
+          "lung_cancer": 0.097187,
+          "pneumothorax": 0.114958,
+          "tuberculosis": 0.006019
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "A 4.5 cm lobulated, irregular mass is identified in the left upper lobe. There is associated hilar retraction. No evidence of pleural effusion. Heart size is normal.",
+        "impression": "Left upper lobe mass, highly suspicious for primary malignancy. CT staging is recommended.",
+        "predicted_label": "lung_cancer"
+      },
+      "llava_med": {
+        "response": "An irregular, spiculated mass is visualized in the left upper lobe. There is associated pleural thickening and mild volume loss in the left hemithorax. Given the patient's demographics and the mass morphology, primary pulmonary malignancy is the primary consideration.",
+        "predicted_label": "lung_cancer"
+      },
+      "medgemma": {
+        "findings": "A large, dense mass-like opacity with irregular margins is present in the right upper lobe. No visible visceral pleural line. Mediastinal shadow appears stable.",
+        "impression": "Right-sided lung mass, highly suspicious for Lung Cancer.",
+        "predicted_label": "lung_cancer"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.002139,
+          "edema": 0.001073,
+          "pneumonia": 0.17177,
+          "consolidation": 0.427691,
+          "normal": 0.003125,
+          "lung_cancer": 0.003572,
+          "pneumothorax": 0.366108,
+          "tuberculosis": 0.024522
+        },
+        "predicted_label": "consolidation"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_055",
+    "true_label": "tuberculosis",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.009021,
+          "edema": 0.146782,
+          "pneumonia": 0.065568,
+          "consolidation": 0.1153,
+          "normal": 0.195542,
+          "lung_cancer": 0.035517,
+          "pneumothorax": 0.005573,
+          "tuberculosis": 0.426696
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "chexagent": {
+        "findings": "Patchy peripheral ground-glass opacities and consolidations are distributed throughout both lung fields. Lung volumes are preserved. No pleural effusion or pneumothorax.",
+        "impression": "Findings suggestive of multifocal pneumonia, most consistent with a viral etiology like COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "llava_med": {
+        "response": "Patchy, ground-glass opacities are seen involving both lungs, primarily in a peripheral and lower-zone distribution. No chronic fibrotic changes are identified. The appearance is highly compatible with the inflammatory phase of COVID-19 infection.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "A 38 x 32 mm solid mass with irregular margins is identified in the left hilar region. Associated post-obstructive atelectasis is suggested. No aggressive skeletal focus.",
+        "impression": "Left hilar mass, highly suspicious for bronchogenic carcinoma.",
+        "predicted_label": "lung_cancer"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.012454,
+          "edema": 0.007499,
+          "pneumonia": 0.01544,
+          "consolidation": 0.005733,
+          "normal": 0.179746,
+          "lung_cancer": 0.067733,
+          "pneumothorax": 0.031663,
+          "tuberculosis": 0.679733
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_056",
+    "true_label": "lung_cancer",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.083972,
+          "edema": 0.179402,
+          "pneumonia": 0.365276,
+          "consolidation": 0.038264,
+          "normal": 0.042594,
+          "lung_cancer": 0.267814,
+          "pneumothorax": 0.016718,
+          "tuberculosis": 0.005961
+        },
+        "predicted_label": "pneumonia"
+      },
+      "chexagent": {
+        "findings": "There is a large, 5.2 cm irregular mass in the left mid-lung zone with spiculated margins. Associated hilar lymphadenopathy is present. No evidence of pleural effusion. Heart size is within normal limits.",
+        "impression": "Large left-sided pulmonary mass highly suspicious for primary malignancy. Recommend CT staging.",
+        "predicted_label": "lung_cancer"
+      },
+      "llava_med": {
+        "response": "A large, cavitary mass is identified in the right hilar region, suspicious for bronchogenic carcinoma. The walls of the cavity appear thick and irregular. There is associated hilar lymphadenopathy. Further evaluation with CT and biopsy is advised.",
+        "predicted_label": "lung_cancer"
+      },
+      "medgemma": {
+        "findings": "Heterogeneous apical opacities with evidence of cavitation are present in the left upper lobe. Hilar retraction and volume loss are noted. Minor infiltrates in the contralateral lung.",
+        "impression": "Findings suggestive of active pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.023108,
+          "edema": 0.073006,
+          "pneumonia": 0.589229,
+          "consolidation": 0.017767,
+          "normal": 0.002864,
+          "lung_cancer": 0.087538,
+          "pneumothorax": 0.003913,
+          "tuberculosis": 0.202575
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_057",
+    "true_label": "tuberculosis",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.265508,
+          "edema": 0.009356,
+          "pneumonia": 0.013192,
+          "consolidation": 0.001902,
+          "normal": 0.113624,
+          "lung_cancer": 0.04082,
+          "pneumothorax": 0.140839,
+          "tuberculosis": 0.414759
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "chexagent": {
+        "findings": "Cavitary opacities are identified in the right upper lobe with associated fibrotic streaking and volume loss. The left lung shows patchy infiltrates in the apex. No significant pleural effusion.",
+        "impression": "Findings are highly typical for post-primary tuberculosis. Sputum analysis is recommended.",
+        "predicted_label": "tuberculosis"
+      },
+      "llava_med": {
+        "response": "The radiograph reveals multiple subpleural patchy opacities and hazy ground-glass densities in both hemithoraces. No apical scarring or volume loss is noted. The findings are highly suggestive of viral pneumonia, consistent with a COVID-19 diagnosis.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "Dense, confluent opacification is localized to the right mid-lung zone with visible air bronchograms. No discrete mass margins are identified. Costophrenic angles are sharp.",
+        "impression": "Right-sided pulmonary consolidation, likely inflammatory.",
+        "predicted_label": "consolidation"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.019836,
+          "edema": 0.000778,
+          "pneumonia": 0.23324,
+          "consolidation": 0.02317,
+          "normal": 0.000732,
+          "lung_cancer": 0.2965,
+          "pneumothorax": 0.000812,
+          "tuberculosis": 0.424931
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_058",
+    "true_label": "tuberculosis",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.137053,
+          "edema": 0.070912,
+          "pneumonia": 0.02227,
+          "consolidation": 0.014971,
+          "normal": 0.05936,
+          "lung_cancer": 0.006902,
+          "pneumothorax": 0.018799,
+          "tuberculosis": 0.669732
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "chexagent": {
+        "findings": "Heterogeneous opacities are noted in both lung apices, more prominent on the right. There is evidence of minor cavitation. Heart size is normal. Bony structures appear intact.",
+        "impression": "Bilateral apical infiltrative process, consistent with pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "llava_med": {
+        "response": "Frontal view demonstrates diffuse miliary nodules scattered throughout both lung fields. The pattern is uniform and characteristic of miliary tuberculosis. The heart size is within normal limits. Immediate clinical and laboratory correlation is necessary.",
+        "predicted_label": "tuberculosis"
+      },
+      "medgemma": {
+        "findings": "Diffuse bilateral micronodular opacities ('miliary' pattern) are present throughout both lung fields. Cardiac silhouette is normal. No pneumothorax detected.",
+        "impression": "Findings consistent with miliary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.039686,
+          "edema": 0.046583,
+          "pneumonia": 0.007142,
+          "consolidation": 0.010554,
+          "normal": 0.333608,
+          "lung_cancer": 0.021793,
+          "pneumothorax": 0.104628,
+          "tuberculosis": 0.436007
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_059",
+    "true_label": "tuberculosis",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.003884,
+          "edema": 0.007661,
+          "pneumonia": 0.151306,
+          "consolidation": 0.057547,
+          "normal": 0.001551,
+          "lung_cancer": 0.07179,
+          "pneumothorax": 0.254025,
+          "tuberculosis": 0.452236
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "chexagent": {
+        "findings": "Fibrocavitary changes are visualized in the upper lobes bilaterally. There is associated upward retraction of the hila. Small patchy opacities are seen in the right lower lobe.",
+        "impression": "Advanced bilateral upper lobe tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "llava_med": {
+        "response": "Patchy opacities and reticular markings are seen in the apical segments of both lungs. There is evidence of volume loss and traction on the hila. The radiographic presentation is classic for chronic pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "medgemma": {
+        "findings": "Fibrocavitary changes noted in both upper lobes. Multiple small cavities identified with associated pleural thickening. Mediastinum is midline.",
+        "impression": "Bilateral chronic cavitary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.093561,
+          "edema": 0.222903,
+          "pneumonia": 0.121563,
+          "consolidation": 0.010961,
+          "normal": 0.012341,
+          "lung_cancer": 0.155563,
+          "pneumothorax": 0.034101,
+          "tuberculosis": 0.349008
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_060",
+    "true_label": "tuberculosis",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.000574,
+          "edema": 0.124222,
+          "pneumonia": 0.080974,
+          "consolidation": 0.001013,
+          "normal": 0.374438,
+          "lung_cancer": 0.000805,
+          "pneumothorax": 0.001391,
+          "tuberculosis": 0.416584
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "chexagent": {
+        "findings": "Upper lobe predominant infiltrates with suspicious areas of cavitation are noted. There is no evidence of pleural effusion. Mediastinal contours are unremarkable.",
+        "impression": "Suggestive of pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "llava_med": {
+        "response": "Extensive consolidative and fibro-cavitary changes are visualized in the upper and middle lung zones bilaterally. There is significant mediastinal widening, likely due to lymphadenopathy. The findings indicate advanced pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "medgemma": {
+        "findings": "Extensive bilateral upper and middle lobe consolidation with multiple areas of breakdown/cavitation. Trachea is slightly deviated to the right due to volume loss.",
+        "impression": "Advanced pulmonary tuberculosis with significant lung parenchymal destruction.",
+        "predicted_label": "tuberculosis"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.000915,
+          "edema": 0.007961,
+          "pneumonia": 0.004375,
+          "consolidation": 0.058449,
+          "normal": 0.009818,
+          "lung_cancer": 0.199858,
+          "pneumothorax": 0.002898,
+          "tuberculosis": 0.715727
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_061",
+    "true_label": "consolidation",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.14402,
+          "edema": 0.224707,
+          "pneumonia": 0.004283,
+          "consolidation": 0.001137,
+          "normal": 0.113301,
+          "lung_cancer": 0.00301,
+          "pneumothorax": 0.00927,
+          "tuberculosis": 0.500271
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "chexagent": {
+        "findings": "There is a dense, confluent airspace opacity involving the right middle lobe, obscuring the right heart border. Air bronchograms are visible. The left lung is clear.",
+        "impression": "Right middle lobe consolidation, consistent with lobar pneumonia.",
+        "predicted_label": "consolidation"
+      },
+      "llava_med": {
+        "response": "The frontal chest radiograph demonstrates a dense, homogenous opacification in the right upper lobe, consistent with lobar consolidation. The minor fissure appears slightly displaced superiorly. No pleural effusions are identified. Findings are suggestive of acute bacterial pneumonia or an obstructive process.",
+        "predicted_label": "consolidation"
+      },
+      "medgemma": {
+        "findings": "Heterogeneous airspace opacities with evidence of cavitation in the right upper lobe. Volume loss and ipsilateral hilar retraction are noted. Mediastinal shadow is shifted to the right.",
+        "impression": "Findings highly suggestive of active pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.046237,
+          "edema": 0.005103,
+          "pneumonia": 0.552715,
+          "consolidation": 0.014486,
+          "normal": 0.260574,
+          "lung_cancer": 0.024314,
+          "pneumothorax": 0.095472,
+          "tuberculosis": 0.0011
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_062",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.207143,
+          "edema": 0.108089,
+          "pneumonia": 0.001987,
+          "consolidation": 0.000725,
+          "normal": 0.299242,
+          "lung_cancer": 0.000652,
+          "pneumothorax": 0.377133,
+          "tuberculosis": 0.005029
+        },
+        "predicted_label": "pneumothorax"
+      },
+      "chexagent": {
+        "findings": "The lungs are clear without focal consolidation or effusion. The cardiomediastinal silhouette is normal. Circular metallic densities (EKG leads) are noted on the chest wall.",
+        "impression": "Normal chest radiograph. EKG leads identified.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "The lung fields are clear and well-expanded without evidence of focal consolidation, masses, or pleural effusions. The cardiomediastinal silhouette is normal. Two small metallic densities (buttons) are noted overlying the mid-thorax. Impression: Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Bilateral, peripheral-predominant ground-glass opacities are observed in the mid-to-lower lung zones. No focal dense consolidation is apparent. Normal heart size.",
+        "impression": "Findings are highly suggestive of viral pneumonia (COVID-19).",
+        "predicted_label": "covid-19"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.15042,
+          "edema": 0.006551,
+          "pneumonia": 0.325589,
+          "consolidation": 0.008024,
+          "normal": 0.133898,
+          "lung_cancer": 0.049364,
+          "pneumothorax": 0.05973,
+          "tuberculosis": 0.266424
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_063",
+    "true_label": "pneumonia",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.002815,
+          "edema": 0.470412,
+          "pneumonia": 0.144393,
+          "consolidation": 0.006629,
+          "normal": 0.034659,
+          "lung_cancer": 0.025886,
+          "pneumothorax": 0.243932,
+          "tuberculosis": 0.071275
+        },
+        "predicted_label": "edema"
+      },
+      "chexagent": {
+        "findings": "A patchy opacity is identified in the left lower lobe. The right lung is clear. No pleural effusion or pneumothorax. Heart size and hilar contours are within normal limits.",
+        "impression": "Left lower lobe pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "Patchy, ill-defined opacities are visualized in the bilateral lower lung zones, more pronounced on the left. The hilar shadows are stable. There is no evidence of pneumothorax. The radiographic appearance is consistent with multifocal bronchopneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "Lungs are clear bilaterally. No focal consolidations, nodules, or masses identify. Normal heart size. Mediastinal shadow within normal limits. No acute skeletal abnormality is apparent.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.001312,
+          "edema": 0.086781,
+          "pneumonia": 0.000967,
+          "consolidation": 0.010934,
+          "normal": 0.000858,
+          "lung_cancer": 0.304186,
+          "pneumothorax": 0.594195,
+          "tuberculosis": 0.000767
+        },
+        "predicted_label": "pneumothorax"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_064",
+    "true_label": "tuberculosis",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.007822,
+          "edema": 0.084678,
+          "pneumonia": 0.290791,
+          "consolidation": 0.162379,
+          "normal": 0.009813,
+          "lung_cancer": 0.059029,
+          "pneumothorax": 0.043601,
+          "tuberculosis": 0.341887
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "chexagent": {
+        "findings": "Upper zone predominant heterogeneous opacities are seen with associated volume loss. Patchy infiltrates are also noted in the left mid-lung zone. Heart size is normal.",
+        "impression": "Findings suggest multifocal pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "llava_med": {
+        "response": "Findings include bilateral upper lobe fibro-nodular infiltrates with evidence of volume loss. Small lucencies within the opacities raise concern for cavitary lesions. These features are highly characteristic of post-primary pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "medgemma": {
+        "findings": "Dense opacification involving the right lower lobe with obscuration of the right diaphragmatic contour. Minor infiltrates in the left base. No pneumothorax detected.",
+        "impression": "Right lower lobe consolidation.",
+        "predicted_label": "consolidation"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.010481,
+          "edema": 0.253326,
+          "pneumonia": 0.006003,
+          "consolidation": 0.150671,
+          "normal": 0.024524,
+          "lung_cancer": 0.049316,
+          "pneumothorax": 0.027305,
+          "tuberculosis": 0.478375
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_065",
+    "true_label": "tuberculosis",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.059821,
+          "edema": 0.004157,
+          "pneumonia": 0.135145,
+          "consolidation": 0.225773,
+          "normal": 0.068658,
+          "lung_cancer": 0.030262,
+          "pneumothorax": 0.164096,
+          "tuberculosis": 0.312088
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "chexagent": {
+        "findings": "Dense, cavitary infiltrates are present in both upper lobes. There is blunting of the right costophrenic angle suggesting a small effusion. Mediastinal shift is absent.",
+        "impression": "Bilateral upper lobe tuberculosis with small right pleural effusion.",
+        "predicted_label": "tuberculosis"
+      },
+      "llava_med": {
+        "response": "The radiograph shows diffuse, small (1-2mm) nodular opacities scattered uniformly throughout both lungs. The cardiac silhouette is normal. The 'miliary' distribution is classic for hematogenous spread of tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "medgemma": {
+        "findings": "Bilateral upper lobe predominant fibro-cavitary opacities. Extensive parenchymal destruction noted in the left apex. Tracheal deviation to the left due to fibrosis.",
+        "impression": "Chronic fibrocavitary pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.051741,
+          "edema": 0.001976,
+          "pneumonia": 0.036623,
+          "consolidation": 0.223793,
+          "normal": 0.082153,
+          "lung_cancer": 0.002274,
+          "pneumothorax": 0.002881,
+          "tuberculosis": 0.598559
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_066",
+    "true_label": "tuberculosis",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.028668,
+          "edema": 0.119658,
+          "pneumonia": 0.191661,
+          "consolidation": 0.054994,
+          "normal": 0.080668,
+          "lung_cancer": 0.018434,
+          "pneumothorax": 0.04534,
+          "tuberculosis": 0.460576
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "chexagent": {
+        "findings": "There is a well-defined cavitary lesion in the right lung apex with surrounding linear opacities. Patchy infiltrates are also noted in the left upper zone. No pleural effusion or pneumothorax identified. Heart size is normal.",
+        "impression": "Findings suggest post-primary pulmonary tuberculosis with right apical cavitation. Sputum analysis is recommended.",
+        "predicted_label": "tuberculosis"
+      },
+      "llava_med": {
+        "response": "Fibrotic bands and apical pleural thickening are noted in the right upper lobe. There is compensatory hyperinflation of the left lung. The findings represent chronic, inactive tuberculosis scarring; however, clinical correlation for reactivity is required.",
+        "predicted_label": "tuberculosis"
+      },
+      "medgemma": {
+        "findings": "Bilateral peripheral ground-glass opacities with mixed interstitial opacities are present in the upper and lower lung zones. No apical cavitary lesions identified.",
+        "impression": "Multifocal viral pneumonia (COVID-19).",
+        "predicted_label": "covid-19"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.022021,
+          "edema": 0.107637,
+          "pneumonia": 0.003369,
+          "consolidation": 0.025903,
+          "normal": 0.089243,
+          "lung_cancer": 0.204298,
+          "pneumothorax": 0.039411,
+          "tuberculosis": 0.508118
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_067",
+    "true_label": "tuberculosis",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.00584,
+          "edema": 0.044801,
+          "pneumonia": 0.601743,
+          "consolidation": 0.002274,
+          "normal": 0.01076,
+          "lung_cancer": 0.243142,
+          "pneumothorax": 0.086417,
+          "tuberculosis": 0.005023
+        },
+        "predicted_label": "pneumonia"
+      },
+      "chexagent": {
+        "findings": "Bilateral upper lobe heterogeneous opacities are present with associated volume loss and superior displacement of both hila. Multiple small areas of translucency suggest early cavitation. The lower lung zones are relatively clear.",
+        "impression": "Advanced bilateral upper lobe tuberculosis with fibrocavitary features.",
+        "predicted_label": "tuberculosis"
+      },
+      "llava_med": {
+        "response": "Extensive, bilateral alveolar opacities and consolidations are present, primarily involving the upper and middle lung fields. Significant mediastinal widening is noted, suggestive of lymphadenopathy. Radiographic features are indicative of progressive primary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "medgemma": {
+        "findings": "Patchy heterogeneous opacities are present in the right upper and middle lobes. No significant volume loss or hilar retraction noted. Cardiac silhouette is normal.",
+        "impression": "Right-sided lobar pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.396977,
+          "edema": 0.001262,
+          "pneumonia": 0.01248,
+          "consolidation": 0.076542,
+          "normal": 0.001694,
+          "lung_cancer": 0.491366,
+          "pneumothorax": 0.003326,
+          "tuberculosis": 0.016353
+        },
+        "predicted_label": "lung_cancer"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_068",
+    "true_label": "tuberculosis",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.002008,
+          "edema": 0.40847,
+          "pneumonia": 0.003707,
+          "consolidation": 0.000505,
+          "normal": 0.356622,
+          "lung_cancer": 0.000467,
+          "pneumothorax": 0.001037,
+          "tuberculosis": 0.227184
+        },
+        "predicted_label": "edema"
+      },
+      "chexagent": {
+        "findings": "Extensive consolidation and thick-walled cavities are noted in the left upper and mid-lung zones. There is associated tracheal deviation to the left, suggesting significant volume loss/fibrosis. Right lung shows compensatory hyperinflation.",
+        "impression": "Chronic left-sided pulmonary tuberculosis with extensive cavitation and fibrotic changes.",
+        "predicted_label": "tuberculosis"
+      },
+      "llava_med": {
+        "response": "A large, thick-walled cavitary lesion is identified in the right upper lobe. Associated patchy infiltrates are seen in the ipsilateral lower lobe, likely representing endobronchial spread. Findings are highly suspicious for active pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "medgemma": {
+        "findings": "Clear lung fields bilaterally. No focal consolidations, nodules, or cavitary lesions identify. Normal heart size and mediastinal contours. Diaphragm is well-defined.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.003702,
+          "edema": 0.512139,
+          "pneumonia": 0.101669,
+          "consolidation": 0.007119,
+          "normal": 0.008431,
+          "lung_cancer": 0.001683,
+          "pneumothorax": 0.009666,
+          "tuberculosis": 0.355592
+        },
+        "predicted_label": "edema"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_069",
+    "true_label": "tuberculosis",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.042593,
+          "edema": 0.001863,
+          "pneumonia": 0.002835,
+          "consolidation": 0.015926,
+          "normal": 0.555461,
+          "lung_cancer": 0.001374,
+          "pneumothorax": 0.005815,
+          "tuberculosis": 0.374132
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "Patchy airspace opacities are distributed throughout both upper lobes. Minimal pleural thickening is noted at the right apex. The cardiomediastinal silhouette is within normal limits. Costophrenic angles are sharp.",
+        "impression": "Bilateral upper lobe infiltrative process, highly suspicious for tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "llava_med": {
+        "response": "Bilateral apical opacities with volume loss and upward retraction of the hila are visualized. Reticular markings are prominent in the upper lung zones. The presentation correlates with chronic, advanced pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "medgemma": {
+        "findings": "Diffuse bilateral micronodular opacities ('miliary' pattern) distributed throughout both lung fields. Cardiac silhouette is normal. No pneumothorax.",
+        "impression": "Findings highly suggestive of miliary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.039518,
+          "edema": 0.002367,
+          "pneumonia": 0.513377,
+          "consolidation": 0.001914,
+          "normal": 0.053238,
+          "lung_cancer": 0.007437,
+          "pneumothorax": 0.350931,
+          "tuberculosis": 0.031219
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_070",
+    "true_label": "normal",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.18822,
+          "edema": 0.006135,
+          "pneumonia": 0.091107,
+          "consolidation": 0.02122,
+          "normal": 0.123079,
+          "lung_cancer": 0.482808,
+          "pneumothorax": 0.011197,
+          "tuberculosis": 0.076234
+        },
+        "predicted_label": "lung_cancer"
+      },
+      "chexagent": {
+        "findings": "The lungs are clear and well-expanded. No focal consolidation, suspicious masses, or pleural effusions are identified. The cardiomediastinal silhouette and hilar contours appear normal. Bony thorax is intact.",
+        "impression": "No acute cardiopulmonary abnormality.",
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "The chest X-ray reveals clear lungs with normal vascular markings. The heart size and mediastinal contours are within normal limits. Diaphragmatic surfaces are smooth. Impression: No acute cardiopulmonary abnormality.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "A visceral pleural line is identified in the right upper lung field with a suspected absence of peripheral lung markings. Mediastinal shadow is midline. Lungs otherwise clear.",
+        "impression": "Small right-sided pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.55797,
+          "edema": 0.004463,
+          "pneumonia": 0.006616,
+          "consolidation": 0.003618,
+          "normal": 0.027204,
+          "lung_cancer": 0.097888,
+          "pneumothorax": 0.065963,
+          "tuberculosis": 0.236277
+        },
+        "predicted_label": "covid-19"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CXR_071",
+    "true_label": "tuberculosis",
+    "modality": "cxr",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "covid_19": 0.003627,
+          "edema": 0.001671,
+          "pneumonia": 0.022882,
+          "consolidation": 0.004891,
+          "normal": 0.504136,
+          "lung_cancer": 0.012481,
+          "pneumothorax": 0.131998,
+          "tuberculosis": 0.318314
+        },
+        "predicted_label": "normal"
+      },
+      "chexagent": {
+        "findings": "Nodular and linear opacities are present in the right upper lobe. A small area of cavitation is identified subapically. The left lung is unremarkable. Heart size is normal. Visualized osseous structures are intact.",
+        "impression": "Right upper lobe tuberculosis with early cavitation.",
+        "predicted_label": "tuberculosis"
+      },
+      "llava_med": {
+        "response": "Findings reveal bilateral patchy and consolidative opacities, primarily involving the middle and lower lung zones. There is evidence of subtle volume loss in the right lung with associated hilar prominence. The cardiac silhouette is stable. Given the distribution and morphology of these pulmonary infiltrates, post-primary tuberculosis is a significant diagnostic consideration.",
+        "predicted_label": "tuberculosis"
+      },
+      "medgemma": {
+        "findings": "Clear lung fields bilaterally with no evidence of focal airspace disease, nodules, or masses identify. Normal heart size and mediastinal contours. Diaphragm is well-defined and costophrenic angles are sharp. No acute skeletal abnormality is apparent.",
+        "impression": "Normal chest radiograph.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "covid_19": 0.632315,
+          "edema": 0.000728,
+          "pneumonia": 0.069436,
+          "consolidation": 0.000922,
+          "normal": 0.015729,
+          "lung_cancer": 0.000782,
+          "pneumothorax": 0.000692,
+          "tuberculosis": 0.279396
+        },
+        "predicted_label": "covid-19"
+      }
+    }
+  }
+]

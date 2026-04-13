@@ -1,0 +1,2246 @@
+[
+  {
+    "image_id": "PK_CT_001",
+    "true_label": "covid-19",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.145789,
+          "normal": 0.033603,
+          "lung_cancer": 0.305874,
+          "covid_19": 0.470817,
+          "consolidation": 0.001673,
+          "pneumothorax": 0.009171,
+          "edema": 0.017098,
+          "atelectasis": 0.01455,
+          "tuberculosis": 0.001427
+        },
+        "predicted_label": "covid-19"
+      },
+      "llava_med": {
+        "response": "Axial CT shows linear opacities and focal volume loss in the posterior segments. The morphology is consistent with subsegmental atelectasis rather than an active inflammatory process.",
+        "predicted_label": "atelectasis"
+      },
+      "medgemma": {
+        "findings": "Peripheral, subpleural ground-glass opacities (GGO) are noted bilaterally. No significant pleural effusion or lymphadenopathy identified. Bronchovascular bundling is slightly prominent within the opacified areas.",
+        "impression": "Findings are highly suggestive of viral pneumonia, consistent with the provided clinical context of COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.015337,
+          "normal": 0.001312,
+          "lung_cancer": 0.001672,
+          "covid_19": 0.631107,
+          "consolidation": 0.001218,
+          "pneumothorax": 0.088924,
+          "edema": 0.001442,
+          "atelectasis": 0.003172,
+          "tuberculosis": 0.255815
+        },
+        "predicted_label": "covid-19"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_002",
+    "true_label": "covid-19",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.049892,
+          "normal": 0.000851,
+          "lung_cancer": 0.000772,
+          "covid_19": 0.611935,
+          "consolidation": 0.258123,
+          "pneumothorax": 0.003322,
+          "edema": 0.001859,
+          "atelectasis": 0.039521,
+          "tuberculosis": 0.033724
+        },
+        "predicted_label": "covid-19"
+      },
+      "llava_med": {
+        "response": "The image demonstrates wedge-shaped areas of increased density with associated shifting of the interlobar fissures, suggestive of compressive atelectasis.",
+        "predicted_label": "atelectasis"
+      },
+      "medgemma": {
+        "findings": "Bilateral patchy air-space opacities and dense focal consolidation in the lower lobes. Associated bronchial wall thickening is prominent. No significant ground-glass sparing.",
+        "impression": "Findings consistent with multifocal bacterial pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.189522,
+          "normal": 0.002002,
+          "lung_cancer": 0.08561,
+          "covid_19": 0.589175,
+          "consolidation": 0.06621,
+          "pneumothorax": 0.002582,
+          "edema": 0.046202,
+          "atelectasis": 0.010477,
+          "tuberculosis": 0.00822
+        },
+        "predicted_label": "covid-19"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_003",
+    "true_label": "covid-19",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.012525,
+          "normal": 0.007747,
+          "lung_cancer": 0.000775,
+          "covid_19": 0.056261,
+          "consolidation": 0.417673,
+          "pneumothorax": 0.000693,
+          "edema": 0.501722,
+          "atelectasis": 0.001982,
+          "tuberculosis": 0.000623
+        },
+        "predicted_label": "edema"
+      },
+      "llava_med": {
+        "response": "Chest CT reveals plate-like opacities in the lung bases. These findings indicate localized lung collapse or discoid atelectasis.",
+        "predicted_label": "atelectasis"
+      },
+      "medgemma": {
+        "findings": "Confluent area of high attenuation involving the entirety of the left lower lobe with visible air bronchograms. Lung volumes appear maintained.",
+        "impression": "Lobar consolidation.",
+        "predicted_label": "consolidation"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.082862,
+          "normal": 0.018502,
+          "lung_cancer": 0.010409,
+          "covid_19": 0.398781,
+          "consolidation": 0.104346,
+          "pneumothorax": 0.030883,
+          "edema": 0.349066,
+          "atelectasis": 0.002073,
+          "tuberculosis": 0.003078
+        },
+        "predicted_label": "covid-19"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_004",
+    "true_label": "covid-19",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.001696,
+          "normal": 0.217865,
+          "lung_cancer": 0.014015,
+          "covid_19": 0.162493,
+          "consolidation": 0.118206,
+          "pneumothorax": 0.006426,
+          "edema": 0.090377,
+          "atelectasis": 0.247194,
+          "tuberculosis": 0.141728
+        },
+        "predicted_label": "atelectasis"
+      },
+      "llava_med": {
+        "response": "Computed tomography of the chest shows focal ground-glass opacities with a predominantly peripheral and posterior distribution. No significant pleural effusion is noted.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "Small, ill-defined subpleural ground-glass nodules in the left upper and right lower lobes. The remainder of the lung parenchyma is clear. Heart size is within normal limits.",
+        "impression": "Atypical pulmonary opacities likely representing mild or early-stage COVID-19 pneumonia.",
+        "predicted_label": "covid-19"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.050011,
+          "normal": 0.000815,
+          "lung_cancer": 0.137552,
+          "covid_19": 0.360503,
+          "consolidation": 0.00317,
+          "pneumothorax": 0.440534,
+          "edema": 0.005802,
+          "atelectasis": 0.000769,
+          "tuberculosis": 0.000843
+        },
+        "predicted_label": "pneumothorax"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_005",
+    "true_label": "covid-19",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.104131,
+          "normal": 0.00176,
+          "lung_cancer": 0.009626,
+          "covid_19": 0.001273,
+          "consolidation": 0.356556,
+          "pneumothorax": 0.011909,
+          "edema": 0.00271,
+          "atelectasis": 0.000925,
+          "tuberculosis": 0.51111
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "llava_med": {
+        "response": "The axial slice at the level of the main pulmonary artery shows bilateral peripheral infiltrates. The morphology of the opacities is consistent with clinical patterns observed in COVID-19 infection.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "Diffuse bilateral ground-glass opacities with prominent interlobular septal thickening (Kerley B lines) and perihilar haze. Heart size appears at the upper limit of normal.",
+        "impression": "Radiographic features suggestive of acute pulmonary edema.",
+        "predicted_label": "edema"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.088792,
+          "normal": 0.340895,
+          "lung_cancer": 0.547851,
+          "covid_19": 0.002877,
+          "consolidation": 0.006838,
+          "pneumothorax": 0.0022,
+          "edema": 0.001069,
+          "atelectasis": 0.000813,
+          "tuberculosis": 0.008666
+        },
+        "predicted_label": "lung_cancer"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_006",
+    "true_label": "lung_cancer",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.003225,
+          "normal": 0.001089,
+          "lung_cancer": 0.368441,
+          "covid_19": 0.004013,
+          "consolidation": 0.038844,
+          "pneumothorax": 0.046286,
+          "edema": 0.153384,
+          "atelectasis": 0.092341,
+          "tuberculosis": 0.292376
+        },
+        "predicted_label": "lung_cancer"
+      },
+      "llava_med": {
+        "response": "Axial section of the chest shows clear lung parenchyma. No focal masses, nodules, or suspicious lesions are identified. The study is unremarkable.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "The lung parenchyma is clear bilaterally. No focal consolidations, spiculated masses, or suspicious nodules are identified. Pleural spaces are empty.",
+        "impression": "Normal CT chest study.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.000697,
+          "normal": 0.320586,
+          "lung_cancer": 0.590307,
+          "covid_19": 0.005921,
+          "consolidation": 0.000725,
+          "pneumothorax": 0.000674,
+          "edema": 0.001824,
+          "atelectasis": 0.078122,
+          "tuberculosis": 0.001144
+        },
+        "predicted_label": "lung_cancer"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_007",
+    "true_label": "lung_cancer",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.000977,
+          "normal": 0.22009,
+          "lung_cancer": 0.691876,
+          "covid_19": 0.009512,
+          "consolidation": 0.000885,
+          "pneumothorax": 0.004234,
+          "edema": 0.018252,
+          "atelectasis": 0.001092,
+          "tuberculosis": 0.053081
+        },
+        "predicted_label": "lung_cancer"
+      },
+      "llava_med": {
+        "response": "The lung fields appear well-expanded and clear of any pathological soft tissue densities. Mediastinal and hilar structures are within normal limits.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Thoracic symmetry is maintained. No evidence of hilar lymphadenopathy or parenchymal masses visualized on this section. Hilar structures are unremarkable.",
+        "impression": "Normal CT chest.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.162881,
+          "normal": 0.044962,
+          "lung_cancer": 0.460599,
+          "covid_19": 0.001085,
+          "consolidation": 0.005569,
+          "pneumothorax": 0.260534,
+          "edema": 0.001638,
+          "atelectasis": 0.06178,
+          "tuberculosis": 0.000952
+        },
+        "predicted_label": "lung_cancer"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_008",
+    "true_label": "lung_cancer",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.069776,
+          "normal": 0.006123,
+          "lung_cancer": 0.431117,
+          "covid_19": 0.000567,
+          "consolidation": 0.358339,
+          "pneumothorax": 0.008398,
+          "edema": 0.001674,
+          "atelectasis": 0.0292,
+          "tuberculosis": 0.094807
+        },
+        "predicted_label": "lung_cancer"
+      },
+      "llava_med": {
+        "response": "Axial CT reveals an area of ill-defined consolidative opacity. The appearance is suggestive of an acute infectious process or lobar pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "Lung volumes are preserved. Tracheobronchial tree is patent. No suspicious pulmonary opacities or pleural thickening identified.",
+        "impression": "Unremarkable CT of the chest.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.008567,
+          "normal": 0.010565,
+          "lung_cancer": 0.54472,
+          "covid_19": 0.014953,
+          "consolidation": 0.0029,
+          "pneumothorax": 0.006376,
+          "edema": 0.113584,
+          "atelectasis": 0.099041,
+          "tuberculosis": 0.199293
+        },
+        "predicted_label": "lung_cancer"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_009",
+    "true_label": "lung_cancer",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.367746,
+          "normal": 0.003739,
+          "lung_cancer": 0.055187,
+          "covid_19": 0.158189,
+          "consolidation": 0.010282,
+          "pneumothorax": 0.219581,
+          "edema": 0.082952,
+          "atelectasis": 0.004342,
+          "tuberculosis": 0.097981
+        },
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "Chest CT identifies a localized pulmonary nodule in the left lung. The presence of a solid component and irregular borders necessitates further evaluation for malignancy.",
+        "predicted_label": "lung_cancer"
+      },
+      "medgemma": {
+        "findings": "A spiculated soft tissue density mass is seen in the left lower lobe, measuring 1.8 cm. Minimal pleural thickening adjacent to the lesion. No suspicious osseous lesions.",
+        "impression": "Solitary pulmonary nodule with malignant features (Lung-RADS 4).",
+        "predicted_label": "lung_cancer"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.000779,
+          "normal": 0.002658,
+          "lung_cancer": 0.141202,
+          "covid_19": 0.021799,
+          "consolidation": 0.001229,
+          "pneumothorax": 0.001727,
+          "edema": 0.009139,
+          "atelectasis": 0.629007,
+          "tuberculosis": 0.19246
+        },
+        "predicted_label": "atelectasis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_010",
+    "true_label": "lung_cancer",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.029513,
+          "normal": 0.016635,
+          "lung_cancer": 0.190945,
+          "covid_19": 0.30164,
+          "consolidation": 0.407987,
+          "pneumothorax": 0.001602,
+          "edema": 0.000714,
+          "atelectasis": 0.04912,
+          "tuberculosis": 0.001843
+        },
+        "predicted_label": "consolidation"
+      },
+      "llava_med": {
+        "response": "The axial CT image highlights a suspicious mass lesion with spiculated edges. The lesion's characteristics and location are consistent with primary lung cancer.",
+        "predicted_label": "lung_cancer"
+      },
+      "medgemma": {
+        "findings": "Large area of patchy consolidation and ill-defined opacification in the right upper lobe. Associated inflammatory changes in the surrounding parenchyma.",
+        "impression": "Advanced infectious process consistent with necrotizing pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.00087,
+          "normal": 0.001781,
+          "lung_cancer": 0.002193,
+          "covid_19": 0.000581,
+          "consolidation": 0.000656,
+          "pneumothorax": 0.156335,
+          "edema": 0.09777,
+          "atelectasis": 0.290301,
+          "tuberculosis": 0.449512
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_011",
+    "true_label": "lung_cancer",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.700654,
+          "normal": 0.006466,
+          "lung_cancer": 0.057393,
+          "covid_19": 0.193403,
+          "consolidation": 0.012097,
+          "pneumothorax": 0.024462,
+          "edema": 0.001224,
+          "atelectasis": 0.002435,
+          "tuberculosis": 0.001866
+        },
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "Axial CT image shows a well-defined soft tissue mass in the right lung. The lesion exhibits internal heterogeneity and is suspicious for a primary bronchogenic carcinoma.",
+        "predicted_label": "lung_cancer"
+      },
+      "medgemma": {
+        "findings": "Dense, confluent opacification in the right hilar region with prominent air bronchograms. No significant hilar displacement.",
+        "impression": "Focal consolidation, likely representing an acute infectious process.",
+        "predicted_label": "consolidation"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.626349,
+          "normal": 0.015658,
+          "lung_cancer": 0.001242,
+          "covid_19": 0.000752,
+          "consolidation": 0.20177,
+          "pneumothorax": 0.018593,
+          "edema": 0.133915,
+          "atelectasis": 0.000906,
+          "tuberculosis": 0.000815
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_012",
+    "true_label": "lung_cancer",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.046893,
+          "normal": 0.017039,
+          "lung_cancer": 0.001148,
+          "covid_19": 0.541104,
+          "consolidation": 0.308122,
+          "pneumothorax": 0.012032,
+          "edema": 0.062337,
+          "atelectasis": 0.010298,
+          "tuberculosis": 0.001027
+        },
+        "predicted_label": "covid-19"
+      },
+      "llava_med": {
+        "response": "Computed tomography demonstrates a spiculated pulmonary nodule in the peripheral zone. The irregular margins and associated pleural puckering are highly suggestive of pulmonary malignancy.",
+        "predicted_label": "lung_cancer"
+      },
+      "medgemma": {
+        "findings": "Peripheral spiculated nodule measuring 1.5 cm in the left upper lobe. No significant pleural effusion. Subtle retraction of the adjacent pleura is noted.",
+        "impression": "Solitary pulmonary nodule with morphological features suggesting malignancy.",
+        "predicted_label": "lung_cancer"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.035722,
+          "normal": 0.006297,
+          "lung_cancer": 0.210964,
+          "covid_19": 0.152356,
+          "consolidation": 0.00503,
+          "pneumothorax": 0.552568,
+          "edema": 0.021201,
+          "atelectasis": 0.013068,
+          "tuberculosis": 0.002795
+        },
+        "predicted_label": "pneumothorax"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_013",
+    "true_label": "consolidation",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.012784,
+          "normal": 0.001109,
+          "lung_cancer": 0.00129,
+          "covid_19": 0.001038,
+          "consolidation": 0.704847,
+          "pneumothorax": 0.174929,
+          "edema": 0.09705,
+          "atelectasis": 0.001061,
+          "tuberculosis": 0.005892
+        },
+        "predicted_label": "consolidation"
+      },
+      "llava_med": {
+        "response": "The image demonstrates diffuse, bilateral ground-glass haziness and smooth interlobular septal thickening, characteristic of pulmonary edema.",
+        "predicted_label": "edema"
+      },
+      "medgemma": {
+        "findings": "Dense opacification of the right lower lobe with visible air bronchograms. The volume of the affected lobe is maintained. No significant hilar displacement.",
+        "impression": "Findings consistent with lobar consolidation, likely representing bacterial pneumonia.",
+        "predicted_label": "consolidation"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.08102,
+          "normal": 0.003654,
+          "lung_cancer": 0.019468,
+          "covid_19": 0.261085,
+          "consolidation": 0.522715,
+          "pneumothorax": 0.001325,
+          "edema": 0.00271,
+          "atelectasis": 0.09741,
+          "tuberculosis": 0.010614
+        },
+        "predicted_label": "consolidation"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_014",
+    "true_label": "consolidation",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.006264,
+          "normal": 0.294828,
+          "lung_cancer": 0.20116,
+          "covid_19": 0.002933,
+          "consolidation": 0.32752,
+          "pneumothorax": 0.001727,
+          "edema": 0.021178,
+          "atelectasis": 0.140923,
+          "tuberculosis": 0.003467
+        },
+        "predicted_label": "consolidation"
+      },
+      "llava_med": {
+        "response": "Axial section reveals perihilar vascular congestion and alveolar fluid accumulation, consistent with hydrostatic pulmonary edema.",
+        "predicted_label": "edema"
+      },
+      "medgemma": {
+        "findings": "Increased lung markings with generalized ground-glass attenuation and subtle thickening of the interlobular septa. Trace bilateral pleural fluid.",
+        "impression": "Pulmonary interstitial edema.",
+        "predicted_label": "edema"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.001583,
+          "normal": 0.001122,
+          "lung_cancer": 0.003107,
+          "covid_19": 0.001314,
+          "consolidation": 0.666213,
+          "pneumothorax": 0.001238,
+          "edema": 0.001097,
+          "atelectasis": 0.072191,
+          "tuberculosis": 0.252134
+        },
+        "predicted_label": "consolidation"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_015",
+    "true_label": "consolidation",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.348238,
+          "normal": 0.139881,
+          "lung_cancer": 0.004374,
+          "covid_19": 0.013799,
+          "consolidation": 0.237436,
+          "pneumothorax": 0.115817,
+          "edema": 0.025458,
+          "atelectasis": 0.034128,
+          "tuberculosis": 0.080869
+        },
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "CT findings show symmetric gravity-dependent density and increased interstitial markings, indicating a state of pulmonary fluid overload.",
+        "predicted_label": "edema"
+      },
+      "medgemma": {
+        "findings": "Lung parenchymal aeration is uniform throughout both lung fields. No focal consolidations, air bronchograms, or suspicious masses identified.",
+        "impression": "Normal CT chest study.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.006642,
+          "normal": 0.001407,
+          "lung_cancer": 0.146976,
+          "covid_19": 0.002235,
+          "consolidation": 0.532702,
+          "pneumothorax": 0.260558,
+          "edema": 0.001748,
+          "atelectasis": 0.036738,
+          "tuberculosis": 0.010993
+        },
+        "predicted_label": "consolidation"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_016",
+    "true_label": "consolidation",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.181418,
+          "normal": 0.002283,
+          "lung_cancer": 0.695582,
+          "covid_19": 0.077167,
+          "consolidation": 0.00127,
+          "pneumothorax": 0.007176,
+          "edema": 0.028774,
+          "atelectasis": 0.001653,
+          "tuberculosis": 0.004676
+        },
+        "predicted_label": "lung_cancer"
+      },
+      "llava_med": {
+        "response": "CT scan reveals extensive consolidation within the posterior segments. The presence of fluid-filled alveoli is indicated by the homogenous hyperdensity compared to surrounding parenchyma.",
+        "predicted_label": "consolidation"
+      },
+      "medgemma": {
+        "findings": "Bilateral lower lobe air-space opacities with internal air bronchograms. Small bilateral pleural effusions are identified.",
+        "impression": "Bilateral pulmonary consolidation, likely secondary to severe pneumonia or aspiration.",
+        "predicted_label": "consolidation"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.181865,
+          "normal": 0.687672,
+          "lung_cancer": 0.049153,
+          "covid_19": 0.00323,
+          "consolidation": 0.070184,
+          "pneumothorax": 0.003803,
+          "edema": 0.001218,
+          "atelectasis": 0.001095,
+          "tuberculosis": 0.001782
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_017",
+    "true_label": "consolidation",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.356801,
+          "normal": 0.000645,
+          "lung_cancer": 0.188988,
+          "covid_19": 0.00064,
+          "consolidation": 0.310791,
+          "pneumothorax": 0.000685,
+          "edema": 0.128208,
+          "atelectasis": 0.0008,
+          "tuberculosis": 0.01244
+        },
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "Axial chest CT shows a localized area of consolidation. The clinical appearance is consistent with a dense inflammatory infiltrate, characteristic of a localized pneumonia.",
+        "predicted_label": "consolidation"
+      },
+      "medgemma": {
+        "findings": "Linear, band-like opacity in the right lower lobe with associated elevation of the right hemidiaphragm and slight hilar displacement.",
+        "impression": "Findings consistent with subsegmental atelectasis.",
+        "predicted_label": "atelectasis"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.057164,
+          "normal": 0.077414,
+          "lung_cancer": 0.35804,
+          "covid_19": 0.020553,
+          "consolidation": 0.035716,
+          "pneumothorax": 0.032092,
+          "edema": 0.002459,
+          "atelectasis": 0.314031,
+          "tuberculosis": 0.10253
+        },
+        "predicted_label": "lung_cancer"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_018",
+    "true_label": "atelectasis",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.001254,
+          "normal": 0.00099,
+          "lung_cancer": 0.046205,
+          "covid_19": 0.004263,
+          "consolidation": 0.000935,
+          "pneumothorax": 0.191013,
+          "edema": 0.324727,
+          "atelectasis": 0.428961,
+          "tuberculosis": 0.001653
+        },
+        "predicted_label": "atelectasis"
+      },
+      "llava_med": {
+        "response": "Axial CT demonstrates bilateral peripheral ground-glass opacities. The distribution and morphology of the infiltrates are highly suggestive of viral pneumonia, specifically COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "Linear, horizontal band-like opacities in the left lung base with associated elevation of the left hemidiaphragm. No obstructive mass visualized.",
+        "impression": "Discoid (plate-like) atelectasis in the left lower lobe.",
+        "predicted_label": "atelectasis"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.162131,
+          "normal": 0.010217,
+          "lung_cancer": 0.002839,
+          "covid_19": 0.219726,
+          "consolidation": 0.001031,
+          "pneumothorax": 0.12585,
+          "edema": 0.057157,
+          "atelectasis": 0.378315,
+          "tuberculosis": 0.042735
+        },
+        "predicted_label": "atelectasis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_019",
+    "true_label": "atelectasis",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.000643,
+          "normal": 0.000664,
+          "lung_cancer": 0.011369,
+          "covid_19": 0.535612,
+          "consolidation": 0.000637,
+          "pneumothorax": 0.00077,
+          "edema": 0.148784,
+          "atelectasis": 0.30049,
+          "tuberculosis": 0.001032
+        },
+        "predicted_label": "covid-19"
+      },
+      "llava_med": {
+        "response": "Computed tomography shows subpleural patchy ground-glass densities in both lung fields. Findings are characteristic of the pulmonary manifestations seen in COVID-19 infection.",
+        "predicted_label": "covid-19"
+      },
+      "medgemma": {
+        "findings": "Significant volume loss of the right upper lobe with upward displacement of the horizontal fissure. The trachea is slightly deviated to the right.",
+        "impression": "Right upper lobe collapse (atelectasis).",
+        "predicted_label": "atelectasis"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.053969,
+          "normal": 0.000957,
+          "lung_cancer": 0.000999,
+          "covid_19": 0.153273,
+          "consolidation": 0.022774,
+          "pneumothorax": 0.001115,
+          "edema": 0.001249,
+          "atelectasis": 0.763049,
+          "tuberculosis": 0.002615
+        },
+        "predicted_label": "atelectasis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_020",
+    "true_label": "atelectasis",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.008225,
+          "normal": 0.457848,
+          "lung_cancer": 0.026629,
+          "covid_19": 0.016051,
+          "consolidation": 0.17385,
+          "pneumothorax": 0.063743,
+          "edema": 0.003555,
+          "atelectasis": 0.029932,
+          "tuberculosis": 0.220167
+        },
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "Computed tomography demonstrates discoid atelectasis appearing as thin, horizontal bands of increased density. This indicates localized collapse of lung tissue, typically seen in restricted ventilation.",
+        "predicted_label": "atelectasis"
+      },
+      "medgemma": {
+        "findings": "Narrowing of the left lower lobe bronchus with associated wedge-shaped opacity extending to the periphery and compensatory hyperinflation of the left upper lobe.",
+        "impression": "Left lower lobe obstructive atelectasis.",
+        "predicted_label": "atelectasis"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.111096,
+          "normal": 0.002115,
+          "lung_cancer": 0.00516,
+          "covid_19": 0.001816,
+          "consolidation": 0.280003,
+          "pneumothorax": 0.595636,
+          "edema": 0.001592,
+          "atelectasis": 0.001196,
+          "tuberculosis": 0.001387
+        },
+        "predicted_label": "pneumothorax"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_021",
+    "true_label": "atelectasis",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.544909,
+          "normal": 0.000739,
+          "lung_cancer": 0.053301,
+          "covid_19": 0.219949,
+          "consolidation": 0.010334,
+          "pneumothorax": 0.00461,
+          "edema": 0.1415,
+          "atelectasis": 0.001169,
+          "tuberculosis": 0.02349
+        },
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "Axial CT section demonstrates a linear band of increased attenuation in the posterior lung base. The findings are consistent with plate-like atelectasis due to suboptimal inspiration.",
+        "predicted_label": "atelectasis"
+      },
+      "medgemma": {
+        "findings": "Linear band of increased attenuation in the right lower lobe with mild displacement of the oblique fissure. No evidence of a central endobronchial mass.",
+        "impression": "Plate-like atelectasis, likely subsegmental in nature.",
+        "predicted_label": "atelectasis"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.021314,
+          "normal": 0.00165,
+          "lung_cancer": 0.048322,
+          "covid_19": 0.030379,
+          "consolidation": 0.562673,
+          "pneumothorax": 0.235939,
+          "edema": 0.000801,
+          "atelectasis": 0.096294,
+          "tuberculosis": 0.002628
+        },
+        "predicted_label": "consolidation"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_022",
+    "true_label": "tuberculosis",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.039784,
+          "normal": 0.058999,
+          "lung_cancer": 0.364903,
+          "covid_19": 0.025529,
+          "consolidation": 0.003545,
+          "pneumothorax": 0.018821,
+          "edema": 0.00457,
+          "atelectasis": 0.007119,
+          "tuberculosis": 0.47673
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "llava_med": {
+        "response": "The image reveals a linear band of increased density with associated displacement of the adjacent fissure, indicating localized volume loss and atelectasis.",
+        "predicted_label": "atelectasis"
+      },
+      "medgemma": {
+        "findings": "Tree-in-bud opacities and centrilobular nodules noted in the right upper lobe. Small cavitary lesion identified in the apical segment.",
+        "impression": "Findings are highly suggestive of active pulmonary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.102666,
+          "normal": 0.002662,
+          "lung_cancer": 0.177957,
+          "covid_19": 0.001194,
+          "consolidation": 0.001057,
+          "pneumothorax": 0.008821,
+          "edema": 0.085004,
+          "atelectasis": 0.02878,
+          "tuberculosis": 0.591859
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_023",
+    "true_label": "tuberculosis",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.000833,
+          "normal": 0.380717,
+          "lung_cancer": 0.077211,
+          "covid_19": 0.006051,
+          "consolidation": 0.043121,
+          "pneumothorax": 0.001963,
+          "edema": 0.009538,
+          "atelectasis": 0.158046,
+          "tuberculosis": 0.32252
+        },
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "Axial CT section demonstrates a wedge-shaped area of collapse in the lung parenchyma. The findings are consistent with obstructive atelectasis.",
+        "predicted_label": "atelectasis"
+      },
+      "medgemma": {
+        "findings": "No evidence of fibro-nodular opacities, cavitary lesions, or architectural distortion. The mediastinal and hilar structures appear unremarkable.",
+        "impression": "Normal CT chest.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.027578,
+          "normal": 0.001237,
+          "lung_cancer": 0.008003,
+          "covid_19": 0.060485,
+          "consolidation": 0.005778,
+          "pneumothorax": 0.00515,
+          "edema": 0.102755,
+          "atelectasis": 0.361462,
+          "tuberculosis": 0.427551
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_024",
+    "true_label": "tuberculosis",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.264682,
+          "normal": 0.001822,
+          "lung_cancer": 0.001153,
+          "covid_19": 0.001523,
+          "consolidation": 0.000998,
+          "pneumothorax": 0.001043,
+          "edema": 0.634314,
+          "atelectasis": 0.093127,
+          "tuberculosis": 0.001339
+        },
+        "predicted_label": "edema"
+      },
+      "llava_med": {
+        "response": "The image demonstrates patchy consolidations and centrilobular nodules in a predominantly upper lobe distribution. Such findings are classically associated with mycobacterial infection.",
+        "predicted_label": "tuberculosis"
+      },
+      "medgemma": {
+        "findings": "Diffuse 'miliary' pattern with numerous tiny, well-defined nodules distributed uniformly throughout both lung fields. No significant pleural effusion.",
+        "impression": "Miliary tuberculosis.",
+        "predicted_label": "tuberculosis"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.440202,
+          "normal": 0.034369,
+          "lung_cancer": 0.202909,
+          "covid_19": 0.047551,
+          "consolidation": 0.059348,
+          "pneumothorax": 0.017442,
+          "edema": 0.041555,
+          "atelectasis": 0.005241,
+          "tuberculosis": 0.151383
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_025",
+    "true_label": "tuberculosis",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.063613,
+          "normal": 0.110651,
+          "lung_cancer": 0.02201,
+          "covid_19": 0.289297,
+          "consolidation": 0.448728,
+          "pneumothorax": 0.014446,
+          "edema": 0.008772,
+          "atelectasis": 0.035771,
+          "tuberculosis": 0.006714
+        },
+        "predicted_label": "consolidation"
+      },
+      "llava_med": {
+        "response": "CT scan identifies mediastinal lymphadenopathy and small nodular infiltrates. In a clinical context, these findings are suspicious for primary tuberculosis involvement.",
+        "predicted_label": "tuberculosis"
+      },
+      "medgemma": {
+        "findings": "The lung parenchyma is clear bilaterally. No necrotic lymphadenopathy or centrilobular nodules are identified on this section.",
+        "impression": "Unremarkable CT of the chest.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.339482,
+          "normal": 0.016854,
+          "lung_cancer": 0.275079,
+          "covid_19": 0.001072,
+          "consolidation": 0.000851,
+          "pneumothorax": 0.149482,
+          "edema": 0.173684,
+          "atelectasis": 0.007561,
+          "tuberculosis": 0.035934
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_026",
+    "true_label": "pneumothorax",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.213136,
+          "normal": 0.05976,
+          "lung_cancer": 0.020007,
+          "covid_19": 0.164352,
+          "consolidation": 0.094616,
+          "pneumothorax": 0.244128,
+          "edema": 0.014348,
+          "atelectasis": 0.107269,
+          "tuberculosis": 0.082385
+        },
+        "predicted_label": "pneumothorax"
+      },
+      "llava_med": {
+        "response": "The axial slice demonstrates dense, confluent parenchymal opacification with internal air bronchograms, characteristic of a bacterial pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "A thin visceral pleural line is visible in the right apex with an absence of lung markings peripherally. Estimated volume is approximately 15%.",
+        "impression": "Small right-sided apical pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.001532,
+          "normal": 0.00113,
+          "lung_cancer": 0.001087,
+          "covid_19": 0.259448,
+          "consolidation": 0.001081,
+          "pneumothorax": 0.561583,
+          "edema": 0.001251,
+          "atelectasis": 0.170827,
+          "tuberculosis": 0.002063
+        },
+        "predicted_label": "pneumothorax"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_027",
+    "true_label": "pneumothorax",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.008938,
+          "normal": 0.246642,
+          "lung_cancer": 0.01595,
+          "covid_19": 0.00307,
+          "consolidation": 0.013688,
+          "pneumothorax": 0.533122,
+          "edema": 0.128155,
+          "atelectasis": 0.004887,
+          "tuberculosis": 0.045547
+        },
+        "predicted_label": "pneumothorax"
+      },
+      "llava_med": {
+        "response": "Chest CT identifies a localized area of lung consolidation with ill-defined borders, suggestive of an acute infectious pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "Wedge-shaped area of increased attenuation in the left base with associated crowding of the bronchovascular markings and volume loss.",
+        "impression": "Left lower lobe atelectasis.",
+        "predicted_label": "atelectasis"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.011356,
+          "normal": 0.01639,
+          "lung_cancer": 0.00826,
+          "covid_19": 0.003286,
+          "consolidation": 0.337942,
+          "pneumothorax": 0.376956,
+          "edema": 0.002893,
+          "atelectasis": 0.224246,
+          "tuberculosis": 0.018672
+        },
+        "predicted_label": "pneumothorax"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_028",
+    "true_label": "pneumothorax",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.017642,
+          "normal": 0.172488,
+          "lung_cancer": 0.009244,
+          "covid_19": 0.004058,
+          "consolidation": 0.223754,
+          "pneumothorax": 0.023395,
+          "edema": 0.005291,
+          "atelectasis": 0.421745,
+          "tuberculosis": 0.122382
+        },
+        "predicted_label": "atelectasis"
+      },
+      "llava_med": {
+        "response": "Computed tomography reveals high-density infiltrates within the lung lobe. The presence of inflammatory changes is indicative of lobar pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "A solid, spiculated mass-like density is noted in the right lung apex with associated pleural tethering and suspicious marginal irregularity.",
+        "impression": "Findings highly suspicious for primary pulmonary malignancy (Lung Cancer).",
+        "predicted_label": "lung_cancer"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.340918,
+          "normal": 0.033325,
+          "lung_cancer": 0.001346,
+          "covid_19": 0.003016,
+          "consolidation": 0.152522,
+          "pneumothorax": 0.409596,
+          "edema": 0.018937,
+          "atelectasis": 0.001832,
+          "tuberculosis": 0.038508
+        },
+        "predicted_label": "pneumothorax"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_029",
+    "true_label": "pneumothorax",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.240125,
+          "normal": 0.01266,
+          "lung_cancer": 0.35888,
+          "covid_19": 0.077065,
+          "consolidation": 0.129543,
+          "pneumothorax": 0.158309,
+          "edema": 0.021422,
+          "atelectasis": 0.001051,
+          "tuberculosis": 0.000945
+        },
+        "predicted_label": "lung_cancer"
+      },
+      "llava_med": {
+        "response": "Axial section highlights the separation of the visceral and parietal pleura by air. The lung apex is notably displaced medially, confirming the presence of a pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "medgemma": {
+        "findings": "Presence of air within the pleural space along the anterior and lateral aspects of the left hemithorax. Minimal associated subcutaneous emphysema.",
+        "impression": "Left-sided pneumothorax with associated soft tissue gas.",
+        "predicted_label": "pneumothorax"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.60251,
+          "normal": 0.032588,
+          "lung_cancer": 0.065793,
+          "covid_19": 0.161613,
+          "consolidation": 0.004622,
+          "pneumothorax": 0.04923,
+          "edema": 0.003485,
+          "atelectasis": 0.077163,
+          "tuberculosis": 0.002997
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_030",
+    "true_label": "pneumothorax",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.012343,
+          "normal": 0.003499,
+          "lung_cancer": 0.538891,
+          "covid_19": 0.000966,
+          "consolidation": 0.001072,
+          "pneumothorax": 0.302224,
+          "edema": 0.0053,
+          "atelectasis": 0.001789,
+          "tuberculosis": 0.133916
+        },
+        "predicted_label": "lung_cancer"
+      },
+      "llava_med": {
+        "response": "CT scan shows apical air trapping in the pleural cavity. The clear demarcation of the lung border without distal vascular branching is indicative of a spontaneous pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "medgemma": {
+        "findings": "Symmetric expansion of both lung fields. No evidence of a visceral pleural line, mediastinal shift, or peripheral air is visualized.",
+        "impression": "Normal CT chest examination.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.00081,
+          "normal": 0.001613,
+          "lung_cancer": 0.001169,
+          "covid_19": 0.11905,
+          "consolidation": 0.64129,
+          "pneumothorax": 0.233301,
+          "edema": 0.000895,
+          "atelectasis": 0.000987,
+          "tuberculosis": 0.000885
+        },
+        "predicted_label": "consolidation"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_031",
+    "true_label": "edema",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.107524,
+          "normal": 0.001047,
+          "lung_cancer": 0.001217,
+          "covid_19": 0.059535,
+          "consolidation": 0.213546,
+          "pneumothorax": 0.034584,
+          "edema": 0.270367,
+          "atelectasis": 0.166305,
+          "tuberculosis": 0.145875
+        },
+        "predicted_label": "edema"
+      },
+      "llava_med": {
+        "response": "Axial CT scan shows dense, non-segmental opacification of the lung parenchyma. The morphology is diagnostic of pulmonary consolidation.",
+        "predicted_label": "consolidation"
+      },
+      "medgemma": {
+        "findings": "Diffuse bilateral ground-glass opacities with prominent interlobular septal thickening (Kerley B lines). The heart size is moderately enlarged.",
+        "impression": "Findings are highly suggestive of pulmonary edema, likely cardiogenic in origin.",
+        "predicted_label": "edema"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.00778,
+          "normal": 0.013822,
+          "lung_cancer": 0.136732,
+          "covid_19": 0.058123,
+          "consolidation": 0.27588,
+          "pneumothorax": 0.000692,
+          "edema": 0.501767,
+          "atelectasis": 0.002447,
+          "tuberculosis": 0.002757
+        },
+        "predicted_label": "edema"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_032",
+    "true_label": "edema",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.005419,
+          "normal": 0.001069,
+          "lung_cancer": 0.022647,
+          "covid_19": 0.055411,
+          "consolidation": 0.009209,
+          "pneumothorax": 0.002597,
+          "edema": 0.728222,
+          "atelectasis": 0.001276,
+          "tuberculosis": 0.17415
+        },
+        "predicted_label": "edema"
+      },
+      "llava_med": {
+        "response": "The image demonstrates confluent areas of high attenuation with visible air bronchograms, consistent with extensive lung consolidation.",
+        "predicted_label": "consolidation"
+      },
+      "medgemma": {
+        "findings": "Bilateral patchy air-space opacities with associated bronchial wall thickening. No significant Kerley lines or bat-wing distribution noted.",
+        "impression": "Multifocal bronchopneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.003766,
+          "normal": 0.002058,
+          "lung_cancer": 0.085002,
+          "covid_19": 0.174492,
+          "consolidation": 0.233624,
+          "pneumothorax": 0.001037,
+          "edema": 0.48958,
+          "atelectasis": 0.007569,
+          "tuberculosis": 0.002872
+        },
+        "predicted_label": "edema"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_033",
+    "true_label": "edema",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.155217,
+          "normal": 0.008469,
+          "lung_cancer": 0.015677,
+          "covid_19": 0.002647,
+          "consolidation": 0.005666,
+          "pneumothorax": 0.045627,
+          "edema": 0.037897,
+          "atelectasis": 0.029527,
+          "tuberculosis": 0.699274
+        },
+        "predicted_label": "tuberculosis"
+      },
+      "llava_med": {
+        "response": "Computed tomography identifies a solid, homogenous increase in lung density, diagnostic of parenchymal consolidation.",
+        "predicted_label": "consolidation"
+      },
+      "medgemma": {
+        "findings": "A thin, lucent line is visualized along the left lateral chest wall with an absence of lung markings peripherally in the apical region.",
+        "impression": "Small left-sided apical pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.232964,
+          "normal": 0.000837,
+          "lung_cancer": 0.00058,
+          "covid_19": 0.290673,
+          "consolidation": 0.000568,
+          "pneumothorax": 0.000525,
+          "edema": 0.467967,
+          "atelectasis": 0.005362,
+          "tuberculosis": 0.000523
+        },
+        "predicted_label": "edema"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_034",
+    "true_label": "edema",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.001002,
+          "normal": 0.015191,
+          "lung_cancer": 0.001289,
+          "covid_19": 0.001122,
+          "consolidation": 0.000907,
+          "pneumothorax": 0.691736,
+          "edema": 0.062703,
+          "atelectasis": 0.0032,
+          "tuberculosis": 0.222849
+        },
+        "predicted_label": "pneumothorax"
+      },
+      "llava_med": {
+        "response": "Axial section demonstrates diffuse parenchymal haziness and prominent kerley lines. These findings are characteristic of fluid overload and pulmonary congestion.",
+        "predicted_label": "edema"
+      },
+      "medgemma": {
+        "findings": "Bilateral patchy opacities with a predominantly central distribution. Smooth thickening of the fissures is observed.",
+        "impression": "Pulmonary alveolar edema.",
+        "predicted_label": "edema"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.090962,
+          "normal": 0.005536,
+          "lung_cancer": 0.063781,
+          "covid_19": 0.001401,
+          "consolidation": 0.534362,
+          "pneumothorax": 0.103295,
+          "edema": 0.013031,
+          "atelectasis": 0.002981,
+          "tuberculosis": 0.18465
+        },
+        "predicted_label": "consolidation"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_035",
+    "true_label": "edema",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.01699,
+          "normal": 0.090743,
+          "lung_cancer": 0.009936,
+          "covid_19": 0.014628,
+          "consolidation": 0.668337,
+          "pneumothorax": 0.000997,
+          "edema": 0.00113,
+          "atelectasis": 0.03189,
+          "tuberculosis": 0.165349
+        },
+        "predicted_label": "consolidation"
+      },
+      "llava_med": {
+        "response": "The scan reveals symmetric, gravity-dependent opacification in the posterior lung zones. The morphological appearance is consistent with acute pulmonary edema.",
+        "predicted_label": "edema"
+      },
+      "medgemma": {
+        "findings": "Peripheral, subpleural ground-glass opacities (GGO) noted bilaterally with a lower lobe predominance. Lung volumes are maintained.",
+        "impression": "Viral pneumonia, suspicious for COVID-19 infection.",
+        "predicted_label": "covid-19"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.001912,
+          "normal": 0.001299,
+          "lung_cancer": 0.649099,
+          "covid_19": 0.001422,
+          "consolidation": 0.007518,
+          "pneumothorax": 0.258237,
+          "edema": 0.077737,
+          "atelectasis": 0.001537,
+          "tuberculosis": 0.00124
+        },
+        "predicted_label": "lung_cancer"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_036",
+    "true_label": "pneumonia",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.507705,
+          "normal": 0.004771,
+          "lung_cancer": 0.001066,
+          "covid_19": 0.030357,
+          "consolidation": 0.055394,
+          "pneumothorax": 0.252941,
+          "edema": 0.083079,
+          "atelectasis": 0.063788,
+          "tuberculosis": 0.000899
+        },
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "Axial CT reveals a discrete soft tissue mass with irregular, spiculated borders in the lung field. The morphological features are suspicious for a primary bronchogenic malignancy.",
+        "predicted_label": "lung_cancer"
+      },
+      "medgemma": {
+        "findings": "Diffuse bilateral subpleural ground-glass opacities (GGO) identified, predominantly in the lower lobes. Lung volumes are maintained. No significant lobar consolidation.",
+        "impression": "Viral pneumonia, highly suggestive of the pattern seen in COVID-19.",
+        "predicted_label": "covid-19"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.483702,
+          "normal": 0.004451,
+          "lung_cancer": 0.001108,
+          "covid_19": 0.001894,
+          "consolidation": 0.036204,
+          "pneumothorax": 0.065038,
+          "edema": 0.293729,
+          "atelectasis": 0.110299,
+          "tuberculosis": 0.003577
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_037",
+    "true_label": "pneumonia",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.380396,
+          "normal": 0.148894,
+          "lung_cancer": 0.011234,
+          "covid_19": 0.294358,
+          "consolidation": 0.048489,
+          "pneumothorax": 0.006521,
+          "edema": 0.023316,
+          "atelectasis": 0.07266,
+          "tuberculosis": 0.014131
+        },
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "The image demonstrates a visible visceral pleural line with an absence of distal lung markings in the peripheral zone, consistent with a localized pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "medgemma": {
+        "findings": "Linear, band-like opacity noted in the right lower lobe with associated elevation of the right hemidiaphragm and slight crowding of the bronchi.",
+        "impression": "Findings consistent with subsegmental atelectasis.",
+        "predicted_label": "atelectasis"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.425088,
+          "normal": 0.018591,
+          "lung_cancer": 0.178126,
+          "covid_19": 0.01008,
+          "consolidation": 0.288698,
+          "pneumothorax": 0.001763,
+          "edema": 0.003043,
+          "atelectasis": 0.001325,
+          "tuberculosis": 0.073286
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_038",
+    "true_label": "pneumonia",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.356993,
+          "normal": 0.132221,
+          "lung_cancer": 0.01243,
+          "covid_19": 0.001737,
+          "consolidation": 0.003265,
+          "pneumothorax": 0.179688,
+          "edema": 0.216085,
+          "atelectasis": 0.002108,
+          "tuberculosis": 0.095473
+        },
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "Axial section shows air within the pleural space causing marginal collapse of the underlying lung parenchyma. This finding is diagnostic of a pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "medgemma": {
+        "findings": "Ill-defined area of consolidation in the apical segment of the left upper lobe. No significant volume loss or hilar deviation.",
+        "impression": "Focal infectious pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.431782,
+          "normal": 0.143791,
+          "lung_cancer": 0.001044,
+          "covid_19": 0.004942,
+          "consolidation": 0.240024,
+          "pneumothorax": 0.00169,
+          "edema": 0.113776,
+          "atelectasis": 0.06168,
+          "tuberculosis": 0.00127
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_039",
+    "true_label": "pneumonia",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.544316,
+          "normal": 0.007209,
+          "lung_cancer": 0.039767,
+          "covid_19": 0.027441,
+          "consolidation": 0.187209,
+          "pneumothorax": 0.122962,
+          "edema": 0.005988,
+          "atelectasis": 0.012206,
+          "tuberculosis": 0.052901
+        },
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "Computed tomography highlights a lucent area devoid of pulmonary vascular structures between the chest wall and the lung edge, confirming a pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "medgemma": {
+        "findings": "Subsegmental consolidation in the right lower lobe with mild reactive pleural thickening. No evidence of lung abscess or cavitation.",
+        "impression": "Acute pneumonia involving the right lower lobe.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.428465,
+          "normal": 0.014292,
+          "lung_cancer": 0.017103,
+          "covid_19": 0.004383,
+          "consolidation": 0.291437,
+          "pneumothorax": 0.000684,
+          "edema": 0.136619,
+          "atelectasis": 0.106245,
+          "tuberculosis": 0.000771
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_040",
+    "true_label": "pneumonia",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.66278,
+          "normal": 0.133101,
+          "lung_cancer": 0.182741,
+          "covid_19": 0.001136,
+          "consolidation": 0.002616,
+          "pneumothorax": 0.002338,
+          "edema": 0.001589,
+          "atelectasis": 0.008991,
+          "tuberculosis": 0.004706
+        },
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "The scan demonstrates subsegmental consolidation in the lower lobes. The morphology and clinical presentation are highly suggestive of a community-acquired pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "Bilateral basal consolidative opacities with air bronchograms. Minimal left-sided pleural effusion identified.",
+        "impression": "Bilateral basal pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.387083,
+          "normal": 0.014574,
+          "lung_cancer": 0.052048,
+          "covid_19": 0.319031,
+          "consolidation": 0.024056,
+          "pneumothorax": 0.043129,
+          "edema": 0.030339,
+          "atelectasis": 0.016277,
+          "tuberculosis": 0.113464
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_041",
+    "true_label": "pneumonia",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.377584,
+          "normal": 0.292384,
+          "lung_cancer": 0.002723,
+          "covid_19": 0.065658,
+          "consolidation": 0.00722,
+          "pneumothorax": 0.000831,
+          "edema": 0.229306,
+          "atelectasis": 0.005441,
+          "tuberculosis": 0.018854
+        },
+        "predicted_label": "pneumonia"
+      },
+      "llava_med": {
+        "response": "Axial CT section demonstrates an area of consolidative opacity in the right lower lobe with faint air bronchograms. The appearance is indicative of an acute bacterial pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "The lung parenchyma appears well-aerated bilaterally. No focal consolidations, air bronchograms, or suspicious pulmonary nodules are identified on this section.",
+        "impression": "Normal CT chest study.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.570607,
+          "normal": 0.001633,
+          "lung_cancer": 0.013521,
+          "covid_19": 0.001113,
+          "consolidation": 0.331789,
+          "pneumothorax": 0.010163,
+          "edema": 0.06444,
+          "atelectasis": 0.004815,
+          "tuberculosis": 0.001919
+        },
+        "predicted_label": "pneumonia"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_042",
+    "true_label": "pneumonia",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.001829,
+          "normal": 0.026804,
+          "lung_cancer": 0.001542,
+          "covid_19": 0.08299,
+          "consolidation": 0.133264,
+          "pneumothorax": 0.453479,
+          "edema": 0.001035,
+          "atelectasis": 0.000931,
+          "tuberculosis": 0.298125
+        },
+        "predicted_label": "pneumothorax"
+      },
+      "llava_med": {
+        "response": "The image reveals patchy ground-glass opacities and focal consolidation in the left lung. These findings suggest a multi-focal inflammatory process, consistent with pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "Patchy, ill-defined opacities are noted in the left lower lobe. No significant pleural effusion or hilar lymphadenopathy is identified.",
+        "impression": "Multifocal bronchopneumonia, left-sided.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.00177,
+          "normal": 0.003854,
+          "lung_cancer": 0.001298,
+          "covid_19": 0.00233,
+          "consolidation": 0.017569,
+          "pneumothorax": 0.001139,
+          "edema": 0.064407,
+          "atelectasis": 0.17067,
+          "tuberculosis": 0.736963
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_043",
+    "true_label": "pneumonia",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.191826,
+          "normal": 0.000936,
+          "lung_cancer": 0.001298,
+          "covid_19": 0.54831,
+          "consolidation": 0.001738,
+          "pneumothorax": 0.00546,
+          "edema": 0.001155,
+          "atelectasis": 0.24826,
+          "tuberculosis": 0.001016
+        },
+        "predicted_label": "covid-19"
+      },
+      "llava_med": {
+        "response": "Computed tomography shows localized parenchymal density and increased interstitial markings. The findings are characteristic of early-stage pneumonia or an atypical infectious process.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "A thin, lucent line is visualized along the right lateral chest wall with an absence of lung markings peripherally in the apical region. No mediastinal shift.",
+        "impression": "Small right-sided apical pneumothorax.",
+        "predicted_label": "pneumothorax"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.23069,
+          "normal": 0.00052,
+          "lung_cancer": 0.038575,
+          "covid_19": 0.147152,
+          "consolidation": 0.049557,
+          "pneumothorax": 0.014532,
+          "edema": 0.39426,
+          "atelectasis": 0.000717,
+          "tuberculosis": 0.123996
+        },
+        "predicted_label": "edema"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_044",
+    "true_label": "pneumonia",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.001375,
+          "normal": 0.001528,
+          "lung_cancer": 0.024222,
+          "covid_19": 0.284176,
+          "consolidation": 0.118769,
+          "pneumothorax": 0.437735,
+          "edema": 0.043231,
+          "atelectasis": 0.002851,
+          "tuberculosis": 0.086114
+        },
+        "predicted_label": "pneumothorax"
+      },
+      "llava_med": {
+        "response": "Axial section identifies a dense, wedge-shaped consolidative lesion. The morphology and pleural contact are highly suggestive of lobar pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "Dense, confluent area of air-space opacification involving the majority of the left lower lobe. The volume of the lobe appears maintained.",
+        "impression": "Lobar consolidation.",
+        "predicted_label": "consolidation"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.001357,
+          "normal": 0.100149,
+          "lung_cancer": 0.001186,
+          "covid_19": 0.281208,
+          "consolidation": 0.002902,
+          "pneumothorax": 0.005633,
+          "edema": 0.011933,
+          "atelectasis": 0.002027,
+          "tuberculosis": 0.593606
+        },
+        "predicted_label": "tuberculosis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_045",
+    "true_label": "pneumonia",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.128774,
+          "normal": 0.002444,
+          "lung_cancer": 0.219632,
+          "covid_19": 0.004067,
+          "consolidation": 0.006626,
+          "pneumothorax": 0.564619,
+          "edema": 0.001562,
+          "atelectasis": 0.071472,
+          "tuberculosis": 0.000804
+        },
+        "predicted_label": "pneumothorax"
+      },
+      "llava_med": {
+        "response": "CT scan identifies infiltrative opacities in the basal lung segments. The distribution and lack of volume loss support a diagnosis of community-acquired pneumonia.",
+        "predicted_label": "pneumonia"
+      },
+      "medgemma": {
+        "findings": "Subsegmental consolidation in the posterior segment of the left upper lobe. Remaining lung parenchyma is relatively clear.",
+        "impression": "Focal pneumonia, left upper lobe.",
+        "predicted_label": "pneumonia"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.11855,
+          "normal": 0.529094,
+          "lung_cancer": 0.001006,
+          "covid_19": 0.242807,
+          "consolidation": 0.062315,
+          "pneumothorax": 0.001081,
+          "edema": 0.041241,
+          "atelectasis": 0.002267,
+          "tuberculosis": 0.001639
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_046",
+    "true_label": "normal",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.002893,
+          "normal": 0.450596,
+          "lung_cancer": 0.085179,
+          "covid_19": 0.007411,
+          "consolidation": 0.066081,
+          "pneumothorax": 0.058025,
+          "edema": 0.001756,
+          "atelectasis": 0.199422,
+          "tuberculosis": 0.128637
+        },
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "Axial CT scan identifies a small, hyperdense nodular lesion in the right lung parenchyma. Given the marginal irregularity, further evaluation for malignancy is recommended.",
+        "predicted_label": "lung_cancer"
+      },
+      "medgemma": {
+        "findings": "The lung parenchyma is clear bilaterally without evidence of focal consolidation, masses, or suspicious nodules. Pleural spaces are empty.",
+        "impression": "Normal CT chest study.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.000934,
+          "normal": 0.455229,
+          "lung_cancer": 0.001518,
+          "covid_19": 0.00061,
+          "consolidation": 0.000504,
+          "pneumothorax": 0.204541,
+          "edema": 0.004454,
+          "atelectasis": 0.331659,
+          "tuberculosis": 0.000551
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_047",
+    "true_label": "normal",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.097582,
+          "normal": 0.462341,
+          "lung_cancer": 0.001081,
+          "covid_19": 0.128413,
+          "consolidation": 0.001205,
+          "pneumothorax": 0.001095,
+          "edema": 0.232796,
+          "atelectasis": 0.016065,
+          "tuberculosis": 0.059422
+        },
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "The image shows a focal soft tissue density mass in the hilar region. The presence of this lesion is highly suggestive of early-stage lung carcinoma.",
+        "predicted_label": "lung_cancer"
+      },
+      "medgemma": {
+        "findings": "No suspicious pulmonary opacities are identified. The mediastinal contours, heart size, and great vessels appear unremarkable.",
+        "impression": "Normal CT chest.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.000754,
+          "normal": 0.569493,
+          "lung_cancer": 0.01649,
+          "covid_19": 0.006232,
+          "consolidation": 0.051646,
+          "pneumothorax": 0.001388,
+          "edema": 0.263947,
+          "atelectasis": 0.079306,
+          "tuberculosis": 0.010745
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_048",
+    "true_label": "normal",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.052594,
+          "normal": 0.507653,
+          "lung_cancer": 0.260767,
+          "covid_19": 0.126424,
+          "consolidation": 0.003121,
+          "pneumothorax": 0.02913,
+          "edema": 0.004885,
+          "atelectasis": 0.001377,
+          "tuberculosis": 0.014048
+        },
+        "predicted_label": "normal"
+      },
+      "llava_med": {
+        "response": "Axial section demonstrates a localized pulmonary nodule with suspicious spiculated margins, warranting a workup for a primary lung neoplasm.",
+        "predicted_label": "lung_cancer"
+      },
+      "medgemma": {
+        "findings": "Lung volumes are preserved. No evidence of ground-glass opacities, septal thickening, or interstitial lung disease. Hilar regions are normal.",
+        "impression": "Unremarkable CT of the chest.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.19288,
+          "normal": 0.54704,
+          "lung_cancer": 0.126921,
+          "covid_19": 0.00102,
+          "consolidation": 0.003033,
+          "pneumothorax": 0.093591,
+          "edema": 0.001206,
+          "atelectasis": 0.003447,
+          "tuberculosis": 0.030863
+        },
+        "predicted_label": "normal"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_049",
+    "true_label": "normal",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.021122,
+          "normal": 0.007189,
+          "lung_cancer": 0.128202,
+          "covid_19": 0.094907,
+          "consolidation": 0.319127,
+          "pneumothorax": 0.000995,
+          "edema": 0.41563,
+          "atelectasis": 0.01113,
+          "tuberculosis": 0.001699
+        },
+        "predicted_label": "edema"
+      },
+      "llava_med": {
+        "response": "Axial section shows normal lung density and intact interlobar fissures. No suspicious mass or inflammatory infiltrate is detected. The study is unremarkable.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Clear lungs bilaterally. No pleural effusion or pneumothorax is present. Visualized osseous structures and soft tissues are within normal limits.",
+        "impression": "Normal thoracic CT.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.169205,
+          "normal": 0.276218,
+          "lung_cancer": 0.006088,
+          "covid_19": 0.079634,
+          "consolidation": 0.001689,
+          "pneumothorax": 0.125545,
+          "edema": 0.002175,
+          "atelectasis": 0.326432,
+          "tuberculosis": 0.013014
+        },
+        "predicted_label": "atelectasis"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_050",
+    "true_label": "normal",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.0623,
+          "normal": 0.073482,
+          "lung_cancer": 0.519739,
+          "covid_19": 0.20394,
+          "consolidation": 0.038376,
+          "pneumothorax": 0.007112,
+          "edema": 0.055087,
+          "atelectasis": 0.015433,
+          "tuberculosis": 0.024531
+        },
+        "predicted_label": "lung_cancer"
+      },
+      "llava_med": {
+        "response": "CT scan demonstrates a healthy pulmonary architecture. There is no evidence of interstitial lung disease or active parenchymal lesions. Findings represent a normal physiological state.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Parenchymal aeration is uniform. Trachea and major bronchi are patent. No enlarged mediastinal lymph nodes are visualized.",
+        "impression": "Normal CT chest examination.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.319637,
+          "normal": 0.001005,
+          "lung_cancer": 0.005018,
+          "covid_19": 0.578567,
+          "consolidation": 0.001079,
+          "pneumothorax": 0.000977,
+          "edema": 0.091318,
+          "atelectasis": 0.001133,
+          "tuberculosis": 0.001265
+        },
+        "predicted_label": "covid-19"
+      }
+    }
+  },
+  {
+    "image_id": "PK_CT_051",
+    "true_label": "normal",
+    "modality": "ct",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "pneumonia": 0.001149,
+          "normal": 0.385531,
+          "lung_cancer": 0.117074,
+          "covid_19": 0.003274,
+          "consolidation": 0.001088,
+          "pneumothorax": 0.001707,
+          "edema": 0.463499,
+          "atelectasis": 0.025374,
+          "tuberculosis": 0.001304
+        },
+        "predicted_label": "edema"
+      },
+      "llava_med": {
+        "response": "Axial CT scan of the chest reveals clear and well-aerated lung parenchyma. There are no signs of consolidative opacities, pleural effusion, or suspicious pulmonary nodules. The cardiac and mediastinal silhouettes are normal in size and configuration.",
+        "predicted_label": "normal"
+      },
+      "medgemma": {
+        "findings": "Bilateral pulmonary parenchyma is clear. Tracheobronchial tree is patent and of normal caliber. Heart size and mediastinal contours are within normal limits. No pleural thickening or effusion noted.",
+        "impression": "Normal thoracic CT examination.",
+        "predicted_label": "normal"
+      },
+      "unimedclip": {
+        "scores": {
+          "pneumonia": 0.240426,
+          "normal": 0.005219,
+          "lung_cancer": 0.602026,
+          "covid_19": 0.002294,
+          "consolidation": 0.001309,
+          "pneumothorax": 0.006363,
+          "edema": 0.001944,
+          "atelectasis": 0.011117,
+          "tuberculosis": 0.129302
+        },
+        "predicted_label": "lung_cancer"
+      }
+    }
+  }
+]

@@ -1,0 +1,2314 @@
+[
+  {
+    "image_id": "PK_MRI_001",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.324071,
+          "glioma": 0.171655,
+          "meningioma": 0.04169,
+          "pituitary": 0.462584
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "The coronal T1-weighted post-contrast MRI demonstrates a normal configuration of the sella turcica and suprasellar cistern. The pituitary gland appears unremarkable in size and signal intensity. No focal mass effect or abnormal enhancement is identified in the sellar region. The scan is unremarkable.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Heterogeneous intra-axial mass in the inferior frontal lobe. The lesion shows infiltrative margins and surrounding T2/FLAIR hyperintensity.",
+        "impression": "High-grade Glioma.",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.252201,
+          "glioma": 0.113236,
+          "pituitary": 0.550532,
+          "meningioma": 0.084031
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_002",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.102646,
+          "glioma": 0.240099,
+          "meningioma": 0.01578,
+          "pituitary": 0.641475
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "In this coronal post-contrast T1 MRI, a prominently enhancing extra-axial mass is noted in the region of the sella. The lesion appears broad-based and shows features suggestive of a dural-based attachment, potentially a diaphragm sellae meningioma. There is mild mass effect on the adjacent structures.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "Well-defined solid mass occupying the sella with moderate lateral expansion toward the cavernous sinuses. Signal intensity suggests solid tissue component.",
+        "impression": "Pituitary Macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.324376,
+          "glioma": 0.048549,
+          "pituitary": 0.395248,
+          "meningioma": 0.231827
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_003",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.021157,
+          "glioma": 0.321849,
+          "meningioma": 0.263497,
+          "pituitary": 0.393497
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "The image shows a coronal section of the brain highlighting the pituitary region. A well-defined, enhancing soft tissue mass is noted within the sella, extending into the suprasellar region. The lesion appears to displace the pituitary stalk. The morphology and location of the mass are characteristic of a pituitary adenoma.",
+        "predicted_label": "pituitary"
+      },
+      "medgemma": {
+        "findings": "Visualized brain parenchyma and sellar region appear unremarkable. No focal enhancement or space-occupying lesions detected.",
+        "impression": "Normal Brain MRI study.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.054513,
+          "glioma": 0.137345,
+          "pituitary": 0.469308,
+          "meningioma": 0.338834
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_004",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.30328,
+          "glioma": 0.135839,
+          "meningioma": 0.21858,
+          "pituitary": 0.3423
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "Coronal T1-weighted MRI with contrast reveals a circumscribed, enhancing lesion localized to the sella turcica. The mass shows moderate suprasellar extension, mildly elevating the optic chiasm. No significant invasion of the sphenoid sinus is observed. The radiological appearance is most consistent with a pituitary macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "medgemma": {
+        "findings": "Hyperintense cystic/solid lesion within the sella. The optic chiasm remains slightly superior to the mass margin with no clear compression.",
+        "impression": "Pituitary Adenoma; differential includes Rathke cleft cyst given cystic appearance.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.307317,
+          "glioma": 0.135823,
+          "pituitary": 0.394597,
+          "meningioma": 0.162263
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_005",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.025886,
+          "glioma": 0.217959,
+          "meningioma": 0.120867,
+          "pituitary": 0.635288
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "The coronal post-contrast image displays an enlarged sella turcica occupied by a solid, enhancing mass. There is superior extension reaching the level of the circle of Willis. The mass is relatively isointense to the gray matter with heterogeneous enhancement. The findings suggest a pituitary tumor, likely an adenoma.",
+        "predicted_label": "pituitary"
+      },
+      "medgemma": {
+        "findings": "Large sellar mass with significant vertical growth. The mass is \"snowman\" shaped due to constriction by the diaphragmatic opening.",
+        "impression": "Pituitary Macroadenoma with suprasellar extension.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.222688,
+          "glioma": 0.252186,
+          "pituitary": 0.391311,
+          "meningioma": 0.133816
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_006",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.040429,
+          "glioma": 0.304748,
+          "meningioma": 0.067616,
+          "pituitary": 0.587207
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "The coronal image shows the anatomy of the pituitary fossa to be within normal limits. There is no evidence of a space-occupying lesion or significant expansion of the sella turcica. The optic chiasm and cavernous sinuses appear normal. No intracranial abnormality is visualized in this slice.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Solid enhancing mass broad-based along the planum sphenoidale. The lesion appears separate from the pituitary gland.",
+        "impression": "Planum Sphenoidale Meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.284339,
+          "glioma": 0.228722,
+          "pituitary": 0.34926,
+          "meningioma": 0.137679
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_007",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.031356,
+          "glioma": 0.073956,
+          "meningioma": 0.22217,
+          "pituitary": 0.672518
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "The image reveals a significant enhancing mass centered in the sella turcica. There is upward expansion into the suprasellar cistern, causing slight compression of the overlying neural structures. The floor of the sella appears intact. The presentation is typical for a pituitary macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "medgemma": {
+        "findings": "Iso-intense mass filling the sella. Normal pituitary stalk is shifted slightly to the right. No evidence of bony erosion.",
+        "impression": "Pituitary Adenoma.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.035755,
+          "glioma": 0.073716,
+          "pituitary": 0.58527,
+          "meningioma": 0.305259
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_008",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.637366,
+          "glioma": 0.00673,
+          "meningioma": 0.24675,
+          "pituitary": 0.109154
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "This coronal T1-weighted contrast-enhanced image shows an intrasellar mass with vertical extension. The lesion is well-demarcated and shows a 'snowman' configuration as it passes through the diaphragma sellae. The diagnostic impression is a pituitary adenoma.",
+        "predicted_label": "pituitary"
+      },
+      "medgemma": {
+        "findings": "Well-circumscribed sellar mass with minimal suprasellar extension. The pituitary gland itself is compressed against the floor of the sella.",
+        "impression": "Pituitary Macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.376682,
+          "glioma": 0.11223,
+          "pituitary": 0.425004,
+          "meningioma": 0.086083
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_009",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.520979,
+          "glioma": 0.030893,
+          "meningioma": 0.05812,
+          "pituitary": 0.390007
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "The coronal MRI demonstrates an irregular, heterogeneously enhancing intra-axial lesion centered in the suprasellar region and extending into the hypothalamus. The infiltrative appearance and associated signal changes in the adjacent brain parenchyma are suspicious for a low-grade glioma or hypothalamic astrocytoma.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Heterogeneous sellar mass with focal areas of high signal on T1",
+        "impression": "suggesting possible micro-hemorrhage or proteinaceous fluid.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.053615,
+          "glioma": 0.372223,
+          "pituitary": 0.413972,
+          "meningioma": 0.16019
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_010",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.129796,
+          "glioma": 0.57329,
+          "meningioma": 0.230289,
+          "pituitary": 0.066624
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "The final coronal post-contrast image shows a solid enhancing lesion occupying the sella and extending into the suprasellar region. The mass effect on the optic chiasm is evident. The cavernous sinuses appear involved bilaterally. The overall appearance strongly supports the diagnosis of a pituitary adenoma.",
+        "predicted_label": "pituitary"
+      },
+      "medgemma": {
+        "findings": "Complex intra-axial enhancing lesion with central necrotic components. Associated with significant vasogenic edema.",
+        "impression": "High-grade Glioma (Glioblastoma).",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.222205,
+          "glioma": 0.069086,
+          "pituitary": 0.680343,
+          "meningioma": 0.028366
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_011",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.067117,
+          "glioma": 0.343781,
+          "meningioma": 0.556248,
+          "pituitary": 0.032854
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "The coronal T1-weighted contrast-enhanced MRI shows a well-defined, intensely enhancing mass within the sella turcica. There is moderate suprasellar extension with slight remodeling of the sellar floor. The optic chiasm is visualized superiorly and appears slightly elevated by the mass. Findings are consistent with a pituitary macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "medgemma": {
+        "findings": "Large, robustly enhancing sellar mass with superior convexity. Abuts the optic chiasm without definitive displacement on this slice. Lateral margins appear contained.",
+        "impression": "Pituitary Macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.185964,
+          "glioma": 0.550527,
+          "pituitary": 0.124698,
+          "meningioma": 0.13881
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_012",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.717091,
+          "glioma": 0.15892,
+          "meningioma": 0.097102,
+          "pituitary": 0.026887
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "A coronal post-contrast image reveals a well-defined, intensely enhancing mass localized to the sellar and suprasellar space. The lesion demonstrates a clear dural base along the planum sphenoidale, characteristic of a meningioma. Significant compression of the optic chiasm is noted.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "Large extra-axial enhancing mass noted in the suprasellar region. The lesion appears to have a broad dural attachment along the planum sphenoidale.",
+        "impression": "Suprasellar Meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.07298,
+          "glioma": 0.043398,
+          "pituitary": 0.386269,
+          "meningioma": 0.497353
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_013",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.246393,
+          "glioma": 0.190403,
+          "meningioma": 0.41809,
+          "pituitary": 0.145115
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "A coronal post-contrast MRI scan reveals an enlarged sella turcica containing an enhancing soft tissue mass. The lesion demonstrates vertical growth into the suprasellar space. No significant cystic components are identified within the mass. The imaging features are highly suggestive of a pituitary macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "medgemma": {
+        "findings": "Solid enhancing lesion filling the sella turcica. Slight deviation of the infundibulum to the right. No cavernous sinus invasion visualized.",
+        "impression": "Pituitary Macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.643885,
+          "glioma": 0.102273,
+          "pituitary": 0.231551,
+          "meningioma": 0.02229
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_014",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.030493,
+          "glioma": 0.221641,
+          "meningioma": 0.402418,
+          "pituitary": 0.345447
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "The image demonstrates a coronal T1-weighted sequence following gadolinium administration. A circumscribed enhancing lesion is present in the sellar region with suprasellar extension. The lesion is mildly heterogeneous in its enhancement pattern. The appearance is typical for a pituitary tumor, most likely an adenoma.",
+        "predicted_label": "pituitary"
+      },
+      "medgemma": {
+        "findings": "Uniformly enhancing mass within the sella. Gland is enlarged but remains primarily intrasellar. Preservation of the 'bright spot' on T1 is questionable.",
+        "impression": "Pituitary Adenoma.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.264346,
+          "glioma": 0.1119,
+          "pituitary": 0.056869,
+          "meningioma": 0.566884
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_015",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.08316,
+          "glioma": 0.415676,
+          "meningioma": 0.148497,
+          "pituitary": 0.352666
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "The coronal T1-weighted post-contrast MRI demonstrates normal signal characteristics of the pituitary gland. No focal enhancing mass or sellar enlargement is detected. The surrounding neurovascular structures are anatomically preserved. The study is negative for tumor pathology.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Intensely enhancing extra-axial mass in the suprasellar region with a broad dural base along the planum sphenoidale. Normal pituitary gland is obscured.",
+        "impression": "Suprasellar Meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.236083,
+          "glioma": 0.032408,
+          "pituitary": 0.30909,
+          "meningioma": 0.422419
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_016",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.016386,
+          "glioma": 0.110166,
+          "meningioma": 0.502178,
+          "pituitary": 0.37127
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "In this coronal MRI slice, an infiltrative enhancing mass is identified involving the optic chiasm and extending into the suprasellar region. The lack of clear demarcation from the brain tissue and the pattern of contrast uptake suggest an optic pathway glioma.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Large extra-axial mass broad-based along the cavernous sinus and sella. Uniform enhancement and sharp margins noted.",
+        "impression": "Meningioma of the cavernous sinus.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.12006,
+          "glioma": 0.180182,
+          "pituitary": 0.096577,
+          "meningioma": 0.603181
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_017",
+    "true_label": "pituitary",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.045344,
+          "glioma": 0.617376,
+          "meningioma": 0.272477,
+          "pituitary": 0.064803
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "In this coronal post-contrast section, a solid enhancing lesion is visualized localized to the pituitary fossa. The mass shows upward expansion and appears to mildly compress the floor of the third ventricle. The cavernous sinuses are not clearly invaded. This is consistent with a pituitary adenoma.",
+        "predicted_label": "pituitary"
+      },
+      "medgemma": {
+        "findings": "Small, well-defined sellar lesion. Superior margin remains well below the optic apparatus. Normal pituitary tissue is visible at the periphery.",
+        "impression": "Pituitary Microadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.733195,
+          "glioma": 0.153609,
+          "pituitary": 0.043251,
+          "meningioma": 0.069945
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_018",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.466969,
+          "glioma": 0.12238,
+          "meningioma": 0.343573,
+          "pituitary": 0.067078
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "The axial post-contrast MRI sequence shows a small, focal area of enhancement along the dural surface of the left hemisphere. The lesion is extra-axial and demonstrates a broad base against the calvarium, highly suggestive of a small, incidental meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "Axial FLAIR image demonstrates normal parenchymal signal. Ventricular system is appropriate for age. No space-occupying lesions or midline shift.",
+        "impression": "Normal Brain MRI study.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.470948,
+          "glioma": 0.097218,
+          "pituitary": 0.039373,
+          "meningioma": 0.392461
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_019",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.399402,
+          "glioma": 0.324234,
+          "meningioma": 0.217153,
+          "pituitary": 0.059211
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "Axial contrast-enhanced imaging demonstrates a suspicious, uniformly enhancing nodule along the right convexity. The lesion appears extra-axial and is intimately associated with the dura mater. These findings are characteristic of a small meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "Axial view shows preserved grey-white matter differentiation. No areas of restricted diffusion or abnormal FLAIR hyperintensity in the basal ganglia.",
+        "impression": "Unremarkable Brain MRI.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.542695,
+          "glioma": 0.144964,
+          "pituitary": 0.273585,
+          "meningioma": 0.038755
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_020",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.502599,
+          "glioma": 0.052092,
+          "meningioma": 0.256785,
+          "pituitary": 0.188524
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "The axial T1-weighted MRI shows a prominent ventricular system, potentially representing age-related atrophy or ex-vacuo changes, but no focal mass or tumor is identified. The parenchyma shows normal signal characteristics. There are no findings suggestive of an intracranial neoplasm in this slice.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Small, well-defined enhancing lesion along the right frontal convexity. Sharp interface with the underlying cortex.",
+        "impression": "Small Convexity Meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.366515,
+          "glioma": 0.289565,
+          "pituitary": 0.087307,
+          "meningioma": 0.256613
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_021",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.55146,
+          "glioma": 0.139928,
+          "meningioma": 0.230324,
+          "pituitary": 0.078288
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "The axial FLAIR MRI sequence shows diffuse signal hyperintensity within the periventricular white matter, which may be related to small vessel ischemic changes or leukoencephalopathy. However, no focal intracranial mass or tumor is identified. The ventricles are symmetric and the midline is preserved.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Axial FLAIR shows bilateral, confluent periventricular white matter hyperintensities. No focal mass lesion or midline shift noted.",
+        "impression": "Significant small vessel ischemic disease or leukoaraiosis. No evidence of intracranial neoplasm.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.497001,
+          "glioma": 0.108019,
+          "pituitary": 0.261917,
+          "meningioma": 0.133064
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_022",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.381933,
+          "glioma": 0.116653,
+          "meningioma": 0.180159,
+          "pituitary": 0.321255
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "In this axial susceptibility-weighted or T2* gradient-echo image, multiple small punctate hypointensities (signal voids) are noted, likely representing microhemorrhages or calcifications. No large space-occupying lesion or neoplastic process is visualized. The overall brain architecture remains intact.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Susceptibility-weighted imaging (SWI) reveals multiple punctate foci of signal loss ('blooms') scattered throughout the basal ganglia and thalamus.",
+        "impression": "Chronic microhemorrhages, likely secondary to hypertensive angiopathy.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.547655,
+          "glioma": 0.004878,
+          "pituitary": 0.158252,
+          "meningioma": 0.289216
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_023",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.406287,
+          "glioma": 0.110988,
+          "meningioma": 0.329065,
+          "pituitary": 0.15366
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "The axial T2-weighted MRI demonstrates a focal area of thickening and enhancement along the dural surface of the right hemisphere. The lesion is extra-axial and appears to have a broad base against the calvarium. These features are characteristic of a small, incidental meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "T2-weighted axial image shows normal ventricular size and preserved sulcal pattern. No abnormal parenchymal signal or space-occupying lesions.",
+        "impression": "Normal intracranial study.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.647745,
+          "glioma": 0.14832,
+          "pituitary": 0.198365,
+          "meningioma": 0.00557
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_024",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.606906,
+          "glioma": 0.254395,
+          "meningioma": 0.087897,
+          "pituitary": 0.050802
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "An axial T2-weighted image shows a clear view of the lateral ventricles and cortical sulci. There is no evidence of a primary or metastatic brain tumor. The gray-white matter differentiation is well-preserved, and no vasogenic edema is observed.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Symmetric appearance of the brain parenchyma. The grey-white matter junction is well-demarcated. Ventricles are non-dilated.",
+        "impression": "Unremarkable Brain MRI.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.592527,
+          "glioma": 0.283804,
+          "pituitary": 0.074351,
+          "meningioma": 0.049318
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_025",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.578549,
+          "glioma": 0.090662,
+          "meningioma": 0.01843,
+          "pituitary": 0.312359
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "The axial T1-weighted post-contrast MRI scan shows no pathological enhancement in the parenchyma. The ventricular system appears mildly prominent, possibly due to involutional changes, but no focal mass lesion is identified in the visualized sections.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "T1-weighted post-contrast image shows a well-defined, non-enhancing cystic lesion in the region of the third ventricle/foramen of Monro.",
+        "impression": "Colloid cyst of the third ventricle. While technically a 'cyst' rather than a malignant tumor, it is a significant finding.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.580666,
+          "glioma": 0.221692,
+          "pituitary": 0.160104,
+          "meningioma": 0.037538
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_026",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.353663,
+          "glioma": 0.204658,
+          "meningioma": 0.266036,
+          "pituitary": 0.175644
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "The axial T2-weighted image reveals prominent Virchow-Robin spaces or mild chronic white matter changes, but no evidence of a neoplastic process. There is no midline shift or herniation. The study is negative for an intracranial mass.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Prominent perivascular spaces (Virchow-Robin spaces) noted in the basal ganglia. No edema or mass effect.",
+        "impression": "Benign enlarged perivascular spaces. No evidence of tumor.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.535872,
+          "glioma": 0.049537,
+          "pituitary": 0.16208,
+          "meningioma": 0.252511
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_027",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.360753,
+          "glioma": 0.170078,
+          "meningioma": 0.263705,
+          "pituitary": 0.205464
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "The axial non-contrast CT image demonstrates multiple hyperdense foci throughout the parenchyma, which may represent calcified granulomas or sequelae of a prior infectious process like neurocysticercosis. No acute intracranial hemorrhage or tumor mass is identified.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Non-contrast CT head shows multiple small, hyperdense calcified lesions scattered parenchymally.",
+        "impression": "Sequelae of neurocysticercosis (calcified stage). No acute mass effect or edema.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.572069,
+          "glioma": 0.144454,
+          "pituitary": 0.087609,
+          "meningioma": 0.195868
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_028",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.058117,
+          "glioma": 0.51642,
+          "meningioma": 0.257038,
+          "pituitary": 0.168426
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "In this axial T1-weighted contrast-enhanced image, there are scattered punctate enhancing foci which may be vascular or inflammatory in nature. However, no dominant mass lesion or features of a high-grade glioma are present. The ventricles appear normal.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "T1 post-contrast axial view shows multiple tiny, enhancing 'specks' without significant surrounding vasogenic edema.",
+        "impression": "Differential includes miliary granulomatous disease (e.g., Tuberculosis) or CNS vasculitis. No large solid tumor mass.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.335956,
+          "glioma": 0.08997,
+          "pituitary": 0.568827,
+          "meningioma": 0.005247
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_029",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.219072,
+          "glioma": 0.010569,
+          "meningioma": 0.68813,
+          "pituitary": 0.082229
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "The axial T1-weighted MRI at the level of the brainstem shows an area of subtle signal abnormality and mild expansion of the left temporal lobe. The infiltrative appearance and lack of clear demarcation from the surrounding parenchyma are suspicious for a low-grade glioma.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Well-circumscribed, intensely enhancing extra-axial mass broad-based along the dura. 'Dural tail' sign noted.",
+        "impression": "Convexity Meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.258987,
+          "glioma": 0.509451,
+          "pituitary": 0.095611,
+          "meningioma": 0.13595
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_030",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.268444,
+          "glioma": 0.434103,
+          "meningioma": 0.222101,
+          "pituitary": 0.075352
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "The axial non-contrast CT scan shows a hypodense area in the right hemisphere which may suggest a chronic infarct or encephalomalacia. There is no evidence of an acute mass effect, midline shift, or a brain tumor. The ventricular system is stable.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Non-contrast CT head shows an area of low attenuation in the right frontoparietal region with loss of sulcal definition.",
+        "impression": "Acute to subacute ischemic infarct in the right MCA territory. No intracranial hemorrhage or tumor.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.113336,
+          "glioma": 0.575794,
+          "pituitary": 0.239874,
+          "meningioma": 0.070995
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_031",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.002203,
+          "glioma": 0.18641,
+          "meningioma": 0.105787,
+          "pituitary": 0.7056
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "The sagittal T1-weighted MRI shows a normal midline profile of the brain. The corpus callosum, brainstem, and cerebellum appear anatomically intact. The sella turcica is normal in size and the pituitary gland is well-visualized without evidence of a mass. No intracranial tumor is identified in this plane.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Discrete area of dural thickening and enhancement along the left parietal convexity. 'Dural tail' sign is present.",
+        "impression": "Convexity Meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.066185,
+          "glioma": 0.612819,
+          "pituitary": 0.242014,
+          "meningioma": 0.078982
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_032",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.144815,
+          "glioma": 0.500766,
+          "meningioma": 0.05714,
+          "pituitary": 0.297278
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "Axial T1-weighted imaging demonstrates clear gray-white matter differentiation. The cortical sulci and ventricular system are symmetric and appropriate for age. There is no evidence of focal mass effect, midline shift, or abnormal signal intensity. The study is negative for an intracranial neoplasm.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Solid enhancing mass occupying the sella turcica with mild superior convexity. The optic chiasm is slightly elevated.",
+        "impression": "Pituitary Macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.086893,
+          "glioma": 0.309693,
+          "pituitary": 0.159767,
+          "meningioma": 0.443647
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_033",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.124755,
+          "glioma": 0.311608,
+          "meningioma": 0.029733,
+          "pituitary": 0.533904
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "The sagittal T1-weighted image reveals a subtle enlargement of the pituitary gland within the sella turcica. There is evidence of mild superior convexity of the gland, which may represent a small pituitary microadenoma despite the lack of significant mass effect.",
+        "predicted_label": "pituitary"
+      },
+      "medgemma": {
+        "findings": "Sagittal view shows preserved pre-pontine cistern and normal cranio-cervical junction. No evidence of disc herniation or spinal canal stenosis at the visualized levels.",
+        "impression": "Normal midline neuro anatomy.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.118718,
+          "glioma": 0.174593,
+          "pituitary": 0.241862,
+          "meningioma": 0.464827
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_034",
+    "true_label": "no_tumor",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.28188,
+          "glioma": 0.202384,
+          "meningioma": 0.498132,
+          "pituitary": 0.017603
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "The sagittal T1-weighted MRI demonstrates a normal configuration of the cerebral hemispheres and posterior fossa structures. The flow voids of the major intracranial arteries appear normal. There is no evidence of a brain tumor or abnormal mass lesion in the visualized midline structures.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Small, well-circumscribed enhancing nodule along the anterior falx cerebri. Minimal mass effect on adjacent frontal gyri.",
+        "impression": "Falcine Meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.342065,
+          "glioma": 0.069656,
+          "pituitary": 0.129363,
+          "meningioma": 0.458917
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_035",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.220637,
+          "glioma": 0.12577,
+          "meningioma": 0.506669,
+          "pituitary": 0.146924
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "Coronal T1-weighted post-contrast MRI reveals a large, heterogeneously enhancing intra-axial mass in the right frontal region. The lesion appears to infiltrate the adjacent white matter and is surrounded by a prominent zone of vasogenic edema. The appearance is highly suspicious for a high-grade glioma.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Large, well-circumscribed, extra-axial mass in the right parietal region. The lesion is broad-based along the falx/dura and shows uniform, intense enhancement.",
+        "impression": "Large Falcine Meningioma with moderate compression of the adjacent brain parenchyma.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.020805,
+          "glioma": 0.101845,
+          "pituitary": 0.166532,
+          "meningioma": 0.710819
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_036",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.021461,
+          "glioma": 0.235447,
+          "meningioma": 0.665388,
+          "pituitary": 0.077704
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "In this coronal post-contrast image, an irregular, enhancing intra-axial lesion is noted centered over the right cerebral hemisphere. The lesion demonstrates internal necrotic components and significant mass effect on the right ventricle, characteristic of a glioblastoma multiforme.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Heterogeneously enhancing intra-axial mass with irregular borders and internal necrotic areas. Significant surrounding edema is present.",
+        "impression": "High-grade Glioma (Glioblastoma).",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.07298,
+          "glioma": 0.260313,
+          "pituitary": 0.027769,
+          "meningioma": 0.638939
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_037",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.070422,
+          "glioma": 0.19431,
+          "meningioma": 0.476254,
+          "pituitary": 0.259014
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "The coronal T1-weighted contrast MRI demonstrates normal intracranial anatomy. No focal mass effect or abnormal dural enhancement is identified in the subfalcine region. The surrounding brain parenchyma and ventricular system are unremarkable. The scan is negative for tumor.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Complex intra-axial lesion with prominent peritumoral edema and loss of grey-white matter differentiation.",
+        "impression": "Glioma.",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.024234,
+          "glioma": 0.416355,
+          "pituitary": 0.095665,
+          "meningioma": 0.463746
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_038",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.057148,
+          "glioma": 0.304418,
+          "meningioma": 0.496392,
+          "pituitary": 0.142042
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "The image shows a coronal section following contrast administration. A globular, strongly enhancing extra-axial lesion is noted along the superior aspect of the falx cerebri. The lesion shows a 'dural tail' sign at its margin. The morphology and enhancement pattern support a diagnosis of meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "Well-defined, globular enhancing mass arising from the falx. The lesion is sharply demarcated from the underlying brain tissue.",
+        "impression": "Falcine Meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.331227,
+          "glioma": 0.065562,
+          "pituitary": 0.23579,
+          "meningioma": 0.367421
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_039",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.071316,
+          "glioma": 0.271329,
+          "meningioma": 0.490035,
+          "pituitary": 0.167321
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "Coronal post-gadolinium T1 MRI reveals a circumscribed, enhancing mass attached to the falx. The lesion is causing mild displacement of the adjacent cingulate gyrus. The intense and homogeneous enhancement is typical for a meningioma. No evidence of calvarial invasion is seen in this slice.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "Contrast-enhancing extra-axial mass located in the left frontal parasagittal region. Classic appearance of a benign meningeal tumor.",
+        "impression": "Parasagittal Meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.088361,
+          "glioma": 0.162405,
+          "pituitary": 0.282731,
+          "meningioma": 0.466503
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_040",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.08149,
+          "glioma": 0.2612,
+          "meningioma": 0.517885,
+          "pituitary": 0.139426
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "The final coronal image reveals a large, heterogeneously enhancing intra-axial mass in the right frontal lobe. The lesion shows infiltrative margins and exerts significant mass effect on the underlying white matter. The radiological presentation is highly indicative of a malignant glioma.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Large, intensely enhancing right-sided extra-axial mass with a broad dural base. Displaces the midline structures slightly to the left.",
+        "impression": "Meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.004617,
+          "glioma": 0.414901,
+          "pituitary": 0.04784,
+          "meningioma": 0.532642
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_041",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.30156,
+          "glioma": 0.137801,
+          "meningioma": 0.074543,
+          "pituitary": 0.486097
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "Coronal T1-weighted post-contrast MRI demonstrates a well-defined, intensely and homogeneously enhancing mass in the right frontal convexity. The lesion is extra-axial with a broad base against the calvarium. Significant mass effect on the right frontal lobe is observed, along with a thin rim of perilesional edema. This is highly suggestive of a meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "Solid enhancing mass within the sella turcica showing vertical extension into the suprasellar cistern.",
+        "impression": "Pituitary Macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.093419,
+          "glioma": 0.026972,
+          "pituitary": 0.244503,
+          "meningioma": 0.635106
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_042",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.226231,
+          "glioma": 0.072069,
+          "meningioma": 0.182463,
+          "pituitary": 0.519237
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "The image shows a coronal section following gadolinium administration. A small, enhancing extra-axial nodule is noted along the left parietal convexity. The lesion exhibits features of a small meningioma, including a dural-based attachment and uniform enhancement. No significant mass effect is seen at this size.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "Heterogeneous enhancement noted within the brain parenchyma. The lesion lacks a sharp interface with the cortex and shows infiltrative edges.",
+        "impression": "High-grade Glioma.",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.458781,
+          "glioma": 0.089016,
+          "pituitary": 0.205407,
+          "meningioma": 0.246796
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_043",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.755998,
+          "glioma": 0.173051,
+          "meningioma": 0.013754,
+          "pituitary": 0.057197
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "In this coronal post-contrast MRI, a large, intensely enhancing mass is centered in the sella turcica with significant suprasellar extension. The lesion appears to arise from the pituitary fossa and elevates the optic chiasm. The findings are characteristic of a pituitary macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "medgemma": {
+        "findings": "Intensely enhancing mass centered in the sellar region. The lesion causes sella expansion and superiorly abuts the optic chiasm.",
+        "impression": "Pituitary Macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.29335,
+          "glioma": 0.22462,
+          "pituitary": 0.354903,
+          "meningioma": 0.127127
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_044",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.091848,
+          "glioma": 0.207315,
+          "meningioma": 0.109942,
+          "pituitary": 0.590896
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "The coronal T1-weighted contrast image reveals an enhancing mass localized to the sellar and suprasellar region. The lesion demonstrates expansion of the sella turcica and vertical growth reaching the level of the third ventricle. This is indicative of a pituitary tumor, likely an adenoma.",
+        "predicted_label": "pituitary"
+      },
+      "medgemma": {
+        "findings": "Irregularly enhancing infiltrative lesion in the right frontal lobe. The margins are ill-defined and appear to invade the parenchyma.",
+        "impression": "High-grade Glioma.",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.023387,
+          "glioma": 0.588355,
+          "pituitary": 0.3459,
+          "meningioma": 0.042358
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_045",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.127914,
+          "glioma": 0.624323,
+          "meningioma": 0.172914,
+          "pituitary": 0.074849
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "Coronal post-contrast MRI demonstrates a well-circumscribed, intensely enhancing mass localized to the right cavernous sinus and parasellar region. The lesion appears to encase the cavernous segment of the right internal carotid artery without significant luminal narrowing. These features are consistent with a parasellar meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "Visualized cranial structures demonstrate preserved grey-white matter differentiation. No significant enhancement or mass effect detected.",
+        "impression": "Unremarkable Brain MRI.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.644028,
+          "glioma": 0.069876,
+          "pituitary": 0.081235,
+          "meningioma": 0.204861
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_046",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.03871,
+          "glioma": 0.695132,
+          "meningioma": 0.055356,
+          "pituitary": 0.210803
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "The image reveals a heterogeneously enhancing intra-axial mass arising from the right temporal region. The lesion demonstrates poorly defined margins and appears to infiltrate the adjacent brain tissue. These findings are consistent with an aggressive gliomatous process.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Irregularly enhancing infiltrative lesion involving the right temporal-parietal cortex. No clear dural attachment visualized.",
+        "impression": "Infiltrative High-grade Glioma.",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.07669,
+          "glioma": 0.608617,
+          "pituitary": 0.216677,
+          "meningioma": 0.098016
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_047",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.139868,
+          "glioma": 0.178609,
+          "meningioma": 0.220261,
+          "pituitary": 0.461262
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "In this coronal section, an intensely enhancing lesion is noted in the right parasellar region, extending toward the suprasellar cistern. The mass is well-defined and demonstrates a broad dural base. The diagnostic impression is a meningioma, possibly involving the cavernous sinus.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "Sellar and parasellar enhancing mass extending into the right cavernous sinus. Distinct from the pituitary gland.",
+        "impression": "Meningioma of the cavernous sinus/sellar region.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.232101,
+          "glioma": 0.680932,
+          "pituitary": 0.063783,
+          "meningioma": 0.023185
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_048",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.180843,
+          "glioma": 0.090586,
+          "meningioma": 0.048563,
+          "pituitary": 0.680007
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "Coronal T1-weighted post-contrast MRI shows a large, heterogeneously enhancing intra-axial mass in the right posterior fossa. The lesion appears to infiltrate the cerebellar parenchyma and shows irregular margins. Significant mass effect on the fourth ventricle is noted, suggestive of a high-grade glioma.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Large, intensely enhancing mass in the right posterior fossa, broad-based against the tentorium cerebelli.",
+        "impression": "Tentorial Meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.124727,
+          "glioma": 0.172871,
+          "pituitary": 0.607841,
+          "meningioma": 0.094561
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_049",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.204468,
+          "glioma": 0.65599,
+          "meningioma": 0.052934,
+          "pituitary": 0.086608
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "The image demonstrates a normal configuration of the tentorium and posterior fossa structures. No focal enhancing mass or space-occupying lesion is identified in the right cerebellar region. The brainstem and surrounding cisterns appear unremarkable. The scan is negative for tumor.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Intracranial structures are unremarkable. No focal enhancement or space-occupying lesions detected in the visualized posterior fossa slices.",
+        "impression": "Normal Brain MRI study.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.112947,
+          "glioma": 0.039578,
+          "pituitary": 0.600976,
+          "meningioma": 0.246499
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_050",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.211501,
+          "glioma": 0.134221,
+          "meningioma": 0.305275,
+          "pituitary": 0.349003
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "The final coronal image reveals an irregular, enhancing intra-axial mass in the right cerebellum. The lesion shows internal areas of non-enhancement and is surrounded by vasogenic edema. The infiltrative appearance and mass effect on the midline are characteristic of a malignant gliomatous process.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Solid enhancing mass centered in the sellar region with significant vertical expansion. The lesion appears separate from the cerebellar hemispheres.",
+        "impression": "Pituitary Macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.680179,
+          "glioma": 0.175162,
+          "pituitary": 0.084331,
+          "meningioma": 0.060328
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_051",
+    "true_label": "meningioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.055287,
+          "glioma": 0.220191,
+          "meningioma": 0.043448,
+          "pituitary": 0.681075
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "Coronal post-contrast T1 MRI demonstrates an irregular, heterogeneously enhancing mass centered in the right posterior fossa. The lesion appears to arise from within the cerebellar tissue rather than the dural surface. The morphology and enhancement pattern are suspicious for an aggressive glioma.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Heterogeneous intra-axial mass in the left cerebellar hemisphere with irregular enhancement and surrounding vasogenic edema.",
+        "impression": "High-grade Glioma.",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.100418,
+          "glioma": 0.681255,
+          "pituitary": 0.152649,
+          "meningioma": 0.065679
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_052",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.262758,
+          "glioma": 0.358964,
+          "meningioma": 0.306953,
+          "pituitary": 0.071325
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "In this coronal post-gadolinium MRI, a well-circumscribed, intensely enhancing extra-axial mass is noted in the right temporal region. The lesion shows a broad dural attachment and a 'dural tail' sign at its superior margin. These features are classic for a convexity meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "No significant areas of abnormal signal intensity or focal enhancement. Ventricular system is appropriate for age.",
+        "impression": "Unremarkable Brain MRI.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.079896,
+          "glioma": 0.644695,
+          "pituitary": 0.204542,
+          "meningioma": 0.070866
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_053",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.215394,
+          "glioma": 0.386216,
+          "meningioma": 0.344655,
+          "pituitary": 0.053735
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "The image reveals a solid, intensely enhancing mass localized to the right cerebral convexity. The lesion is sharply demarcated from the underlying brain parenchyma and appears to be extra-axial in nature. The radiological findings are highly suggestive of a meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "Intensely enhancing mass centered within the sella turcica, causing expansion of the sella floor and lateral deviation of the cavernous sinuses.",
+        "impression": "Pituitary Macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.007241,
+          "glioma": 0.434571,
+          "pituitary": 0.226014,
+          "meningioma": 0.332174
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_054",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.180837,
+          "glioma": 0.394772,
+          "meningioma": 0.287858,
+          "pituitary": 0.136533
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "Coronal T1-weighted contrast MRI shows an enhancing mass localized to the sellar and suprasellar region. The lesion demonstrates expansion of the sella turcica and vertical growth reaching the level of the optic chiasm. This is indicative of a pituitary macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "medgemma": {
+        "findings": "Faintly enhancing, ill-defined lesion in the right temporal lobe. Significant cortical expansion and blurring of grey-white differentiation.",
+        "impression": "Lower-grade vs. early high-grade glioma.",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.109089,
+          "glioma": 0.619665,
+          "pituitary": 0.068774,
+          "meningioma": 0.202472
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_055",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.114292,
+          "glioma": 0.565238,
+          "meningioma": 0.220505,
+          "pituitary": 0.099964
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "A coronal post-contrast section demonstrates a deeply seated, irregularly enhancing intra-axial mass in the right periventricular region. The lesion shows internal areas of non-enhancement, likely representing necrosis. There is substantial surrounding edema and narrowing of the ipsilateral ventricle, consistent with a high-grade glioma.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Ring-enhancing intra-axial lesion in the deep right frontal lobe. The wall is irregular and thick; central necrosis is prominent.",
+        "impression": "High-grade glioma (Glioblastoma).",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.11771,
+          "glioma": 0.435898,
+          "pituitary": 0.39181,
+          "meningioma": 0.054583
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_056",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.306049,
+          "glioma": 0.433679,
+          "meningioma": 0.19132,
+          "pituitary": 0.068951
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "The image displays a large, cystic-appearing intra-axial lesion in the left frontal lobe with an irregular, thick enhancing rim. The lesion is surrounded by a broad area of vasogenic edema. The internal carotid arteries are displaced but not encased. The radiological presentation is classic for a glioblastoma multiforme.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Large, complex cystic and solid enhancing mass in the right hemisphere. Significant midline shift to the left (approx. 8mm) and subfalcine herniation.",
+        "impression": "Glioblastoma Multiforme with critical mass effect.",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.209876,
+          "glioma": 0.484469,
+          "pituitary": 0.006466,
+          "meningioma": 0.299189
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_057",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.430318,
+          "glioma": 0.483031,
+          "meningioma": 0.015462,
+          "pituitary": 0.071189
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "In this coronal post-contrast MRI, a small, well-defined enhancing extra-axial nodule is visualized along the left temporal convexity. The lesion demonstrates a clear dural base and uniform contrast uptake. The appearance is consistent with a small incidental meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "Small, ring-enhancing lesion in the left occipital lobe. Surrounding hyperintensity suggests vasogenic edema. Differential includes metastasis.",
+        "impression": "High-grade glioma; cannot exclude solitary metastasis.",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.086201,
+          "glioma": 0.638338,
+          "pituitary": 0.24435,
+          "meningioma": 0.03111
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_058",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.073322,
+          "glioma": 0.634549,
+          "meningioma": 0.065727,
+          "pituitary": 0.226403
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "The coronal image shows a large, infiltrative, heterogeneously enhancing mass involving the left insular cortex and temporal lobe. The lesion is poorly demarcated from the surrounding brain and shows significant mass effect on the basal ganglia. This is characteristic of an aggressive gliomatous process.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Extensive, infiltrative enhancing mass involving the right insula and basal ganglia. The lesion crosses the white matter tracts with significant mass effect.",
+        "impression": "High-grade infiltrative glioma.",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.185509,
+          "glioma": 0.383141,
+          "pituitary": 0.309028,
+          "meningioma": 0.122322
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_059",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.277347,
+          "glioma": 0.42648,
+          "meningioma": 0.059885,
+          "pituitary": 0.236287
+        },
+        "predicted_label": "glioma"
+      },
+      "llava_med": {
+        "response": "Coronal T1-weighted post-contrast MRI reveals a thick-walled, ring-enhancing mass in the left frontal lobe. The central portion of the mass is non-enhancing, consistent with central necrosis. Extensive perilesional edema is present, causing significant sulcal effacement. The findings are highly suggestive of a high-grade glioma.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Large, thick-walled ring-enhancing lesion in the left frontal lobe. Significant peritumoral edema and compression of the left lateral ventricle.",
+        "impression": "Glioblastoma.",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.406924,
+          "glioma": 0.466446,
+          "pituitary": 0.113738,
+          "meningioma": 0.012891
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_060",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.576015,
+          "glioma": 0.059879,
+          "meningioma": 0.144735,
+          "pituitary": 0.219371
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "The axial post-contrast image demonstrates a significant, uniformly enhancing extra-axial mass in the left periventricular region, seemingly arising from the falx or tentorium. The sharp margins and lack of parenchymal infiltration support a diagnosis of meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "Ill-defined, heterogeneously enhancing mass in the left thalamus and midbrain. Distorts the local architecture and ventricular system.",
+        "impression": "High-grade thalamic glioma.",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.09209,
+          "glioma": 0.480163,
+          "pituitary": 0.324245,
+          "meningioma": 0.103503
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_061",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.066623,
+          "glioma": 0.054074,
+          "meningioma": 0.266578,
+          "pituitary": 0.612725
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "Axial T1-weighted post-contrast MRI reveals a complex, heterogeneously enhancing mass centered in the left thalamus and involving the internal capsule. The lesion displays irregular peripheral enhancement with internal areas of necrosis. There is significant mass effect on the third ventricle and the left lateral ventricle. The appearance is characteristic of a high-grade glioma.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Intensely enhancing, sharply demarcated extra-axial lesion attached to the falx cerebri. Minimal edema in the adjacent brain.",
+        "impression": "Falcine Meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.316776,
+          "glioma": 0.463008,
+          "pituitary": 0.08742,
+          "meningioma": 0.132797
+        },
+        "predicted_label": "glioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_062",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.581635,
+          "glioma": 0.035093,
+          "meningioma": 0.090444,
+          "pituitary": 0.292828
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "The coronal post-contrast image shows an infiltrative, enhancing intra-axial mass in the left frontal lobe. The enhancement is irregular and shaggy, surrounded by a large area of hypointensity on T1, representing vasogenic edema. There is significant effacement of the adjacent cortical sulci. These features strongly support the diagnosis of a glioblastoma.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Large, well-circumscribed extra-axial enhancing mass broad-based along the dura. Notable 'dural tail' sign present.",
+        "impression": "Convexity Meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.161991,
+          "glioma": 0.040899,
+          "pituitary": 0.435026,
+          "meningioma": 0.362084
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_063",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.270467,
+          "glioma": 0.224785,
+          "meningioma": 0.491715,
+          "pituitary": 0.013033
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "In this coronal post-contrast MRI, a large, globular enhancing mass is noted in the right temporal region. The lesion appears extra-axial with a broad base along the tentorial surface. The intense and homogeneous enhancement is characteristic of a meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "Ring-enhancing intra-axial lesion in the right temporal-parietal region with a large central necrotic core. Significant surrounding vasogenic edema.",
+        "impression": "Glioblastoma (WHO Grade 4).",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.528584,
+          "glioma": 0.130159,
+          "pituitary": 0.280203,
+          "meningioma": 0.061054
+        },
+        "predicted_label": "notumor"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_064",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.072827,
+          "glioma": 0.134935,
+          "meningioma": 0.459651,
+          "pituitary": 0.332586
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "Coronal T1-weighted post-contrast MRI displays an extensive, poorly demarcated mass in the left hemisphere with multiple small foci of enhancement. The lesion demonstrates significant mass effect with a shift of the midline structures to the right. The infiltrative growth pattern is typical of a diffuse glioma.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Extensive multi-focal enhancement within the left hemisphere. The lesion appears to track along the white matter pathways.",
+        "impression": "Multi-focal High-grade Glioma.",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.209771,
+          "glioma": 0.036241,
+          "pituitary": 0.103811,
+          "meningioma": 0.650177
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_065",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.023258,
+          "glioma": 0.265186,
+          "meningioma": 0.612902,
+          "pituitary": 0.098654
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "The coronal post-contrast MRI demonstrates normal signal intensity throughout the left frontal lobe. The ventricular system is symmetric and there is no evidence of a space-occupying lesion, midline shift, or abnormal enhancement. The brain parenchyma appears anatomically intact.",
+        "predicted_label": "no_tumor"
+      },
+      "medgemma": {
+        "findings": "Large, robustly enhancing mass in the sellar and suprasellar region. The lesion appears to originate from the pituitary gland.",
+        "impression": "Pituitary Macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.000525,
+          "glioma": 0.32746,
+          "pituitary": 0.303166,
+          "meningioma": 0.368849
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_066",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.220459,
+          "glioma": 0.057098,
+          "meningioma": 0.627729,
+          "pituitary": 0.094714
+        },
+        "predicted_label": "meningioma"
+      },
+      "llava_med": {
+        "response": "In this coronal post-gadolinium section, a large, intensely enhancing mass is identified centered in the sella turcica with significant lateral extension into the right cavernous sinus. The lesion elevates the optic chiasm and expands the pituitary fossa, characteristic of a macroadenoma.",
+        "predicted_label": "pituitary"
+      },
+      "medgemma": {
+        "findings": "Robustly enhancing, irregular mass in the right temporal lobe. Significant compression of the temporal horn of the lateral ventricle.",
+        "impression": "High-grade glioma.",
+        "predicted_label": "glioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.34977,
+          "glioma": 0.009422,
+          "pituitary": 0.256324,
+          "meningioma": 0.384483
+        },
+        "predicted_label": "meningioma"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_067",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.686633,
+          "glioma": 0.082715,
+          "meningioma": 0.213,
+          "pituitary": 0.017653
+        },
+        "predicted_label": "notumor"
+      },
+      "llava_med": {
+        "response": "Coronal post-contrast MRI reveals a small, well-demarcated enhancing extra-axial nodule along the right frontal convexity. The lesion demonstrates a clear dural base and uniform contrast uptake, consistent with an incidental meningioma. No significant perilesional edema is noted.",
+        "predicted_label": "meningioma"
+      },
+      "medgemma": {
+        "findings": "Normal intracranial appearance. No focal areas of restricted diffusion or abnormal enhancement detected in the visualized cortex.",
+        "impression": "Unremarkable Brain MRI.",
+        "predicted_label": "no_tumor"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.19223,
+          "glioma": 0.249336,
+          "pituitary": 0.499446,
+          "meningioma": 0.058988
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  },
+  {
+    "image_id": "PK_MRI_068",
+    "true_label": "glioma",
+    "modality": "mri",
+    "models": {
+      "biomedclip": {
+        "scores": {
+          "notumor": 0.075612,
+          "glioma": 0.244516,
+          "meningioma": 0.045123,
+          "pituitary": 0.634749
+        },
+        "predicted_label": "pituitary"
+      },
+      "llava_med": {
+        "response": "The final coronal image shows an infiltrative, largely non-enhancing or minimally enhancing mass in the left frontal lobe, causing significant mass effect and sulcal effacement. The lack of intense enhancement may suggest a lower-grade glioma, but the significant mass effect is a concerning feature. A gliomatous process is the primary diagnostic consideration.",
+        "predicted_label": "glioma"
+      },
+      "medgemma": {
+        "findings": "Sharply demarcated enhancing mass attached to the falx cerebri. The lesion is ovoid and displaces the adjacent brain tissue medially.",
+        "impression": "Falcine Meningioma.",
+        "predicted_label": "meningioma"
+      },
+      "unimedclip": {
+        "scores": {
+          "notumor": 0.308993,
+          "glioma": 0.252455,
+          "pituitary": 0.373876,
+          "meningioma": 0.064676
+        },
+        "predicted_label": "pituitary"
+      }
+    }
+  }
+]
