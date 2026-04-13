@@ -80,7 +80,25 @@ export default function OverviewPage() {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {models.map((model) => (
-            <div key={model.id} className="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all hover:-translate-y-1 group flex flex-col h-full">
+            <div key={model.id} className="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all hover:-translate-y-1 group flex flex-col h-full relative">
+                {model.bestModality && (
+                  <div className="absolute -top-2 -right-2 z-10 animate-fade-in group-hover:rotate-12 transition-transform duration-500">
+                    <div className="relative flex items-center justify-center w-10 h-10">
+                        {/* Seal Shape Background */}
+                        <div 
+                            className="absolute inset-0 bg-gradient-to-br from-amber-300 via-amber-500 to-amber-600 shadow-lg"
+                            style={{ 
+                                clipPath: 'polygon(50% 0%, 61% 10%, 75% 6%, 79% 21%, 94% 25%, 90% 39%, 100% 50%, 90% 61%, 94% 75%, 79% 79%, 75% 94%, 61% 90%, 50% 100%, 39% 90%, 25% 94%, 21% 79%, 6% 75%, 10% 61%, 0% 50%, 10% 39%, 6% 25%, 21% 21%, 25% 6%, 39% 10%)'
+                            }}
+                        />
+                        <div className="relative z-10 flex flex-col items-center text-white leading-none">
+                            <span className="text-[9px] font-black uppercase tracking-tight text-center drop-shadow-md">
+                                {model.bestModality.split(' ').pop()}
+                            </span>
+                        </div>
+                    </div>
+                  </div>
+                )}
                 <div className="p-6 pb-0 flex justify-between items-start">
                   <div>
                     <div className="text-[10px] font-bold text-indigo-600 bg-indigo-50 inline-block px-2 py-1 rounded mb-3 uppercase tracking-widest">{model.role}</div>

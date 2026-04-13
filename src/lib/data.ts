@@ -8,6 +8,7 @@ export interface ModelDetail {
     relevance: string;
     link: string;
     tags: string[];
+    bestModality?: string;
 }
 
 export const MODEL_METADATA: Record<string, ModelDetail> = {
@@ -20,7 +21,8 @@ export const MODEL_METADATA: Record<string, ModelDetail> = {
         whyInList: "Newest model in the group. Optimized for medical image interpretation with strong reasoning capabilities.",
         relevance: "Lightweight enough for single-GPU setups, making it perfect for Pakistani labs with limited compute resources.",
         link: "https://huggingface.co/google/medgemma-1.5-4b-it",
-        tags: ["Radiology", "Dermatology", "Reasoning"]
+        tags: ["Radiology", "Dermatology", "Reasoning"],
+        bestModality: "Best on MRI"
     },
     "Chex Agent": {
         id: "chexagent",
@@ -31,7 +33,8 @@ export const MODEL_METADATA: Record<string, ModelDetail> = {
         whyInList: "Specialized foundation model for CXR that generates radiologist-level reports.",
         relevance: "Critical for TB and Pneumonia diagnosis, which are major health focuses in Pakistani hospitals.",
         link: "https://huggingface.co/StanfordAIMI/CheXagent-8b",
-        tags: ["Chest X-Ray", "Report Generation", "Foundation Model"]
+        tags: ["Chest X-Ray", "Report Generation", "Foundation Model"],
+        bestModality: "Best on CXR"
     },
     "UniMedCLIP": {
         id: "unimedclip",
@@ -42,7 +45,8 @@ export const MODEL_METADATA: Record<string, ModelDetail> = {
         whyInList: "Beats BioMedCLIP using 3x less data. Handles diverse modalities.",
         relevance: "Robust to 'noisy' data from older or non-digital imaging systems common in Pakistan.",
         link: "https://github.com/mbzuai-oryx/UniMed-CLIP",
-        tags: ["Multi-Modal", "Ultrasound", "Fundus"]
+        tags: ["Multi-Modal", "Ultrasound", "Fundus"],
+        bestModality: "Best on CT"
     },
     "LLaVA-Med v1.5": {
         id: "llava-med",
