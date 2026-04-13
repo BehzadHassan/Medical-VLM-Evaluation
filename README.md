@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Medical VLM Evaluation Framework 🏥🔬
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Turbopack](https://img.shields.io/badge/Turbopack-Ready-blueviolet?style=for-the-badge)](https://turbo.build/pack)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
-First, run the development server:
+A specialized benchmarking dashboard for evaluating state-of-the-art **Vision-Language Models (VLMs)** in medical imaging diagnostics. This project is specifically tailored for resource-constrained clinical environments, with a focus on the healthcare landscape in **Pakistan**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This framework provides a comprehensive interface to analyze how top-tier medical AI models perform across various imaging modalities. It evaluates accuracy, reasoning, and practical clinical utility to identify the most suitable models for deployment in local diagnostic labs and hospitals.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🎯 Key Objectives
+- **Resource Optimization**: Identifying models that run efficiently on consumer-grade hardware (Mid-range GPUs).
+- **Clinical Relevance**: Focusing on diseases prevalent in South Asia (TB, Pneumonia, etc.).
+- **Benchmarking**: Providing side-by-side comparisons of SOTA architectures.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Featured Models
 
-To learn more about Next.js, take a look at the following resources:
+The dashboard evaluates five cutting-edge models:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Model | Role | Key Strength |
+| :--- | :--- | :--- |
+| **MedGemma 1.5** | The All-Rounder | Strong medical reasoning & dermatology expertise. |
+| **CheXagent** | CXR Expert | Foundation model for radiologist-level report generation. |
+| **UniMed CLIP** | Unified Generalist | Handles 6+ modalities with low data requirements. |
+| **LLaVA-Med** | Interactive Asst | Best-in-class Visual Question Answering (VQA). |
+| **BioMedCLIP** | Reliable Benchmark | Industry-standard baseline for zero-shot tasks. |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📊 Supported Modalities
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We evaluate model performance through specialized datasets for:
+- 🫁 **CXR (Chest X-Ray)**: Vital for respiratory disease screening.
+- 🧠 **MRI (Magnetic Resonance Imaging)**: Focused on neurological and soft tissue analysis.
+- 🏗️ **CT Scan**: Detailed cross-sectional diagnostic evaluation.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠️ Technical Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Bundler**: [Turbopack](https://turbo.build/pack) (Stable)
+- **Styling**: [Tailwind CSS 4.0](https://tailwindcss.com/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **State Management**: React Hooks & Context API
+- **Icons & UI**: Lucide React & Custom SVG Micro-animations
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+- Node.js 18.17 or later
+- npm / yarn / pnpm
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/evaluating-vlm.git
+   cd evaluating-vlm
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+Open [http://localhost:3000](http://localhost:3000) to see the dashboard.
+
+---
+
+## 📦 Deployment
+
+This project is optimized for **Vercel**. 
+
+1. Push your code to GitHub.
+2. Link your repository to a new project on the [Vercel Dashboard](https://vercel.com/new).
+3. The build settings are auto-detected (Next.js).
+
+---
+
+## 🎓 Academic Context
+
+This project is part of a **Final Year Research Project (FYP)** focused on making advanced medical AI accessible in environments with limited computational resources, specifically targeting the clinical needs of Pakistan.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
