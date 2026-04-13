@@ -43,7 +43,7 @@ export default function Navigation() {
                         <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
                     </div>
                     <div>
-                        <h1 className="text-xl font-black text-white tracking-tight leading-none">EVAL-VLM</h1>
+                        <h1 className="text-xl font-black text-white tracking-tight leading-none uppercase tracking-tighter">MedVLM Eval</h1>
                         <p className="text-[10px] text-indigo-400 font-bold tracking-widest uppercase mt-1">Research Hub</p>
                     </div>
                 </div>
@@ -73,58 +73,42 @@ export default function Navigation() {
                     })}
                 </div>
 
-                {/* System Statistics */}
+                {/* Archive Statistics */}
                 <div className="space-y-4">
-                    <p className="px-4 text-[10px] font-black text-slate-500 uppercase tracking-[0.2em]">System Status</p>
-                    <div className="px-4 space-y-3">
-                        <div className="flex items-center justify-between text-xs">
-                            <span className="text-slate-500">Model</span>
-                            <span className="font-mono text-indigo-400 font-bold">{totalModels}</span>
-                        </div>
-                        <div className="w-full bg-slate-900 rounded-full h-1.5 overflow-hidden border border-slate-800">
-                           <div className="bg-indigo-500 h-full w-[85%] rounded-full shadow-[0_0_8px_rgba(99,102,241,0.5)]" />
-                        </div>
-
-                        <div className="flex items-center justify-between text-xs pt-1">
-                            <span className="text-slate-500">Test Samples</span>
-                            <span className="font-mono text-emerald-400 font-bold">{Math.round(totalImages)}</span>
-                        </div>
-                        <div className="w-full bg-slate-900 rounded-full h-1.5 overflow-hidden border border-slate-800">
-                           <div className="bg-emerald-500 h-full w-[100%] rounded-full shadow-[0_0_8px_rgba(16,185,129,0.5)]" />
-                        </div>
-
-                        <div className="flex items-center justify-between text-xs pt-1">
-                            <span className="text-slate-500">Modalities</span>
-                            <span className="font-mono text-amber-400 font-bold">{totalModalities}</span>
-                        </div>
-                        <div className="w-full bg-slate-900 rounded-full h-1.5 overflow-hidden border border-slate-800">
-                           <div className="bg-amber-500 h-full w-[100%] rounded-full shadow-[0_0_8px_rgba(245,158,11,0.5)]" />
-                        </div>
-                    </div>
-                </div>
-
-                {/* Active Session Card */}
-                <div className="px-2">
-                    <div className="bg-gradient-to-br from-slate-900 to-indigo-950/30 rounded-2xl p-4 border border-slate-800 shadow-sm relative overflow-hidden group">
-                        <div className="absolute top-0 right-0 w-16 h-16 bg-indigo-500/5 rounded-bl-full group-hover:bg-indigo-500/10 transition-colors" />
-                        <div className="relative z-10">
-                            <div className="flex items-center gap-2 mb-3">
-                                <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse shadow-[0_0_8px_rgba(16,185,129,0.8)]" />
-                                <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">Active Benchmarking</span>
+                    <p className="px-4 text-[10px] font-black text-slate-500 uppercase tracking-[0.2em]">Archive Stats</p>
+                    <div className="px-5 space-y-4">
+                        <div className="flex items-center gap-3 group">
+                            <div className="h-8 w-8 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-indigo-400 group-hover:border-indigo-500/50 transition-colors">
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
                             </div>
-                            <h4 className="text-xs font-bold text-slate-200 mb-1">Med-VLM-Suite v1.2</h4>
-                            <p className="text-[10px] text-slate-500 leading-tight">All models synchronized with latest zero-shot weights.</p>
+                            <div className="flex flex-col">
+                                <span className="text-[10px] text-slate-500 font-bold uppercase tracking-tight">Models</span>
+                                <span className="text-sm font-mono text-slate-200 font-bold leading-none">{totalModels}</span>
+                            </div>
+                        </div>
+
+                        <div className="flex items-center gap-3 group">
+                            <div className="h-8 w-8 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-emerald-400 group-hover:border-emerald-500/50 transition-colors">
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+                            </div>
+                            <div className="flex flex-col">
+                                <span className="text-[10px] text-slate-500 font-bold uppercase tracking-tight">Test Samples</span>
+                                <span className="text-sm font-mono text-slate-200 font-bold leading-none">{Math.round(totalImages)}</span>
+                            </div>
+                        </div>
+
+                        <div className="flex items-center gap-3 group">
+                            <div className="h-8 w-8 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-amber-400 group-hover:border-amber-500/50 transition-colors">
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                            </div>
+                            <div className="flex flex-col">
+                                <span className="text-[10px] text-slate-500 font-bold uppercase tracking-tight">Modalities</span>
+                                <span className="text-sm font-mono text-slate-200 font-bold leading-none">{totalModalities}</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            {/* Version Footer */}
-            <div className="p-4 relative">
-                <div className="bg-slate-900/40 rounded-xl p-3 border border-slate-800/50 flex items-center justify-between group hover:border-slate-700 transition-colors">
-                    <span className="text-[10px] text-slate-500 font-mono tracking-tighter">BUILD_ID: 7FA2-9BD1</span>
-                    <span className="text-[10px] font-black text-indigo-500 bg-indigo-500/10 px-2 py-0.5 rounded-md group-hover:bg-indigo-500 group-hover:text-white transition-all underline underline-offset-2 decoration-indigo-500/30 hover:decoration-white">v0.1.4</span>
-                </div>
             </div>
         </nav>
     );

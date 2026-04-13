@@ -15,11 +15,11 @@ export const MODEL_METADATA: Record<string, ModelDetail> = {
         id: "medgemma",
         name: "MedGemma 1.5",
         role: "The All-Rounder",
-        params: "8B",
+        params: "4B",
         description: "MedGemma 1.5 uses the SigLIP encoder, specifically pre-trained on dermatology and radiology. It excels at reasoning.",
         whyInList: "Newest model in the group. Optimized for medical image interpretation with strong reasoning capabilities.",
         relevance: "Lightweight enough for single-GPU setups, making it perfect for Pakistani labs with limited compute resources.",
-        link: "https://huggingface.co/collections/google/medgemma-release-66dfe4528d9d592476f7724a",
+        link: "https://huggingface.co/google/medgemma-1.5-4b-it",
         tags: ["Radiology", "Dermatology", "Reasoning"]
     },
     "Chex Agent": {
@@ -30,7 +30,7 @@ export const MODEL_METADATA: Record<string, ModelDetail> = {
         description: "A Foundation Model for Chest X-rays trained on massive datasets like MIMIC-CXR and CheXpert.",
         whyInList: "Specialized foundation model for CXR that generates radiologist-level reports.",
         relevance: "Critical for TB and Pneumonia diagnosis, which are major health focuses in Pakistani hospitals.",
-        link: "https://stanford-aimi.github.io/chexagent.html",
+        link: "https://huggingface.co/StanfordAIMI/CheXagent-8b",
         tags: ["Chest X-Ray", "Report Generation", "Foundation Model"]
     },
     "UniMedCLIP": {
@@ -41,7 +41,7 @@ export const MODEL_METADATA: Record<string, ModelDetail> = {
         description: "A recent model (late 2024) covering 6 modalities including Ultrasound and Fundus, efficient with data usage.",
         whyInList: "Beats BioMedCLIP using 3x less data. Handles diverse modalities.",
         relevance: "Robust to 'noisy' data from older or non-digital imaging systems common in Pakistan.",
-        link: "https://arxiv.org/abs/2412.10372",
+        link: "https://github.com/mbzuai-oryx/UniMed-CLIP",
         tags: ["Multi-Modal", "Ultrasound", "Fundus"]
     },
     "LLaVA-Med v1.5": {
@@ -52,7 +52,7 @@ export const MODEL_METADATA: Record<string, ModelDetail> = {
         description: "The gold standard for Visual Question Answering (VQA). Capable of conversational interaction about medical images.",
         whyInList: "Best-in-class conversational abilities for complex query answering.",
         relevance: "Excellent for medical education and training junior doctors via interactive Q&A.",
-        link: "https://github.com/microsoft/LLaVA-Med",
+        link: "https://huggingface.co/microsoft/llava-med-v1.5-mistral-7b",
         tags: ["VQA", "Conversational", "Education"]
     },
     "BioMedCLIP": {
