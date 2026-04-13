@@ -1,24 +1,24 @@
-# Medical VLM Evaluation Framework 🏥🔬
+# Medical VLM Evaluation Framework
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Turbopack](https://img.shields.io/badge/Turbopack-Ready-blueviolet?style=for-the-badge)](https://turbo.build/pack)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 
-A specialized benchmarking dashboard for evaluating state-of-the-art **Vision-Language Models (VLMs)** in medical imaging diagnostics. This project is specifically tailored for resource-constrained clinical environments, with a focus on the healthcare landscape in **Pakistan**.
+A specialized benchmarking dashboard for evaluating state-of-the-art Vision-Language Models (VLMs) in medical imaging diagnostics. This project is specifically tailored for resource-constrained clinical environments, with a focus on the healthcare landscape in Pakistan.
 
-## 🌟 Overview
+## Overview
 
 This framework provides a comprehensive interface to analyze how top-tier medical AI models perform across various imaging modalities. It evaluates accuracy, reasoning, and practical clinical utility to identify the most suitable models for deployment in local diagnostic labs and hospitals.
 
-### 🎯 Key Objectives
-- **Resource Optimization**: Identifying models that run efficiently on consumer-grade hardware (Mid-range GPUs).
-- **Clinical Relevance**: Focusing on diseases prevalent in South Asia (TB, Pneumonia, etc.).
-- **Benchmarking**: Providing side-by-side comparisons of SOTA architectures.
+### Key Objectives
+- Resource Optimization: Identifying models that run efficiently on consumer-grade hardware (Mid-range GPUs).
+- Clinical Relevance: Focusing on diseases prevalent in South Asia (TB, Pneumonia, etc.).
+- Benchmarking: Providing side-by-side comparisons of SOTA architectures.
 
 ---
 
-## 🚀 Featured Models
+## Featured Models
 
 The dashboard evaluates five cutting-edge models:
 
@@ -27,32 +27,32 @@ The dashboard evaluates five cutting-edge models:
 | **MedGemma 1.5** | The All-Rounder | Strong medical reasoning & dermatology expertise. |
 | **CheXagent** | CXR Expert | Foundation model for radiologist-level report generation. |
 | **UniMed CLIP** | Unified Generalist | Handles 6+ modalities with low data requirements. |
-| **LLaVA-Med** | Interactive Asst | Best-in-class Visual Question Answering (VQA). |
+| **LLaVA-Med** | Interactive Assistant | Best-in-class Visual Question Answering (VQA). |
 | **BioMedCLIP** | Reliable Benchmark | Industry-standard baseline for zero-shot tasks. |
 
 ---
 
-## 📊 Supported Modalities
+## Supported Modalities
 
 We evaluate model performance through specialized datasets for:
-- 🫁 **CXR (Chest X-Ray)**: Vital for respiratory disease screening.
-- 🧠 **MRI (Magnetic Resonance Imaging)**: Focused on neurological and soft tissue analysis.
-- 🏗️ **CT Scan**: Detailed cross-sectional diagnostic evaluation.
+- CXR (Chest X-Ray): Vital for respiratory disease screening.
+- MRI (Magnetic Resonance Imaging): Focused on neurological and soft tissue analysis.
+- CT Scan: Detailed cross-sectional diagnostic evaluation.
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
-- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
-- **Bundler**: [Turbopack](https://turbo.build/pack) (Stable)
-- **Styling**: [Tailwind CSS 4.0](https://tailwindcss.com/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **State Management**: React Hooks & Context API
-- **Icons & UI**: Lucide React & Custom SVG Micro-animations
+- Framework: Next.js 16 (App Router)
+- Bundler: Turbopack
+- Styling: Tailwind CSS 4.0
+- Language: TypeScript
+- State Management: React Hooks & Context API
+- Icons & UI: Lucide React & Custom SVG Micro-animations
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18.17 or later
@@ -60,42 +60,44 @@ We evaluate model performance through specialized datasets for:
 
 ### Installation
 
-1. **Clone the repository**
+1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/evaluating-vlm.git
-   cd evaluating-vlm
+   git clone https://github.com/BehzadHassan/Medical-VLM-Evaluation.git
+   cd Medical-VLM-Evaluation
    ```
 
-2. **Install dependencies**
+2. Install dependencies
    ```bash
    npm install
    ```
 
-3. **Run the development server**
+3. Run the development server
    ```bash
    npm run dev
    ```
 
-Open [http://localhost:3000](http://localhost:3000) to see the dashboard.
+Open http://localhost:3000 to see the dashboard.
 
 ---
 
-## 📦 Deployment
+## Build for Production
 
-This project is optimized for **Vercel**. 
+To create a production build of the project:
 
-1. Push your code to GitHub.
-2. Link your repository to a new project on the [Vercel Dashboard](https://vercel.com/new).
-3. The build settings are auto-detected (Next.js).
+```bash
+npm run build
+```
 
----
-
-## 🎓 Academic Context
-
-This project is part of a **Final Year Research Project (FYP)** focused on making advanced medical AI accessible in environments with limited computational resources, specifically targeting the clinical needs of Pakistan.
+The optimized output will be generated in the .next folder.
 
 ---
 
-## 📄 License
+## Academic Context
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is part of a Final Year Research Project (FYP) focused on making advanced medical AI accessible in environments with limited computational resources, specifically targeting the clinical needs of Pakistan.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
