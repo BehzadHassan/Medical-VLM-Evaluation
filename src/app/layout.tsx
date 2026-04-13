@@ -9,6 +9,9 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: '--font-mon
 export const metadata: Metadata = {
   title: "Medical VLM Evaluation",
   description: "Comparative Analysis of Vision-Language Models",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
